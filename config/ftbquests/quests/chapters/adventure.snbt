@@ -324,6 +324,411 @@
 			x: 2.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["1000000000000002"]
+			description: [
+				"Visit a savanna biome!"
+				""
+				"Wide open grasslands await!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:acacia_log"
+			id: "1000000000000036"
+			rewards: [
+				{
+					id: "1000000000000037"
+					item: "cobblemon:poke_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:savanna"
+				icon: "minecraft:acacia_log"
+				id: "1000000000000038"
+				title: "Visit Savanna"
+				type: "location"
+			}]
+			title: "Savanna Explorer"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000002"]
+			description: [
+				"Visit a swamp biome!"
+				""
+				"Murky waters and unique Pokémon!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:lily_pad"
+			id: "1000000000000039"
+			rewards: [
+				{
+					id: "1000000000000040"
+					item: "cobblemon:nest_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:swamp"
+				icon: "minecraft:lily_pad"
+				id: "1000000000000041"
+				title: "Visit Swamp"
+				type: "location"
+			}]
+			title: "Swamp Explorer"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1000000000000008"]
+			description: [
+				"Explore the deep ocean!"
+				""
+				"Dive deep for rare Water Pokémon!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:prismarine"
+			id: "1000000000000042"
+			rewards: [
+				{
+					id: "1000000000000043"
+					item: "cobblemon:dive_ball"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:deep_ocean"
+				icon: "minecraft:prismarine"
+				id: "1000000000000044"
+				title: "Visit Deep Ocean"
+				type: "location"
+			}]
+			title: "Deep Sea Explorer"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1000000000000017"]
+			description: [
+				"Brave the snowy tundra!"
+				""
+				"Cold temperatures, Ice type Pokémon!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:snow_block"
+			id: "1000000000000045"
+			rewards: [
+				{
+					id: "1000000000000046"
+					item: "cobblemon:ice_heal"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:snowy_tundra"
+				icon: "minecraft:snow_block"
+				id: "1000000000000047"
+				title: "Visit Snowy Tundra"
+				type: "location"
+			}]
+			title: "Tundra Explorer"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1000000000000014"]
+			description: [
+				"Explore a mesa/badlands biome!"
+				""
+				"Red rocks and rare finds!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:terracotta"
+			id: "1000000000000048"
+			rewards: [
+				{
+					id: "1000000000000049"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:badlands"
+				icon: "minecraft:terracotta"
+				id: "1000000000000050"
+				title: "Visit Badlands"
+				type: "location"
+			}]
+			title: "Badlands Explorer"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1000000000000011"]
+			description: [
+				"Scale tall mountain peaks!"
+				""
+				"Reach above Y=150"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:spyglass"
+			id: "1000000000000051"
+			rewards: [
+				{
+					id: "1000000000000052"
+					item: "minecraft:emerald"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1000000000000053"
+				title: "Reach High Altitude"
+				type: "checkmark"
+			}]
+			title: "Peak Climber"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1000000000000026"]
+			description: [
+				"Visit 10 different biomes!"
+				""
+				"You're a true explorer!"
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:filled_map"
+			id: "1000000000000054"
+			rewards: [
+				{
+					id: "1000000000000055"
+					item: "cobblemon:master_ball"
+					count: 1
+					type: "item"
+				}
+				{
+					id: "1000000000000056"
+					item: "minecraft:diamond"
+					count: 15
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1000000000000057"
+				title: "Ultimate Explorer"
+				type: "checkmark"
+			}]
+			title: "Ultimate Explorer"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1000000000000030"]
+			description: [
+				"Explore the Nether thoroughly!"
+				""
+				"Visit different Nether biomes."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:nether_wart"
+			id: "1000000000000058"
+			rewards: [
+				{
+					id: "1000000000000059"
+					item: "cobblemon:quick_ball"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:nether_wastes"
+					icon: "minecraft:netherrack"
+					id: "1000000000000060"
+					title: "Visit Nether Wastes"
+					type: "location"
+				}
+			]
+			title: "Nether Explorer"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1000000000000030"]
+			description: [
+				"Find a Bastion Remnant!"
+				""
+				"Ancient Nether structure."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:gilded_blackstone"
+			id: "1000000000000061"
+			rewards: [
+				{
+					id: "1000000000000062"
+					item: "minecraft:gold_block"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1000000000000063"
+				title: "Find Bastion"
+				type: "checkmark"
+			}]
+			title: "Bastion Hunter"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1000000000000030"]
+			description: [
+				"Find a Nether Fortress!"
+				""
+				"Home to dangerous mobs."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:nether_bricks"
+			id: "1000000000000064"
+			rewards: [
+				{
+					id: "1000000000000065"
+					item: "cobblemon:ultra_ball"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1000000000000066"
+				title: "Find Nether Fortress"
+				type: "checkmark"
+			}]
+			title: "Fortress Finder"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1000000000000033"]
+			description: [
+				"Explore the End islands!"
+				""
+				"Find the outer End islands."
+				""
+				"&cLong Playtime Quest&r - Very challenging!"
+			]
+			icon: "minecraft:chorus_fruit"
+			id: "1000000000000067"
+			rewards: [
+				{
+					id: "1000000000000068"
+					item: "cobblemon:master_ball"
+					count: 1
+					type: "item"
+				}
+				{
+					id: "1000000000000069"
+					item: "minecraft:diamond_block"
+					count: 3
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1000000000000070"
+				title: "Reach Outer End"
+				type: "checkmark"
+			}]
+			title: "End Explorer"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1000000000000005"]
+			description: [
+				"Discover a mushroom island!"
+				""
+				"Rare and unique biome!"
+				""
+				"&cLong Playtime Quest&r - Rare to find!"
+			]
+			icon: "minecraft:red_mushroom"
+			id: "1000000000000071"
+			rewards: [
+				{
+					id: "1000000000000072"
+					item: "cobblemon:ultra_ball"
+					count: 15
+					type: "item"
+				}
+				{
+					id: "1000000000000073"
+					item: "minecraft:emerald"
+					count: 20
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				biome: "minecraft:mushroom_fields"
+				icon: "minecraft:red_mushroom"
+				id: "1000000000000074"
+				title: "Visit Mushroom Island"
+				type: "location"
+			}]
+			title: "Mushroom Seeker"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1000000000000020"]
+			description: [
+				"Navigate a bamboo jungle!"
+				""
+				"Dense bamboo forests!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:bamboo"
+			id: "1000000000000075"
+			rewards: [
+				{
+					id: "1000000000000076"
+					item: "cobblemon:friend_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:bamboo_jungle"
+				icon: "minecraft:bamboo"
+				id: "1000000000000077"
+				title: "Visit Bamboo Jungle"
+				type: "location"
+			}]
+			title: "Bamboo Explorer"
+			x: -3.0d
+			y: 4.0d
+		}
 	]
 	title: "&bAdventure Questline"
 }

@@ -617,6 +617,566 @@
 			x: 3.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["4000000000000002"]
+			description: [
+				"Craft multiple Poké Balls!"
+				""
+				"Create 10 Poké Balls."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "4000000000000070"
+			rewards: [
+				{
+					id: "4000000000000071"
+					item: "cobblemon:poke_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 10L
+				id: "4000000000000072"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			title: "Ball Factory"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			description: [
+				"Mass production of Great Balls!"
+				""
+				"Create 20 Great Balls."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:great_ball"
+			id: "4000000000000073"
+			rewards: [
+				{
+					id: "4000000000000074"
+					item: "cobblemon:great_ball"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 20L
+				id: "4000000000000075"
+				item: "cobblemon:great_ball"
+				type: "item"
+			}]
+			title: "Great Ball Producer"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			description: [
+				"Ultra Ball mass production!"
+				""
+				"Create 30 Ultra Balls."
+				""
+				"&cLong Playtime Quest&r - Resource intensive!"
+			]
+			icon: "cobblemon:ultra_ball"
+			id: "4000000000000076"
+			rewards: [
+				{
+					id: "4000000000000077"
+					item: "cobblemon:ultra_ball"
+					count: 15
+					type: "item"
+				}
+				{
+					id: "4000000000000078"
+					item: "minecraft:emerald"
+					count: 20
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 30L
+				id: "4000000000000079"
+				item: "cobblemon:ultra_ball"
+				type: "item"
+			}]
+			title: "Ultra Ball Manufacturer"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			description: [
+				"Stock up on healing!"
+				""
+				"Craft 20 Potions."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:potion"
+			id: "4000000000000080"
+			rewards: [
+				{
+					id: "4000000000000081"
+					item: "cobblemon:super_potion"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 20L
+				id: "4000000000000082"
+				item: "cobblemon:potion"
+				type: "item"
+			}]
+			title: "Potion Stockpile"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4000000000000014"]
+			description: [
+				"Advanced healing production!"
+				""
+				"Craft 15 Super Potions."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:super_potion"
+			id: "4000000000000083"
+			rewards: [
+				{
+					id: "4000000000000084"
+					item: "cobblemon:hyper_potion"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 15L
+				id: "4000000000000085"
+				item: "cobblemon:super_potion"
+				type: "item"
+			}]
+			title: "Super Potion Supply"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4000000000000017"]
+			description: [
+				"Maximum healing production!"
+				""
+				"Craft 10 Hyper Potions."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:hyper_potion"
+			id: "4000000000000086"
+			rewards: [
+				{
+					id: "4000000000000087"
+					item: "cobblemon:full_restore"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 10L
+				id: "4000000000000088"
+				item: "cobblemon:hyper_potion"
+				type: "item"
+			}]
+			title: "Hyper Potion Hoarder"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4000000000000054"]
+			description: [
+				"Train a team of Pokémon!"
+				""
+				"Level up 3 different Pokémon by 5 levels each."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:book"
+			id: "4000000000000089"
+			rewards: [
+				{
+					id: "4000000000000090"
+					item: "cobblemon:rare_candy"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "level_up"
+				amount: 15L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4000000000000091"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Team Training"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4000000000000057"]
+			description: [
+				"Reach level 75 with a Pokémon!"
+				""
+				"You're approaching max level!"
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:golden_apple"
+			id: "4000000000000092"
+			rewards: [
+				{
+					id: "4000000000000093"
+					item: "cobblemon:rare_candy"
+					count: 15
+					type: "item"
+				}
+				{
+					id: "4000000000000094"
+					item: "minecraft:diamond"
+					count: 8
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				action: "level_up_to"
+				amount: 75L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4000000000000095"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Almost There"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4000000000000054"]
+			description: [
+				"Train multiple Pokémon!"
+				""
+				"Level up 50 total levels across all Pokémon."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:enchanted_book"
+			id: "4000000000000096"
+			rewards: [
+				{
+					id: "4000000000000097"
+					item: "cobblemon:rare_candy"
+					count: 20
+					type: "item"
+				}
+				{
+					id: "4000000000000098"
+					item: "minecraft:emerald"
+					count: 15
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				action: "level_up"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4000000000000099"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Training Dedication"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4000000000000096"]
+			description: [
+				"Become a training master!"
+				""
+				"Level up 100 total levels across all Pokémon."
+				""
+				"&cLong Playtime Quest&r - Epic achievement!"
+			]
+			icon: "minecraft:nether_star"
+			id: "4000000000000100"
+			rewards: [
+				{
+					id: "4000000000000101"
+					item: "cobblemon:rare_candy"
+					count: 40
+					type: "item"
+				}
+				{
+					id: "4000000000000102"
+					item: "minecraft:diamond_block"
+					count: 5
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				action: "level_up"
+				amount: 100L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4000000000000103"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Training Legend"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4000000000000041"]
+			description: [
+				"Harvest lots of Apricorns!"
+				""
+				"Collect 50 Apricorns of any color."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:red_apricorn"
+			id: "4000000000000104"
+			rewards: [
+				{
+					id: "4000000000000105"
+					item: "cobblemon:poke_ball"
+					count: 15
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 50L
+				id: "4000000000000106"
+				item: "cobblemon:red_apricorn"
+				type: "item"
+			}]
+			title: "Apricorn Farmer"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4000000000000104"]
+			description: [
+				"Become an Apricorn tycoon!"
+				""
+				"Collect 100 Apricorns total."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:blue_apricorn"
+			id: "4000000000000107"
+			rewards: [
+				{
+					id: "4000000000000108"
+					item: "cobblemon:ultra_ball"
+					count: 20
+					type: "item"
+				}
+				{
+					id: "4000000000000109"
+					item: "minecraft:emerald"
+					count: 20
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				count: 100L
+				id: "4000000000000110"
+				item: "cobblemon:red_apricorn"
+				type: "item"
+			}]
+			title: "Apricorn Magnate"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000038"]
+			description: [
+				"Gather lots of Medicinal Leeks!"
+				""
+				"Collect 20 Medicinal Leeks."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:medicinal_leek"
+			id: "4000000000000111"
+			rewards: [
+				{
+					id: "4000000000000112"
+					item: "cobblemon:potion"
+					count: 15
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 20L
+				id: "4000000000000113"
+				item: "cobblemon:medicinal_leek"
+				type: "item"
+			}]
+			title: "Herb Collector"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft specialty balls!"
+				""
+				"Create a Quick Ball."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:quick_ball"
+			id: "4000000000000114"
+			rewards: [
+				{
+					id: "4000000000000115"
+					item: "cobblemon:quick_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000116"
+				item: "cobblemon:quick_ball"
+				type: "item"
+			}]
+			title: "Quick Capture"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft water specialty balls!"
+				""
+				"Create a Dive Ball."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:dive_ball"
+			id: "4000000000000117"
+			rewards: [
+				{
+					id: "4000000000000118"
+					item: "cobblemon:dive_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000119"
+				item: "cobblemon:dive_ball"
+				type: "item"
+			}]
+			title: "Deep Dive"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft nighttime specialty balls!"
+				""
+				"Create a Dusk Ball."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:dusk_ball"
+			id: "4000000000000120"
+			rewards: [
+				{
+					id: "4000000000000121"
+					item: "cobblemon:dusk_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000122"
+				item: "cobblemon:dusk_ball"
+				type: "item"
+			}]
+			title: "Night Hunter"
+			x: -5.5d
+			y: 0.0d
+		}
 	]
 	title: "&2Progression Questline"
 }
