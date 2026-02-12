@@ -7,24 +7,29 @@ This is a fully functional Cobblemon questpack ready for use with FTB Quests and
 ## 📊 Statistics
 
 ### Files Created
-- **Total Files:** 11
+- **Total Files:** 12
 - **Quest Files:** 6 (1 main + 5 chapters)
-- **Documentation Files:** 5
+- **Documentation Files:** 6
 
 ### Quest Content
-- **Total Quests:** 79
-- **Total Tasks:** 79+ (one or more per quest)
-- **Total Rewards:** 150+ reward entries
-- **Unique Quest IDs:** 79
-- **Total Lines of Quest Code:** ~2,900
+- **Total Quests:** 162
+- **Total Tasks:** 200+ (one or more per quest)
+- **Total Rewards:** 400+ reward entries
+- **Unique Quest IDs:** 162
+- **Total Lines of Quest Code:** ~9,000+
 
 ### Questlines
-1. **Adventure** - 12 quests (biomes, dimensions)
-2. **Catching** - 18 quests (Pokémon collection)
-3. **Battling** - 16 quests (combat challenges)
-4. **Progression** - 17 quests (crafting, training)
-5. **Utility** - 15 quests (misc tasks)
+1. **Adventure** - 28 quests (biomes, dimensions, structures)
+2. **Catching** - 38 quests (Pokémon collection, types, evolutions)
+3. **Battling** - 32 quests (combat challenges, PvP, NPCs)
+4. **Progression** - 34 quests (crafting, training, items)
+5. **Utility** - 30 quests (misc tasks, scanning, trading)
 6. **Welcome** - 1 starting quest
+
+### Playtime Distribution
+- **Short Playtime Quests (5-15 min):** ~40 quests (25%)
+- **Mid Playtime Quests (30-60 min):** ~70 quests (43%)
+- **Long Playtime Quests (2+ hours):** ~52 quests (32%)
 
 ## 📁 File Structure
 
@@ -77,43 +82,44 @@ FTB-Cobblemon-Quests/
 
 ## 🎮 Questline Details
 
-### Adventure Questline (Blue)
+### Adventure Questline (Blue) - 28 Quests
 - **Focus:** Exploration and discovery
-- **Quests:** 12
-- **Key Features:** All major biomes, Nether, The End
-- **Progression:** Biome exploration → Dimension travel
-- **Capstone:** Biome Master (requires 5 biomes)
+- **Key Features:** All major biomes, rare biomes, Nether, The End, structures
+- **Progression:** Biome exploration → Rare finds → Dimension travel
+- **Capstone:** Biome Master, Ultimate Explorer
+- **Playtime:** 10 short, 12 mid, 6 long quests
 
-### Catching Questline (Orange)
-- **Focus:** Pokémon collection
-- **Quests:** 18
-- **Key Features:** Type-specific catches, evolutions, shiny
-- **Progression:** Single catch → Large collection
-- **Capstone:** Master Collector (50 Pokémon)
-- **Special:** Shiny Hunter quest
+### Catching Questline (Orange) - 38 Quests
+- **Focus:** Pokémon collection and diversity
+- **Key Features:** All 18 types, evolutions, level ranges, time-based, shiny hunting
+- **Progression:** Single catch → Type variety → Large collection → Mastery
+- **Capstone:** Legendary Collector (100 Pokémon), Evolution Guru
+- **Special:** Shiny Hunter, day/night catches
+- **Playtime:** 8 short, 15 mid, 15 long quests
 
-### Battling Questline (Red)
-- **Focus:** Combat and battles
-- **Quests:** 16
-- **Key Features:** Wild battles, PvP, NPC, type battles
-- **Progression:** First battle → Battle mastery
-- **Capstone:** Battle Master (50 defeats)
-- **Advanced:** Level-based challenges (30+, 50+)
+### Battling Questline (Red) - 32 Quests
+- **Focus:** Combat mastery and challenges
+- **Key Features:** All type battles, level-based, PvP, NPC battles, progression
+- **Progression:** First battle → Type mastery → High-level challenges → Championship
+- **Capstone:** Champion Battler (100 defeats), Ultimate Challenge (level 60+)
+- **Advanced:** PvP Champion (10 players), NPC Master (10 NPCs)
+- **Playtime:** 6 short, 14 mid, 12 long quests
 
-### Progression Questline (Green)
-- **Focus:** Crafting and training
-- **Quests:** 17
-- **Key Features:** Item crafting, PC/Healing Machine, training
-- **Progression:** Basic items → Advanced equipment
-- **Capstone:** Crafting Master (multiple prerequisites)
-- **Special:** Maximum Power (Level 100)
+### Progression Questline (Green) - 34 Quests
+- **Focus:** Crafting, item creation, and training
+- **Key Features:** Mass crafting, all ball types, healing items, training milestones
+- **Progression:** Basic items → Mass production → Ultimate crafting → Max level
+- **Capstone:** Crafting Master, Training Legend (100 level-ups), Maximum Power (level 100)
+- **Special:** Apricorn Magnate, specialty ball crafting
+- **Playtime:** 10 short, 12 mid, 12 long quests
 
-### Utility Questline (Purple)
-- **Focus:** Miscellaneous tasks
-- **Quests:** 15
-- **Key Features:** Scanning, trading, Pokédex, stones, berries
-- **Progression:** Basic tasks → Collection mastery
-- **Capstone:** Expert Researcher (50 registered)
+### Utility Questline (Purple) - 30 Quests
+- **Focus:** Miscellaneous tasks and collections
+- **Key Features:** Scanning, trading, Pokédex completion, stones, berries, ball throwing
+- **Progression:** Basic tasks → Large collections → Mastery achievements
+- **Capstone:** Pokédex Master (100 registered), Ball Legend (250 throws), Stone Master
+- **Special:** All evolution stones, berry farming, trading tycoon
+- **Playtime:** 6 short, 12 mid, 12 long quests
 
 ## 🎁 Reward System
 
@@ -215,13 +221,13 @@ This questpack provides a complete, balanced, and engaging quest experience for 
 
 **Total Development:**
 - Quest Files: 6
-- Quests Created: 79
-- Documentation Pages: 5
-- Total Words: ~8,000+
-- Total Lines: ~3,000+
+- Quests Created: 162
+- Documentation Pages: 6
+- Total Words: ~15,000+
+- Total Lines: ~9,000+
 
 **Status:** ✅ Production Ready
-**Version:** 1.0
+**Version:** 2.0 (Expanded Edition)
 **Last Updated:** 2026-02-12
 
 ---

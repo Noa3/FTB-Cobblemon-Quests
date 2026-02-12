@@ -6,13 +6,18 @@ A comprehensive questpack for the Cobblemon mod using FTB Quests, designed to gu
 
 This questpack provides a complete quest system for Cobblemon, featuring multiple questlines that cover all aspects of the Pokémon experience. Players will explore the world, catch Pokémon, battle trainers, craft essential items, and complete various utility tasks.
 
+**Now with 162+ quests designed for SHORT, MID, and LONG playtime sessions!**
+
 ## ✨ Features
 
-- **5 Main Questlines** with over 80+ quests
-- **Progressive Difficulty** from beginner to master level
+- **5 Main Questlines** with 162+ quests total
+- **3 Playtime Categories** - Short (5-15 min), Mid (30-60 min), Long (2+ hours)
+- **Progressive Difficulty** from beginner to legendary level
 - **Rich Rewards** including Poké Balls, items, and resources
-- **Dependency System** ensuring logical progression
+- **Logical Dependency System** ensuring smooth progression
 - **Comprehensive Coverage** of all Cobblemon features
+- **All 18 Pokémon Types** represented in quests
+- **Multiple Playstyles** supported - casual to hardcore
 
 ## 📦 Installation
 
@@ -56,67 +61,95 @@ This questpack provides a complete quest system for Cobblemon, featuring multipl
 #### 🌍 Adventure Questline (Blue)
 Explore the world and discover new biomes and dimensions!
 
+**Total: 28 Quests**
+
 **Quests Include:**
-- Biome exploration (Plains, Forest, Ocean, Desert, Taiga, Jungle, Mountains, Rivers)
+- Basic biome exploration (Plains, Forest, Ocean, Desert, Taiga, Jungle, Mountains, Rivers)
+- Rare biomes (Mushroom Island, Badlands, Bamboo Jungle, Savanna, Swamp, Snowy Tundra)
 - Dimension travel (Nether, The End)
-- Location discovery challenges
+- Structure discovery (Bastion, Fortress)
+- Ultimate exploration challenges
 - **Rewards:** Various Poké Balls, emeralds, and exploration gear
 
-**Progression:** Start with basic biomes → Master all biomes → Enter other dimensions
+**Playtime Split:** 🟢 10 short | 🟡 12 mid | 🔴 6 long
+
+**Progression:** Start with basic biomes → Rare biomes → Master all biomes → Dimension exploration
 
 #### 🎯 Catching Questline (Orange)
 Build your Pokémon collection!
 
+**Total: 38 Quests**
+
 **Quests Include:**
 - First catch milestone
-- Collection goals (10, 25, 50+ Pokémon)
-- Type-specific catches (Water, Fire, Grass, Electric, Psychic, Dragon, Ghost, Dark)
-- Evolution challenges
+- Collection goals (10, 25, 50, 75, 100+ Pokémon)
+- All 18 type-specific catches (Water, Fire, Grass, Electric, Psychic, Dragon, Ghost, Dark, Normal, Bug, Flying, Fighting, Poison, Ground, Rock, Ice, Steel, Fairy)
+- Time-based catches (day/night)
+- Level-based catches (low, mid, high level)
+- Evolution challenges (1, 5, 10, 25 evolutions)
 - Shiny hunting
 - **Rewards:** Poké Balls, Rare Candies, Master Balls, and valuable items
 
-**Progression:** Single catch → Type variety → Large collection → Rare finds
+**Playtime Split:** 🟢 8 short | 🟡 15 mid | 🔴 15 long
+
+**Progression:** Single catch → Type variety → Large collection → Ultimate collector (100+)
 
 #### ⚔️ Battling Questline (Red)
 Become a battle master!
 
-**Quests Include:**
-- Wild Pokémon battles (1, 10, 25, 50+ battles)
-- Player battles (PvP challenges)
-- NPC trainer battles
-- Type-specific battles
-- Level-based challenges (Level 30+, 50+)
-- **Rewards:** Potions, Revives, Full Restores, healing items
+**Total: 32 Quests**
 
-**Progression:** First battle → Experience building → Advanced challenges
+**Quests Include:**
+- Wild Pokémon battles (1, 5, 10, 25, 50, 75, 100+ battles)
+- Player battles (PvP challenges - 1, 5, 10 players)
+- NPC trainer battles (1, 5, 10 NPCs)
+- All type-specific battles (Fire, Water, Grass, Electric, Psychic, Ghost, Dark, Bug, Fighting, Steel, Ice, and more)
+- Level-based challenges (Level 10-, 30+, 50+, 60+)
+- **Rewards:** Potions, Revives, Full Restores, healing items, Diamond Blocks
+
+**Playtime Split:** 🟢 6 short | 🟡 14 mid | 🔴 12 long
+
+**Progression:** First battle → Experience building → Type mastery → Ultimate challenger (100 battles)
 
 #### 🛠️ Progression Questline (Green)
-Craft and develop your tools!
+Craft and develop your tools and team!
+
+**Total: 34 Quests**
 
 **Quests Include:**
-- Poké Ball crafting (Poké Ball → Great Ball → Ultra Ball)
-- Medicine crafting (Potions, Super Potions, Hyper Potions, Full Restores)
+- Poké Ball crafting (Poké Ball → Great Ball → Ultra Ball, mass production)
+- Specialty ball crafting (Quick, Dive, Dusk, and more)
+- Medicine crafting (Potions, Super Potions, Hyper Potions, Full Restores - single and bulk)
 - Revival items (Revive, Max Revive)
 - Essential items (PC, Healing Machine)
-- Resource gathering (Apricorns, Medicinal Leeks)
-- Pokémon training (Level milestones: 10, 50, 100)
-- **Rewards:** Crafting materials, rare items, Master Balls
+- Resource gathering (Apricorns - 50, 100+, Medicinal Leeks)
+- Pokémon training milestones (Level 10, 50, 75, 100 and bulk training)
+- Team training (15, 50, 100+ total levels)
+- **Rewards:** Crafting materials, rare items, Master Balls, Diamond Blocks
 
-**Progression:** Basic items → Advanced healing → Ultimate crafting mastery
+**Playtime Split:** 🟢 10 short | 🟡 12 mid | 🔴 12 long
+
+**Progression:** Basic items → Mass production → Ultimate training (Level 100 + 100 total levels)
 
 #### 💎 Utility Questline (Purple)
-Complete miscellaneous tasks!
+Complete miscellaneous tasks and collections!
+
+**Total: 30 Quests**
 
 **Quests Include:**
-- Poké Ball throwing practice
-- Pokédex scanning and registration
-- Trading tasks
+- Poké Ball throwing practice (1, 50, 100, 250 throws)
+- Pokédex scanning (1, 25, 50, 100 scans)
+- Pokédex registration (10, 25, 50, 75, 100 registered)
+- Trading tasks (1, 5, 10 trades)
 - Pokémon release management
-- Evolution stone collection
-- Berry gathering
-- **Rewards:** Varied items, resources, and special rewards
+- All evolution stone collection (Fire, Water, Thunder, Leaf, Moon, Sun, Shiny, Dusk)
+- Berry gathering and farming (individual, 4 types, 50, 100+ berries)
+- Rare Candy quest
+- **Rewards:** Varied items, resources, Master Balls, and special rewards
 
-**Progression:** Basic utility tasks → Advanced collection goals
+**Playtime Split:** 🟢 6 short | 🟡 12 mid | 🔴 12 long
+
+**Progression:** Basic utility tasks → Collection milestones → Ultimate mastery (100 Pokédex, 250 throws)
 
 ### Quest Dependencies
 
@@ -150,10 +183,21 @@ Quests are designed with logical dependencies:
 
 1. **Open Quest Book:** Press the FTB Quests keybind (default: usually assigned in controls)
 2. **Start with Welcome Quest:** Complete the introductory quest to unlock questlines
-3. **Choose Your Path:** Select which questline interests you most
-4. **Complete Tasks:** Follow quest descriptions to complete objectives
-5. **Claim Rewards:** Click on completed quests to claim your rewards
-6. **Track Progress:** Use the quest book to see your overall progress
+3. **Choose Your Playstyle:**
+   - 🟢 **Short Sessions (5-15 min):** Focus on quick catch/battle quests
+   - 🟡 **Medium Sessions (30-60 min):** Work on type-specific and collection quests
+   - 🔴 **Long Sessions (2+ hours):** Pursue major milestones and mastery quests
+4. **Select Questlines:** Pick which questline interests you most (or do them all!)
+5. **Complete Tasks:** Follow quest descriptions to complete objectives
+6. **Claim Rewards:** Click on completed quests to claim your rewards
+7. **Track Progress:** Use the quest book to see your overall progress
+
+**Quest Indicators:**
+- 🟢 Quests marked **&eShort Playtime Quest&r** = 5-15 minutes
+- 🟡 Quests marked **&6Mid Playtime Quest&r** = 30-60 minutes
+- 🔴 Quests marked **&cLong Playtime Quest&r** = 2+ hours
+
+See [PLAYTIME_GUIDE.md](PLAYTIME_GUIDE.md) for detailed playtime recommendations!
 
 ### For Quest Pack Creators:
 
