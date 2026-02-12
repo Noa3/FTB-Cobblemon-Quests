@@ -1,0 +1,329 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure"
+	group: "0000000000000001"
+	icon: "minecraft:grass_block"
+	id: "1000000000000001"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Start your adventure by exploring the world!"
+				""
+				"Visit a plains biome to find common Pokémon."
+			]
+			icon: "minecraft:grass_block"
+			id: "1000000000000002"
+			rewards: [
+				{
+					id: "1000000000000003"
+					item: "cobblemon:poke_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:grass_block"
+				id: "1000000000000004"
+				title: "Visit Plains"
+				type: "location"
+			}]
+			title: "Plains Explorer"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Forests are home to many Bug and Normal type Pokémon."
+				""
+				"Explore a forest biome to continue your journey!"
+			]
+			icon: "minecraft:oak_log"
+			id: "1000000000000005"
+			rewards: [
+				{
+					id: "1000000000000006"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:forest"
+				icon: "minecraft:oak_log"
+				id: "1000000000000007"
+				title: "Visit Forest"
+				type: "location"
+			}]
+			title: "Forest Explorer"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"The ocean is vast and full of Water type Pokémon!"
+				""
+				"Find an ocean biome to discover aquatic Pokémon."
+			]
+			icon: "minecraft:water_bucket"
+			id: "1000000000000008"
+			rewards: [
+				{
+					id: "1000000000000009"
+					item: "cobblemon:dive_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:ocean"
+				icon: "minecraft:water_bucket"
+				id: "1000000000000010"
+				title: "Visit Ocean"
+				type: "location"
+			}]
+			title: "Ocean Explorer"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1000000000000002"]
+			description: [
+				"Mountains are home to Rock and Flying type Pokémon."
+				""
+				"Scale the peaks to find rare Pokémon!"
+			]
+			icon: "minecraft:stone"
+			id: "1000000000000011"
+			rewards: [
+				{
+					id: "1000000000000012"
+					item: "cobblemon:ultra_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:mountain"
+				icon: "minecraft:stone"
+				id: "1000000000000013"
+				title: "Visit Mountain"
+				type: "location"
+			}]
+			title: "Mountain Climber"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Desert biomes are harsh but home to Ground and Rock type Pokémon."
+				""
+				"Explore the sandy dunes!"
+			]
+			icon: "minecraft:sand"
+			id: "1000000000000014"
+			rewards: [
+				{
+					id: "1000000000000015"
+					item: "cobblemon:poke_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:desert"
+				icon: "minecraft:sand"
+				id: "1000000000000016"
+				title: "Visit Desert"
+				type: "location"
+			}]
+			title: "Desert Wanderer"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"The taiga is a cold forest biome with unique Pokémon."
+				""
+				"Venture into the snowy woods!"
+			]
+			icon: "minecraft:spruce_log"
+			id: "1000000000000017"
+			rewards: [
+				{
+					id: "1000000000000018"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:taiga"
+				icon: "minecraft:spruce_log"
+				id: "1000000000000019"
+				title: "Visit Taiga"
+				type: "location"
+			}]
+			title: "Taiga Explorer"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1000000000000005"]
+			description: [
+				"The jungle is dense and full of exotic Pokémon!"
+				""
+				"Navigate through the vines to find them."
+			]
+			icon: "minecraft:jungle_log"
+			id: "1000000000000020"
+			rewards: [
+				{
+					id: "1000000000000021"
+					item: "cobblemon:nest_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:jungle"
+				icon: "minecraft:jungle_log"
+				id: "1000000000000022"
+				title: "Visit Jungle"
+				type: "location"
+			}]
+			title: "Jungle Adventurer"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1000000000000008"]
+			description: [
+				"Rivers flow through the land, home to various Water type Pokémon."
+				""
+				"Follow the river to find them!"
+			]
+			icon: "minecraft:fishing_rod"
+			id: "1000000000000023"
+			rewards: [
+				{
+					id: "1000000000000024"
+					item: "cobblemon:lure_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:river"
+				icon: "minecraft:fishing_rod"
+				id: "1000000000000025"
+				title: "Visit River"
+				type: "location"
+			}]
+			title: "River Tracker"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1000000000000002", "1000000000000005", "1000000000000008", "1000000000000014", "1000000000000017"]
+			description: [
+				"You've explored many biomes!"
+				""
+				"Your understanding of Pokémon habitats has grown."
+			]
+			icon: "minecraft:map"
+			id: "1000000000000026"
+			rewards: [
+				{
+					id: "1000000000000027"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+				{
+					id: "1000000000000028"
+					item: "minecraft:emerald"
+					count: 10
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1000000000000029"
+				title: "Biome Master"
+				type: "checkmark"
+			}]
+			title: "Biome Master"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000026"]
+			description: [
+				"Enter the Nether dimension!"
+				""
+				"Be prepared for dangerous Fire and Poison type Pokémon."
+			]
+			dimension: "minecraft:the_nether"
+			icon: "minecraft:netherrack"
+			id: "1000000000000030"
+			rewards: [
+				{
+					id: "1000000000000031"
+					item: "cobblemon:timer_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "1000000000000032"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Into the Nether"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1000000000000026"]
+			description: [
+				"The End awaits brave trainers."
+				""
+				"Who knows what Pokémon you'll find there?"
+			]
+			dimension: "minecraft:the_end"
+			icon: "minecraft:end_stone"
+			id: "1000000000000033"
+			rewards: [
+				{
+					id: "1000000000000034"
+					item: "cobblemon:master_ball"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "1000000000000035"
+				title: "Enter the End"
+				type: "dimension"
+			}]
+			title: "Journey to the End"
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	title: "&bAdventure Questline"
+}

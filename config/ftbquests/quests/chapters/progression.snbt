@@ -1,0 +1,622 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: "0000000000000001"
+	icon: "cobblemon:medicinal_leek"
+	id: "4000000000000001"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Poké Balls are essential for catching Pokémon!"
+				""
+				"Craft your first Poké Ball."
+			]
+			icon: "cobblemon:poke_ball"
+			id: "4000000000000002"
+			rewards: [
+				{
+					id: "4000000000000003"
+					item: "cobblemon:poke_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000004"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			title: "First Poké Ball"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000002"]
+			description: [
+				"Great Balls offer better catch rates!"
+				""
+				"Craft a Great Ball."
+			]
+			icon: "cobblemon:great_ball"
+			id: "4000000000000005"
+			rewards: [
+				{
+					id: "4000000000000006"
+					item: "cobblemon:great_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000007"
+				item: "cobblemon:great_ball"
+				type: "item"
+			}]
+			title: "Better Balls"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			description: [
+				"Ultra Balls are even more effective!"
+				""
+				"Craft an Ultra Ball."
+			]
+			icon: "cobblemon:ultra_ball"
+			id: "4000000000000008"
+			rewards: [
+				{
+					id: "4000000000000009"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000010"
+				item: "cobblemon:ultra_ball"
+				type: "item"
+			}]
+			title: "Ultimate Balls"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000002"]
+			description: [
+				"Heal your Pokémon after battles!"
+				""
+				"Craft a Potion."
+			]
+			icon: "cobblemon:potion"
+			id: "4000000000000011"
+			rewards: [
+				{
+					id: "4000000000000012"
+					item: "cobblemon:potion"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000013"
+				item: "cobblemon:potion"
+				type: "item"
+			}]
+			title: "Healing Basics"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			description: [
+				"Super Potions heal more HP!"
+				""
+				"Craft a Super Potion."
+			]
+			icon: "cobblemon:super_potion"
+			id: "4000000000000014"
+			rewards: [
+				{
+					id: "4000000000000015"
+					item: "cobblemon:super_potion"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000016"
+				item: "cobblemon:super_potion"
+				type: "item"
+			}]
+			title: "Better Healing"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4000000000000014"]
+			description: [
+				"Hyper Potions are very effective!"
+				""
+				"Craft a Hyper Potion."
+			]
+			icon: "cobblemon:hyper_potion"
+			id: "4000000000000017"
+			rewards: [
+				{
+					id: "4000000000000018"
+					item: "cobblemon:hyper_potion"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000019"
+				item: "cobblemon:hyper_potion"
+				type: "item"
+			}]
+			title: "Advanced Healing"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4000000000000017"]
+			description: [
+				"Full Restores completely heal your Pokémon!"
+				""
+				"Craft a Full Restore."
+			]
+			icon: "cobblemon:full_restore"
+			id: "4000000000000020"
+			rewards: [
+				{
+					id: "4000000000000021"
+					item: "cobblemon:full_restore"
+					count: 5
+					type: "item"
+				}
+				{
+					id: "4000000000000022"
+					item: "minecraft:gold_ingot"
+					count: 10
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4000000000000023"
+				item: "cobblemon:full_restore"
+				type: "item"
+			}]
+			title: "Master Healer"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4000000000000002"]
+			description: [
+				"Revives bring back fainted Pokémon!"
+				""
+				"Craft a Revive."
+			]
+			icon: "cobblemon:revive"
+			id: "4000000000000024"
+			rewards: [
+				{
+					id: "4000000000000025"
+					item: "cobblemon:revive"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000026"
+				item: "cobblemon:revive"
+				type: "item"
+			}]
+			title: "Second Chance"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4000000000000024"]
+			description: [
+				"Max Revives fully restore fainted Pokémon!"
+				""
+				"Craft a Max Revive."
+			]
+			icon: "cobblemon:max_revive"
+			id: "4000000000000027"
+			rewards: [
+				{
+					id: "4000000000000028"
+					item: "cobblemon:max_revive"
+					count: 3
+					type: "item"
+				}
+				{
+					id: "4000000000000029"
+					item: "minecraft:diamond"
+					count: 5
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "4000000000000030"
+				item: "cobblemon:max_revive"
+				type: "item"
+			}]
+			title: "Full Restoration"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Build a PC to store your Pokémon!"
+				""
+				"Craft a PC."
+			]
+			icon: "cobblemon:pc"
+			id: "4000000000000031"
+			rewards: [
+				{
+					id: "4000000000000032"
+					item: "minecraft:iron_ingot"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000033"
+				item: "cobblemon:pc"
+				type: "item"
+			}]
+			title: "Storage System"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000031"]
+			description: [
+				"The Healing Machine restores your team!"
+				""
+				"Craft a Healing Machine."
+			]
+			icon: "cobblemon:healing_machine"
+			id: "4000000000000034"
+			rewards: [
+				{
+					id: "4000000000000035"
+					item: "cobblemon:potion"
+					count: 20
+					type: "item"
+				}
+				{
+					id: "4000000000000036"
+					item: "minecraft:emerald"
+					count: 10
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4000000000000037"
+				item: "cobblemon:healing_machine"
+				type: "item"
+			}]
+			title: "Pokémon Center"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Medicinal Leeks are valuable crafting materials!"
+				""
+				"Obtain a Medicinal Leek."
+			]
+			icon: "cobblemon:medicinal_leek"
+			id: "4000000000000038"
+			rewards: [
+				{
+					id: "4000000000000039"
+					item: "cobblemon:medicinal_leek"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000040"
+				item: "cobblemon:medicinal_leek"
+				type: "item"
+			}]
+			title: "Gathering Herbs"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Apricorns are used to craft Poké Balls!"
+				""
+				"Obtain any Apricorn."
+			]
+			icon: "cobblemon:red_apricorn"
+			id: "4000000000000041"
+			rewards: [
+				{
+					id: "4000000000000042"
+					item: "cobblemon:red_apricorn"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000043"
+				item: {
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				item: "cobblemon:red_apricorn"
+				type: "item"
+			}]
+			title: "Apricorn Collector"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4000000000000041"]
+			description: [
+				"Collect all colors of Apricorns!"
+				""
+				"Each color makes different Poké Balls."
+			]
+			icon: "cobblemon:blue_apricorn"
+			id: "4000000000000044"
+			rewards: [
+				{
+					id: "4000000000000045"
+					item: "cobblemon:poke_ball"
+					count: 20
+					type: "item"
+				}
+				{
+					id: "4000000000000046"
+					item: "minecraft:emerald"
+					count: 5
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "4000000000000047"
+					item: "cobblemon:red_apricorn"
+					type: "item"
+				}
+				{
+					id: "4000000000000048"
+					item: "cobblemon:blue_apricorn"
+					type: "item"
+				}
+				{
+					id: "4000000000000049"
+					item: "cobblemon:yellow_apricorn"
+					type: "item"
+				}
+				{
+					id: "4000000000000050"
+					item: "cobblemon:green_apricorn"
+					type: "item"
+				}
+				{
+					id: "4000000000000051"
+					item: "cobblemon:pink_apricorn"
+					type: "item"
+				}
+				{
+					id: "4000000000000052"
+					item: "cobblemon:white_apricorn"
+					type: "item"
+				}
+				{
+					id: "4000000000000053"
+					item: "cobblemon:black_apricorn"
+					type: "item"
+				}
+			]
+			title: "Rainbow Collection"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Level up your Pokémon!"
+				""
+				"Level up a Pokémon by 10 levels."
+			]
+			icon: "minecraft:experience_bottle"
+			id: "4000000000000054"
+			rewards: [
+				{
+					id: "4000000000000055"
+					item: "cobblemon:rare_candy"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "level_up"
+				amount: 10L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4000000000000056"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Training Progress"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4000000000000054"]
+			description: [
+				"Reach level 50 with a Pokémon!"
+				""
+				"This is a significant milestone."
+			]
+			icon: "minecraft:enchanted_book"
+			id: "4000000000000057"
+			rewards: [
+				{
+					id: "4000000000000058"
+					item: "cobblemon:rare_candy"
+					count: 10
+					type: "item"
+				}
+				{
+					id: "4000000000000059"
+					item: "minecraft:diamond"
+					count: 5
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				action: "level_up_to"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4000000000000060"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Halfway There"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4000000000000057"]
+			description: [
+				"Reach level 100 with a Pokémon!"
+				""
+				"Only true masters achieve this!"
+			]
+			icon: "minecraft:nether_star"
+			id: "4000000000000061"
+			rewards: [
+				{
+					id: "4000000000000062"
+					item: "cobblemon:master_ball"
+					count: 1
+					type: "item"
+				}
+				{
+					id: "4000000000000063"
+					item: "minecraft:diamond_block"
+					count: 5
+					type: "item"
+				}
+				{
+					id: "4000000000000064"
+					item: "cobblemon:rare_candy"
+					count: 20
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				action: "level_up_to"
+				amount: 100L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4000000000000065"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Maximum Power!"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4000000000000008", "4000000000000020", "4000000000000027", "4000000000000034"]
+			description: [
+				"You've mastered crafting!"
+				""
+				"You can create everything a trainer needs."
+			]
+			icon: "minecraft:crafting_table"
+			id: "4000000000000066"
+			rewards: [
+				{
+					id: "4000000000000067"
+					item: "cobblemon:master_ball"
+					count: 1
+					type: "item"
+				}
+				{
+					id: "4000000000000068"
+					item: "minecraft:emerald_block"
+					count: 3
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4000000000000069"
+				title: "Master Crafter"
+				type: "checkmark"
+			}]
+			title: "Crafting Master"
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "&2Progression Questline"
+}

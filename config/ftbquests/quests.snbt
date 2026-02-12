@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quests"
+	group: ""
+	icon: "cobblemon:poke_ball"
+	id: "0000000000000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [ ]
+			description: [
+				"Welcome to the Cobblemon Quest Pack!"
+				""
+				"This questpack will guide you through your Pokémon journey, from catching your first Pokémon to becoming a Pokémon Master!"
+				""
+				"Complete quests to earn rewards and progress through the different questlines:"
+				""
+				"&bAdventure&r - Explore the world, discover biomes and structures"
+				"&6Catching&r - Catch specific Pokémon, types, and evolutions"
+				"&4Battling&r - Defeat NPCs and challenge other trainers"
+				"&2Progression&r - Craft items, build your team, and conquer gyms"
+				"&dUtility&r - Complete various helpful tasks"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "0000000000000002"
+			rewards: [
+				{
+					id: "0000000000000003"
+					item: "cobblemon:poke_ball"
+					count: 10
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Begin your journey!"
+			tasks: [{
+				id: "0000000000000004"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			title: "Welcome to Cobblemon!"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Cobblemon Quests"
+}
