@@ -1167,6 +1167,1205 @@
 			x: 24.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["4000000000000070"]
+			description: [
+				"Craft a large batch of Poké Balls!"
+				""
+				"Create 25 Poké Balls."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "4000000000000123"
+			rewards: [
+				{
+					id: "4000000000000124"
+					item: "cobblemon:poke_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000125"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			title: "Poké Ball Production"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000123"]
+			description: [
+				"Mass produce Poké Balls!"
+				""
+				"Create 50 Poké Balls."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "4000000000000126"
+			rewards: [
+				{
+					id: "4000000000000127"
+					item: "cobblemon:great_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 50L
+				id: "4000000000000128"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			title: "Poké Ball Mass Production"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000126"]
+			description: [
+				"Ultimate Poké Ball manufacturing!"
+				""
+				"Create 100 Poké Balls."
+				""
+				"&cLong Playtime Quest&r - Industrial scale!"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "4000000000000129"
+			rewards: [
+				{
+					id: "4000000000000130"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+				{
+					id: "4000000000000131"
+					item: "minecraft:emerald"
+					count: 10
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 100L
+				id: "4000000000000132"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			title: "Poké Ball Tycoon"
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000073"]
+			description: [
+				"Produce many Great Balls!"
+				""
+				"Create 25 Great Balls."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:great_ball"
+			id: "4000000000000133"
+			rewards: [
+				{
+					id: "4000000000000134"
+					item: "cobblemon:great_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000135"
+				item: "cobblemon:great_ball"
+				type: "item"
+			}]
+			title: "Great Ball Factory"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000076"]
+			description: [
+				"Produce many Ultra Balls!"
+				""
+				"Create 25 Ultra Balls."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:ultra_ball"
+			id: "4000000000000136"
+			rewards: [
+				{
+					id: "4000000000000137"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000138"
+				item: "cobblemon:ultra_ball"
+				type: "item"
+			}]
+			title: "Ultra Ball Factory"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000080"]
+			description: [
+				"Craft a large batch of Potions!"
+				""
+				"Create 50 Potions."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:potion"
+			id: "4000000000000139"
+			rewards: [
+				{
+					id: "4000000000000140"
+					item: "cobblemon:super_potion"
+					count: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 50L
+				id: "4000000000000141"
+				item: "cobblemon:potion"
+				type: "item"
+			}]
+			title: "Potion Warehouse"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000083"]
+			description: [
+				"Produce many Super Potions!"
+				""
+				"Create 25 Super Potions."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:super_potion"
+			id: "4000000000000142"
+			rewards: [
+				{
+					id: "4000000000000143"
+					item: "cobblemon:hyper_potion"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000144"
+				item: "cobblemon:super_potion"
+				type: "item"
+			}]
+			title: "Super Potion Factory"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000024"]
+			description: [
+				"Stock up on Revives!"
+				""
+				"Create 25 Revives."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:revive"
+			id: "4000000000000145"
+			rewards: [
+				{
+					id: "4000000000000146"
+					item: "cobblemon:revive"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000147"
+				item: "cobblemon:revive"
+				type: "item"
+			}]
+			title: "Revive Stockpile"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			description: [
+				"Craft a Nest Ball!"
+				""
+				"Perfect for catching lower level Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:nest_ball"
+			id: "4000000000000148"
+			rewards: [
+				{
+					id: "4000000000000149"
+					item: "cobblemon:nest_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000150"
+				item: "cobblemon:nest_ball"
+				type: "item"
+			}]
+			title: "Nesting Grounds"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			description: [
+				"Craft a Net Ball!"
+				""
+				"Great for Bug and Water-type Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:net_ball"
+			id: "4000000000000151"
+			rewards: [
+				{
+					id: "4000000000000152"
+					item: "cobblemon:net_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000153"
+				item: "cobblemon:net_ball"
+				type: "item"
+			}]
+			title: "Net Caster"
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000117"]
+			description: [
+				"Craft a Timer Ball!"
+				""
+				"Better catch rate as battle duration increases."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:timer_ball"
+			id: "4000000000000154"
+			rewards: [
+				{
+					id: "4000000000000155"
+					item: "cobblemon:timer_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000156"
+				item: "cobblemon:timer_ball"
+				type: "item"
+			}]
+			title: "Patience Pays"
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			description: [
+				"Craft a Repeat Ball!"
+				""
+				"Better for catching Pokémon you've caught before."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:repeat_ball"
+			id: "4000000000000157"
+			rewards: [
+				{
+					id: "4000000000000158"
+					item: "cobblemon:repeat_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000159"
+				item: "cobblemon:repeat_ball"
+				type: "item"
+			}]
+			title: "Catch 'Em Again"
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			description: [
+				"Craft a Luxury Ball!"
+				""
+				"Makes caught Pokémon friendlier."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:luxury_ball"
+			id: "4000000000000160"
+			rewards: [
+				{
+					id: "4000000000000161"
+					item: "cobblemon:luxury_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000162"
+				item: "cobblemon:luxury_ball"
+				type: "item"
+			}]
+			title: "Luxury Living"
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			description: [
+				"Craft a Heavy Ball!"
+				""
+				"Great for heavy Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:heavy_ball"
+			id: "4000000000000163"
+			rewards: [
+				{
+					id: "4000000000000164"
+					item: "cobblemon:heavy_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000165"
+				item: "cobblemon:heavy_ball"
+				type: "item"
+			}]
+			title: "Heavy Hitter"
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			description: [
+				"Craft a Level Ball!"
+				""
+				"Works better on lower-level Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:level_ball"
+			id: "4000000000000166"
+			rewards: [
+				{
+					id: "4000000000000167"
+					item: "cobblemon:level_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000168"
+				item: "cobblemon:level_ball"
+				type: "item"
+			}]
+			title: "Level Playing Field"
+			x: -18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			description: [
+				"Craft a Love Ball!"
+				""
+				"Better for catching Pokémon of opposite gender."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:love_ball"
+			id: "4000000000000169"
+			rewards: [
+				{
+					id: "4000000000000170"
+					item: "cobblemon:love_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000171"
+				item: "cobblemon:love_ball"
+				type: "item"
+			}]
+			title: "Love Connection"
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			description: [
+				"Craft a Moon Ball!"
+				""
+				"Works better on Pokémon that evolve with Moon Stone."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:moon_ball"
+			id: "4000000000000172"
+			rewards: [
+				{
+					id: "4000000000000173"
+					item: "cobblemon:moon_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000174"
+				item: "cobblemon:moon_ball"
+				type: "item"
+			}]
+			title: "Lunar Capture"
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			description: [
+				"Craft a Friend Ball!"
+				""
+				"Makes caught Pokémon immediately friendly."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:friend_ball"
+			id: "4000000000000175"
+			rewards: [
+				{
+					id: "4000000000000176"
+					item: "cobblemon:friend_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000177"
+				item: "cobblemon:friend_ball"
+				type: "item"
+			}]
+			title: "Instant Friendship"
+			x: -18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			description: [
+				"Craft a Lure Ball!"
+				""
+				"Great for Pokémon encountered while fishing."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:lure_ball"
+			id: "4000000000000178"
+			rewards: [
+				{
+					id: "4000000000000179"
+					item: "cobblemon:lure_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000180"
+				item: "cobblemon:lure_ball"
+				type: "item"
+			}]
+			title: "Fishing Master"
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			description: [
+				"Craft a Fast Ball!"
+				""
+				"Better for catching fast Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:fast_ball"
+			id: "4000000000000181"
+			rewards: [
+				{
+					id: "4000000000000182"
+					item: "cobblemon:fast_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000183"
+				item: "cobblemon:fast_ball"
+				type: "item"
+			}]
+			title: "Speed Demon"
+			x: -15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			description: [
+				"Craft a Sport Ball!"
+				""
+				"Used in Bug-Catching Contests."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:sport_ball"
+			id: "4000000000000184"
+			rewards: [
+				{
+					id: "4000000000000185"
+					item: "cobblemon:sport_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000186"
+				item: "cobblemon:sport_ball"
+				type: "item"
+			}]
+			title: "Sporting Chance"
+			x: -18.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			description: [
+				"Craft a Safari Ball!"
+				""
+				"A special ball for Safari Zone adventures."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:safari_ball"
+			id: "4000000000000187"
+			rewards: [
+				{
+					id: "4000000000000188"
+					item: "cobblemon:safari_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000189"
+				item: "cobblemon:safari_ball"
+				type: "item"
+			}]
+			title: "Safari Explorer"
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			description: [
+				"Craft a Full Heal!"
+				""
+				"Cures all status conditions."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:full_heal"
+			id: "4000000000000190"
+			rewards: [
+				{
+					id: "4000000000000191"
+					item: "cobblemon:full_heal"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000192"
+				item: "cobblemon:full_heal"
+				type: "item"
+			}]
+			title: "Status Cure"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			description: [
+				"Craft an Antidote!"
+				""
+				"Cures poisoned Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:antidote"
+			id: "4000000000000193"
+			rewards: [
+				{
+					id: "4000000000000194"
+					item: "cobblemon:antidote"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000195"
+				item: "cobblemon:antidote"
+				type: "item"
+			}]
+			title: "Poison Cure"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			description: [
+				"Craft a Burn Heal!"
+				""
+				"Heals burned Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:burn_heal"
+			id: "4000000000000196"
+			rewards: [
+				{
+					id: "4000000000000197"
+					item: "cobblemon:burn_heal"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000198"
+				item: "cobblemon:burn_heal"
+				type: "item"
+			}]
+			title: "Burn Treatment"
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			description: [
+				"Craft an Ice Heal!"
+				""
+				"Thaws frozen Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:ice_heal"
+			id: "4000000000000199"
+			rewards: [
+				{
+					id: "4000000000000200"
+					item: "cobblemon:ice_heal"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000201"
+				item: "cobblemon:ice_heal"
+				type: "item"
+			}]
+			title: "Freeze Cure"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			description: [
+				"Craft an Awakening!"
+				""
+				"Wakes up sleeping Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:awakening"
+			id: "4000000000000202"
+			rewards: [
+				{
+					id: "4000000000000203"
+					item: "cobblemon:awakening"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000204"
+				item: "cobblemon:awakening"
+				type: "item"
+			}]
+			title: "Wake Up Call"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			description: [
+				"Craft a Paralyze Heal!"
+				""
+				"Cures paralyzed Pokémon."
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "cobblemon:paralyze_heal"
+			id: "4000000000000205"
+			rewards: [
+				{
+					id: "4000000000000206"
+					item: "cobblemon:paralyze_heal"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000207"
+				item: "cobblemon:paralyze_heal"
+				type: "item"
+			}]
+			title: "Paralysis Cure"
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			description: [
+				"Craft Leftovers!"
+				""
+				"A held item that restores HP gradually."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:leftovers"
+			id: "4000000000000208"
+			rewards: [
+				{
+					id: "4000000000000209"
+					item: "cobblemon:leftovers"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000210"
+				item: "cobblemon:leftovers"
+				type: "item"
+			}]
+			title: "Gradual Recovery"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			description: [
+				"Craft a Choice Band!"
+				""
+				"Boosts Attack but locks you into one move."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:choice_band"
+			id: "4000000000000211"
+			rewards: [
+				{
+					id: "4000000000000212"
+					item: "cobblemon:choice_band"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000213"
+				item: "cobblemon:choice_band"
+				type: "item"
+			}]
+			title: "Power Choice"
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			description: [
+				"Craft a Choice Scarf!"
+				""
+				"Boosts Speed but locks you into one move."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:choice_scarf"
+			id: "4000000000000214"
+			rewards: [
+				{
+					id: "4000000000000215"
+					item: "cobblemon:choice_scarf"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000216"
+				item: "cobblemon:choice_scarf"
+				type: "item"
+			}]
+			title: "Speed Choice"
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			description: [
+				"Craft a Focus Sash!"
+				""
+				"Prevents one-hit KOs when at full HP."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:focus_sash"
+			id: "4000000000000217"
+			rewards: [
+				{
+					id: "4000000000000218"
+					item: "cobblemon:focus_sash"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000219"
+				item: "cobblemon:focus_sash"
+				type: "item"
+			}]
+			title: "Survival Instinct"
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			description: [
+				"Craft a Life Orb!"
+				""
+				"Boosts move power but damages the holder."
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "cobblemon:life_orb"
+			id: "4000000000000220"
+			rewards: [
+				{
+					id: "4000000000000221"
+					item: "cobblemon:life_orb"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000222"
+				item: "cobblemon:life_orb"
+				type: "item"
+			}]
+			title: "Risk and Reward"
+			x: -18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft a Thunder Stone!"
+				""
+				"Evolves certain Electric-type Pokémon."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:thunder_stone"
+			id: "4000000000000223"
+			rewards: [
+				{
+					id: "4000000000000224"
+					item: "cobblemon:thunder_stone"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000225"
+				item: "cobblemon:thunder_stone"
+				type: "item"
+			}]
+			title: "Electric Evolution"
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft a Fire Stone!"
+				""
+				"Evolves certain Fire-type Pokémon."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:fire_stone"
+			id: "4000000000000226"
+			rewards: [
+				{
+					id: "4000000000000227"
+					item: "cobblemon:fire_stone"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000228"
+				item: "cobblemon:fire_stone"
+				type: "item"
+			}]
+			title: "Flame Evolution"
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft a Water Stone!"
+				""
+				"Evolves certain Water-type Pokémon."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:water_stone"
+			id: "4000000000000229"
+			rewards: [
+				{
+					id: "4000000000000230"
+					item: "cobblemon:water_stone"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000231"
+				item: "cobblemon:water_stone"
+				type: "item"
+			}]
+			title: "Aquatic Evolution"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft a Leaf Stone!"
+				""
+				"Evolves certain Grass-type Pokémon."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:leaf_stone"
+			id: "4000000000000232"
+			rewards: [
+				{
+					id: "4000000000000233"
+					item: "cobblemon:leaf_stone"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000234"
+				item: "cobblemon:leaf_stone"
+				type: "item"
+			}]
+			title: "Nature's Evolution"
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft a Moon Stone!"
+				""
+				"Evolves Pokémon with lunar affinity."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:moon_stone"
+			id: "4000000000000235"
+			rewards: [
+				{
+					id: "4000000000000236"
+					item: "cobblemon:moon_stone"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000237"
+				item: "cobblemon:moon_stone"
+				type: "item"
+			}]
+			title: "Lunar Evolution"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft a Sun Stone!"
+				""
+				"Evolves Pokémon with solar affinity."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:sun_stone"
+			id: "4000000000000238"
+			rewards: [
+				{
+					id: "4000000000000239"
+					item: "cobblemon:sun_stone"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000240"
+				item: "cobblemon:sun_stone"
+				type: "item"
+			}]
+			title: "Solar Evolution"
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft a Shiny Stone!"
+				""
+				"Evolves certain beautiful Pokémon."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:shiny_stone"
+			id: "4000000000000241"
+			rewards: [
+				{
+					id: "4000000000000242"
+					item: "cobblemon:shiny_stone"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000243"
+				item: "cobblemon:shiny_stone"
+				type: "item"
+			}]
+			title: "Radiant Evolution"
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft a Dusk Stone!"
+				""
+				"Evolves certain dark Pokémon."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:dusk_stone"
+			id: "4000000000000244"
+			rewards: [
+				{
+					id: "4000000000000245"
+					item: "cobblemon:dusk_stone"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000246"
+				item: "cobblemon:dusk_stone"
+				type: "item"
+			}]
+			title: "Shadow Evolution"
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000002"]
+			description: [
+				"Craft a Dawn Stone!"
+				""
+				"Evolves certain Pokémon at dawn."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "cobblemon:dawn_stone"
+			id: "4000000000000247"
+			rewards: [
+				{
+					id: "4000000000000248"
+					item: "cobblemon:dawn_stone"
+					count: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4000000000000249"
+				item: "cobblemon:dawn_stone"
+				type: "item"
+			}]
+			title: "Morning Evolution"
+			x: 18.0d
+			y: 12.0d
+		}
 	]
 	title: "&2Progression Questline"
 }
