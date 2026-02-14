@@ -1573,5 +1573,2526 @@
 			y: 9.0d
 		}
 	]
-	title: "&6Catching Questline"
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the iconic Electric Mouse!"
+				""
+				"Pikachu is one of the most popular Pokémon."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:lightning_rod"
+			id: "2000000000000121"
+			rewards: [
+				{
+					id: "2000000000000122"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000123"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "pikachu"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Pika Pika!"
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the Evolution Pokémon!"
+				""
+				"Eevee can evolve into many forms."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:brown_wool"
+			id: "2000000000000124"
+			rewards: [
+				{
+					id: "2000000000000125"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000126"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "eevee"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Evolution Potential"
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the mighty Charizard!"
+				""
+				"One of the most powerful Fire/Flying types."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:blaze_rod"
+			id: "2000000000000127"
+			rewards: [
+				{
+					id: "2000000000000128"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000129"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "charizard"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Flame Dragon"
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the legendary Mewtwo!"
+				""
+				"The ultimate Psychic-type Pokémon."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:end_crystal"
+			id: "2000000000000130"
+			rewards: [
+				{
+					id: "2000000000000131"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000132"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "mewtwo"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Legendary Psychic"
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the fearsome Gyarados!"
+				""
+				"Evolved from Magikarp, a powerful Water/Flying type."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:prismarine"
+			id: "2000000000000133"
+			rewards: [
+				{
+					id: "2000000000000134"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000135"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "gyarados"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Sea Terror"
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch a majestic Dragonite!"
+				""
+				"A powerful pseudo-legendary Dragon type."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:dragon_head"
+			id: "2000000000000136"
+			rewards: [
+				{
+					id: "2000000000000137"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000138"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "dragonite"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Dragon Master"
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the Aura Pokémon Lucario!"
+				""
+				"A Fighting/Steel type with powerful aura abilities."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:diamond_sword"
+			id: "2000000000000139"
+			rewards: [
+				{
+					id: "2000000000000140"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000141"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "lucario"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Aura Guardian"
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the fearsome Garchomp!"
+				""
+				"A powerful Dragon/Ground pseudo-legendary."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:diamond_block"
+			id: "2000000000000142"
+			rewards: [
+				{
+					id: "2000000000000143"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000144"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "garchomp"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Land Shark"
+			x: -15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the mischievous Gengar!"
+				""
+				"A powerful Ghost/Poison type."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:purple_dye"
+			id: "2000000000000145"
+			rewards: [
+				{
+					id: "2000000000000146"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000147"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "gengar"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Shadow Master"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the intelligent Alakazam!"
+				""
+				"A Psychic type with incredible IQ."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:enchanting_table"
+			id: "2000000000000148"
+			rewards: [
+				{
+					id: "2000000000000149"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000150"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "alakazam"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Psychic Genius"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the powerful Machamp!"
+				""
+				"A Fighting type with immense strength."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:iron_block"
+			id: "2000000000000151"
+			rewards: [
+				{
+					id: "2000000000000152"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000153"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "machamp"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Four-Armed Fighter"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the gentle Lapras!"
+				""
+				"A Water/Ice type known for its kindness."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:blue_ice"
+			id: "2000000000000154"
+			rewards: [
+				{
+					id: "2000000000000155"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000156"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "lapras"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Ocean Guardian"
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the sleepy Snorlax!"
+				""
+				"A Normal type known for its appetite."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:cake"
+			id: "2000000000000157"
+			rewards: [
+				{
+					id: "2000000000000158"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000159"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "snorlax"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Sleeping Giant"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the mighty Tyranitar!"
+				""
+				"A Rock/Dark pseudo-legendary."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:blackstone"
+			id: "2000000000000160"
+			rewards: [
+				{
+					id: "2000000000000161"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000162"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "tyranitar"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Armor Pokémon"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the powerful Blastoise!"
+				""
+				"A Water type starter evolution with cannons."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:tnt"
+			id: "2000000000000163"
+			rewards: [
+				{
+					id: "2000000000000164"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000165"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "blastoise"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Cannon Turtle"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the mighty Venusaur!"
+				""
+				"A Grass/Poison starter evolution."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:flowering_azalea"
+			id: "2000000000000166"
+			rewards: [
+				{
+					id: "2000000000000167"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000168"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "venusaur"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Seed Master"
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the majestic Arcanine!"
+				""
+				"A Fire type known for its speed and loyalty."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:orange_wool"
+			id: "2000000000000169"
+			rewards: [
+				{
+					id: "2000000000000170"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000171"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "arcanine"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Legendary Canine"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the Dark type Umbreon!"
+				""
+				"Eevee's Dark-type evolution."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:black_dye"
+			id: "2000000000000172"
+			rewards: [
+				{
+					id: "2000000000000173"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000174"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "umbreon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Moonlight Eeveelution"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the Psychic type Espeon!"
+				""
+				"Eevee's Psychic-type evolution."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:light_purple_dye"
+			id: "2000000000000175"
+			rewards: [
+				{
+					id: "2000000000000176"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000177"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "espeon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Sun Eeveelution"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"Catch the Water type Vaporeon!"
+				""
+				"Eevee's Water-type evolution."
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:water_bucket"
+			id: "2000000000000178"
+			rewards: [
+				{
+					id: "2000000000000179"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000180"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "vaporeon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Water Eeveelution"
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2000000000000112"]
+			description: [
+				"Catch a Pokémon at level 25 or higher!"
+				""
+				"Getting stronger!"
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "2000000000000181"
+			rewards: [
+				{
+					id: "2000000000000182"
+					item: "cobblemon:ultra_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000183"
+				max_level: 100
+				min_level: 25
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level 25+"
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2000000000000112"]
+			description: [
+				"Catch a Pokémon at level 40 or higher!"
+				""
+				"These are getting tough!"
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:gold_ingot"
+			id: "2000000000000184"
+			rewards: [
+				{
+					id: "2000000000000185"
+					item: "cobblemon:ultra_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000186"
+				max_level: 100
+				min_level: 40
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level 40+"
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2000000000000112"]
+			description: [
+				"Catch a Pokémon at level 50 or higher!"
+				""
+				"Now we're talking serious power!"
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:diamond"
+			id: "2000000000000187"
+			rewards: [
+				{
+					id: "2000000000000188"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000189"
+				max_level: 100
+				min_level: 50
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level 50+"
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2000000000000112"]
+			description: [
+				"Catch a Pokémon at level 60 or higher!"
+				""
+				"Elite trainers territory!"
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:emerald"
+			id: "2000000000000190"
+			rewards: [
+				{
+					id: "2000000000000191"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000192"
+				max_level: 100
+				min_level: 60
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level 60+"
+			x: -12.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2000000000000112"]
+			description: [
+				"Catch a Pokémon at level 75 or higher!"
+				""
+				"Extremely powerful Pokémon!"
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:netherite_ingot"
+			id: "2000000000000193"
+			rewards: [
+				{
+					id: "2000000000000194"
+					item: "cobblemon:ultra_ball"
+					count: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000195"
+				max_level: 100
+				min_level: 75
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level 75+"
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2000000000000112"]
+			description: [
+				"Catch a Pokémon at level 90 or higher!"
+				""
+				"Legendary level power!"
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:nether_star"
+			id: "2000000000000196"
+			rewards: [
+				{
+					id: "2000000000000197"
+					item: "cobblemon:ultra_ball"
+					count: 8
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000198"
+				max_level: 100
+				min_level: 90
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level 90+"
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2000000000000112"]
+			description: [
+				"Catch a level 100 Pokémon!"
+				""
+				"Maximum power achieved!"
+				""
+				"&cLong Playtime Quest&r"
+			]
+			icon: "minecraft:beacon"
+			id: "2000000000000199"
+			rewards: [
+				{
+					id: "2000000000000200"
+					item: "cobblemon:ultra_ball"
+					count: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000201"
+				max_level: 100
+				min_level: 100
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level 100"
+			x: -15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 5 Magikarp!"
+				""
+				"The splash is real!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:fishing_rod"
+			id: "2000000000000202"
+			rewards: [
+				{
+					id: "2000000000000203"
+					item: "cobblemon:poke_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000204"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "magikarp"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Magikarp Collector"
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 10 Caterpie!"
+				""
+				"So many caterpillars!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:string"
+			id: "2000000000000205"
+			rewards: [
+				{
+					id: "2000000000000206"
+					item: "cobblemon:poke_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 10L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000207"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "caterpie"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Bug Catching"
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 5 Pidgey!"
+				""
+				"Common but essential!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:feather"
+			id: "2000000000000208"
+			rewards: [
+				{
+					id: "2000000000000209"
+					item: "cobblemon:poke_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000210"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "pidgey"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Bird Watching"
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 3 Rattata!"
+				""
+				"Top percentage Rattata!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:light_gray_wool"
+			id: "2000000000000211"
+			rewards: [
+				{
+					id: "2000000000000212"
+					item: "cobblemon:poke_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 3L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000213"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "rattata"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Rat Pack"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 10 Zubat!"
+				""
+				"So many caves, so many Zubat!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:ghast_tear"
+			id: "2000000000000214"
+			rewards: [
+				{
+					id: "2000000000000215"
+					item: "cobblemon:poke_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 10L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000216"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "zubat"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Cave Explorer"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 5 Geodude!"
+				""
+				"Hard as a rock!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:stone"
+			id: "2000000000000217"
+			rewards: [
+				{
+					id: "2000000000000218"
+					item: "cobblemon:poke_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000219"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "geodude"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Rock Collector"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 3 Abra!"
+				""
+				"Catch them before they teleport!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:ender_pearl"
+			id: "2000000000000220"
+			rewards: [
+				{
+					id: "2000000000000221"
+					item: "cobblemon:poke_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 3L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000222"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "abra"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Teleport Hunter"
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 5 Psyduck!"
+				""
+				"Always confused!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:yellow_dye"
+			id: "2000000000000223"
+			rewards: [
+				{
+					id: "2000000000000224"
+					item: "cobblemon:poke_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000225"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "psyduck"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Duck Hunt"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 3 Ponyta!"
+				""
+				"Blazing hooves!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:saddle"
+			id: "2000000000000226"
+			rewards: [
+				{
+					id: "2000000000000227"
+					item: "cobblemon:poke_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 3L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000228"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "ponyta"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Fire Horse"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch 3 Eevee!"
+				""
+				"Building an Eeveelution team!"
+				""
+				"&eShort Playtime Quest&r"
+			]
+			icon: "minecraft:emerald"
+			id: "2000000000000229"
+			rewards: [
+				{
+					id: "2000000000000230"
+					item: "cobblemon:poke_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 3L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000231"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "eevee"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Eevee Evolution Squad"
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Fire type in a desert!"
+				""
+				"Fire types love the heat!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:sand"
+			id: "2000000000000232"
+			rewards: [
+				{
+					id: "2000000000000233"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: "desert"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000234"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fire"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Desert Heat"
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Water type in an ocean!"
+				""
+				"Dive deep for Water types!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:heart_of_the_sea"
+			id: "2000000000000235"
+			rewards: [
+				{
+					id: "2000000000000236"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: "ocean"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000237"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "water"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Ocean Explorer"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Rock type in mountains!"
+				""
+				"Scale the peaks for Rock types!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:pointed_dripstone"
+			id: "2000000000000238"
+			rewards: [
+				{
+					id: "2000000000000239"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: "mountains"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000240"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "rock"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Mountain Climber"
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Grass type in a forest!"
+				""
+				"Nature's bounty!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:oak_leaves"
+			id: "2000000000000241"
+			rewards: [
+				{
+					id: "2000000000000242"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: "forest"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000243"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "grass"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Forest Dweller"
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch an Ice type in a taiga!"
+				""
+				"Brave the cold!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:powder_snow_bucket"
+			id: "2000000000000244"
+			rewards: [
+				{
+					id: "2000000000000245"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: "taiga"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000246"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ice"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Frozen Tundra"
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Normal type in plains!"
+				""
+				"Wide open spaces!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:wheat"
+			id: "2000000000000247"
+			rewards: [
+				{
+					id: "2000000000000248"
+					item: "cobblemon:great_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: "plains"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000249"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "normal"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Plains Walker"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Poison type in a swamp!"
+				""
+				"Toxic environment!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:slime_ball"
+			id: "2000000000000250"
+			rewards: [
+				{
+					id: "2000000000000251"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: "swamp"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000252"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "poison"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Swamp Survivor"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Rock type underground!"
+				""
+				"Deep underground discoveries!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:torch"
+			id: "2000000000000253"
+			rewards: [
+				{
+					id: "2000000000000254"
+					item: "cobblemon:great_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000255"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "rock"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Cave Delver"
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Ditto!"
+				""
+				"The transformation master!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:slime_ball"
+			id: "2000000000000256"
+			rewards: [
+				{
+					id: "2000000000000257"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000258"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "ditto"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Transform Artist"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a male Pokémon!"
+				""
+				"Gender matters in breeding!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:blue_dye"
+			id: "2000000000000259"
+			rewards: [
+				{
+					id: "2000000000000260"
+					item: "cobblemon:ultra_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: "male"
+				id: "2000000000000261"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Male Pokémon"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a female Pokémon!"
+				""
+				"Essential for breeding!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:pink_dye"
+			id: "2000000000000262"
+			rewards: [
+				{
+					id: "2000000000000263"
+					item: "cobblemon:ultra_ball"
+					count: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: "female"
+				id: "2000000000000264"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Female Pokémon"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Rotom!"
+				""
+				"The electric ghost appliance!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:redstone_lamp"
+			id: "2000000000000265"
+			rewards: [
+				{
+					id: "2000000000000266"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000267"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "rotom"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Plasma Master"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: [
+				"Catch a Castform!"
+				""
+				"Changes with the weather!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:snow_block"
+			id: "2000000000000268"
+			rewards: [
+				{
+					id: "2000000000000269"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000270"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "castform"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Weather Pokémon"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Charizard!"
+				""
+				"The final form of Charmander!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:blaze_powder"
+			id: "2000000000000271"
+			rewards: [
+				{
+					id: "2000000000000272"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000273"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "charizard"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Flame Lizard"
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Blastoise!"
+				""
+				"The final form of Squirtle!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:cyan_dye"
+			id: "2000000000000274"
+			rewards: [
+				{
+					id: "2000000000000275"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000276"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "blastoise"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Water Cannon"
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Venusaur!"
+				""
+				"The final form of Bulbasaur!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:vine"
+			id: "2000000000000277"
+			rewards: [
+				{
+					id: "2000000000000278"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000279"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "venusaur"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Plant Dinosaur"
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Pidgeot!"
+				""
+				"The final form of Pidgey!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:feather"
+			id: "2000000000000280"
+			rewards: [
+				{
+					id: "2000000000000281"
+					item: "cobblemon:ultra_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000282"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "pidgeot"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Bird of Prey"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Nidoqueen!"
+				""
+				"The evolved form of Nidorina!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:purple_dye"
+			id: "2000000000000283"
+			rewards: [
+				{
+					id: "2000000000000284"
+					item: "cobblemon:ultra_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000285"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "nidoqueen"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Drill Pokémon"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Nidoking!"
+				""
+				"The evolved form of Nidorino!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:purple_concrete"
+			id: "2000000000000286"
+			rewards: [
+				{
+					id: "2000000000000287"
+					item: "cobblemon:ultra_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000288"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "nidoking"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Drill King"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Vileplume!"
+				""
+				"The evolved form of Gloom!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:red_tulip"
+			id: "2000000000000289"
+			rewards: [
+				{
+					id: "2000000000000290"
+					item: "cobblemon:ultra_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000291"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "vileplume"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Flower Power"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Poliwrath!"
+				""
+				"The fighting evolution of Poliwhirl!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:light_blue_dye"
+			id: "2000000000000292"
+			rewards: [
+				{
+					id: "2000000000000293"
+					item: "cobblemon:ultra_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000294"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "poliwrath"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Tadpole Warrior"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Golem!"
+				""
+				"The final form of Geodude!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:tuff"
+			id: "2000000000000295"
+			rewards: [
+				{
+					id: "2000000000000296"
+					item: "cobblemon:ultra_ball"
+					count: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000297"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "golem"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Rock Roller"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2000000000000043"]
+			description: [
+				"Catch a Steelix!"
+				""
+				"The evolved form of Onix!"
+				""
+				"&6Mid Playtime Quest&r"
+			]
+			icon: "minecraft:iron_bars"
+			id: "2000000000000298"
+			rewards: [
+				{
+					id: "2000000000000299"
+					item: "cobblemon:ultra_ball"
+					count: 5
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2000000000000300"
+				max_level: 100
+				min_level: 0
+				poke_ball_used: ""
+				pokemon: "steelix"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Steel Snake"
+			x: -3.0d
+			y: -9.0d
+		}
+]
+title: "&6Catching Questline"
 }
