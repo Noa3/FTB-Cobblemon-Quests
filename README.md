@@ -13,7 +13,9 @@ This questpack provides a complete quest system for Cobblemon, featuring multipl
 - **5 Main Questlines** with 162+ quests total
 - **3 Playtime Categories** - Short (5-15 min), Mid (30-60 min), Long (2+ hours)
 - **Progressive Difficulty** from beginner to legendary level
-- **Rich Rewards** including Poké Balls, items, and resources
+- **Balanced Rewards** - carefully tuned for fair progression
+- **Single Master Ball** - awarded only for ultimate achievement (100 Pokémon caught)
+- **Organized Layout** - quests flow left-to-right for easy navigation
 - **Logical Dependency System** ensuring smooth progression
 - **Comprehensive Coverage** of all Cobblemon features
 - **All 18 Pokémon Types** represented in quests
@@ -164,18 +166,28 @@ Quests are designed with logical dependencies:
 
 ### Types of Rewards:
 
-- **Poké Balls:** Poke Ball, Great Ball, Ultra Ball, Master Ball, and specialty balls
+- **Poké Balls:** Poke Ball, Great Ball, Ultra Ball, specialty balls (Quick, Dive, Dusk, etc.)
 - **Medicine:** Potions, Super Potions, Hyper Potions, Full Restores
 - **Revival:** Revive, Max Revive
 - **Training:** Rare Candies, Evolution Stones
 - **Resources:** Emeralds, Diamonds, Gold, Iron
 - **Berries:** Oran, Sitrus, Pecha, Cheri berries
+- **Special:** 1 Master Ball (awarded only for catching 100 different Pokémon species)
+
+### Reward Balance:
+
+All rewards are carefully balanced for fair progression:
+- **Short quests:** 3-8 basic items (Poké Balls, Potions)
+- **Mid quests:** 5-15 upgraded items (Ultra Balls, Rare Candies), moderate resources
+- **Long quests:** 10-20 premium items, Diamond Blocks, bulk resources
+- **Ultimate achievement:** The single Master Ball is reserved for the Legendary Collector quest
 
 ### Reward Progression:
 
 - Early quests: Basic Poké Balls and simple items
 - Mid-tier quests: Better balls and valuable resources
-- Master quests: Master Balls, diamond blocks, and rare items
+- Master quests: Diamond blocks, large quantities of rare items
+- Ultimate quest: The coveted Master Ball
 
 ## 🎮 How to Use
 

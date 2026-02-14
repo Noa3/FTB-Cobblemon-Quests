@@ -161,20 +161,20 @@ Focus on completing entire chains and long-term goals:
 ## Quest Rewards by Playtime
 
 ### Short Quest Rewards
-- 3-10 basic items (Poké Balls, Potions)
+- 3-8 basic items (Poké Balls, Potions)
 - Small resource amounts
 - Immediate usefulness
 
 ### Mid Quest Rewards
-- 10-20 better items (Ultra Balls, Rare Candies)
+- 5-15 better items (Ultra Balls, Rare Candies)
 - Moderate resources (Emeralds, Diamonds)
 - Specialty items
 
 ### Long Quest Rewards
-- Master Balls
-- Diamond Blocks
-- Large resource quantities (20+ items)
-- Multiple rare rewards
+- 10-20 premium items
+- Diamond Blocks (1-2 per quest)
+- Large resource quantities
+- **Special:** The single Master Ball (Legendary Collector quest only - catch 100 Pokémon)
 
 ---
 

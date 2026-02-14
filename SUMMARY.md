@@ -14,9 +14,11 @@ This is a fully functional Cobblemon questpack ready for use with FTB Quests and
 ### Quest Content
 - **Total Quests:** 162
 - **Total Tasks:** 200+ (one or more per quest)
-- **Total Rewards:** 400+ reward entries
+- **Total Rewards:** 400+ reward entries (all balanced at 50% of original)
 - **Unique Quest IDs:** 162
 - **Total Lines of Quest Code:** ~9,000+
+- **Master Balls:** 1 total (Legendary Collector quest only)
+- **Quest Layout:** Organized left-to-right for easy navigation
 
 ### Questlines
 1. **Adventure** - 28 quests (biomes, dimensions, structures)
@@ -123,25 +125,23 @@ FTB-Cobblemon-Quests/
 
 ## 🎁 Reward System
 
-### Item Distribution
-- **Poké Balls:** 30+ reward entries
-- **Healing Items:** 25+ reward entries
-- **Rare Items:** 15+ reward entries
-- **Resources:** 20+ reward entries
-- **Special Items:** 10+ reward entries
+### Item Distribution (Balanced)
+- **Poké Balls:** 30+ reward entries (3-15 per reward)
+- **Healing Items:** 25+ reward entries (3-10 per reward)
+- **Rare Items:** 15+ reward entries (5-20 Rare Candies per reward)
+- **Resources:** 20+ reward entries (Emeralds, Diamonds - reduced by 50%)
+- **Special Items:** Evolution Stones, Berries
+- **Master Ball:** 1 TOTAL (Legendary Collector quest only)
 
-### Master Ball Awards (6 quests)
-1. Master Collector (50 Pokémon caught)
-2. Battle Master (50 battles won)
-3. Maximum Power (Level 100)
-4. Shiny Hunter (Shiny caught)
-5. Crafting Master (crafting mastery)
-6. Journey to the End (dimension unlock)
+### Master Ball Award (1 quest only!)
+1. **Legendary Collector** (100 Pokémon caught) - THE ULTIMATE ACHIEVEMENT
 
-### Diamond Block Awards (3 quests)
-1. Maximum Power (Level 100)
-2. Shiny Hunter (Shiny caught)
-3. Master Collector (50 Pokémon)
+### Diamond Block Awards (Reduced quantities)
+Multiple quests award 1-2 Diamond Blocks for major achievements:
+- Maximum Power (Level 100)
+- Legendary Collector (100 Pokémon)
+- Champion Battler (100 battles)
+- Other master-tier quests
 
 ## 🔧 Technical Specifications
 
@@ -227,8 +227,14 @@ This questpack provides a complete, balanced, and engaging quest experience for 
 - Total Lines: ~9,000+
 
 **Status:** ✅ Production Ready
-**Version:** 2.0 (Expanded Edition)
-**Last Updated:** 2026-02-12
+**Version:** 2.1 (Balanced Edition)
+**Last Updated:** 2026-02-14
+
+**Key Features:**
+- 162 quests with balanced rewards (50% reduction)
+- Only 1 Master Ball (ultimate achievement)
+- Organized left-to-right quest layout
+- Supports all playtime styles
 
 ---
 
