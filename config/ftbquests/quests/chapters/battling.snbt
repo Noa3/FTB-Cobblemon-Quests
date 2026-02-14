@@ -45,7 +45,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "First Battle"
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -85,7 +85,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Battle Training"
-			x: 3.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -125,7 +125,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Experienced Battler"
-			x: 6.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -173,7 +173,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Battle Master"
-			x: 9.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -221,8 +221,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Rival Battle"
-			x: 0.0d
-			y: -5.0d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3000000000000015"]
@@ -273,8 +273,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Competitive Battler"
-			x: 3.0d
-			y: -5.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -315,8 +315,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "NPC Challenger"
-			x: 0.0d
-			y: -7.5d
+			x: -3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3000000000000023"]
@@ -361,8 +361,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "NPC Conqueror"
-			x: 3.0d
-			y: -7.5d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -401,8 +401,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Fire Type Defeater"
-			x: 0.0d
-			y: 5.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -447,8 +447,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Water Type Defeater"
-			x: 2.0d
-			y: 5.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -487,8 +487,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Grass Type Defeater"
-			x: 4.0d
-			y: 5.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -534,8 +534,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Dragon Slayer"
-			x: 0.0d
-			y: -2.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3000000000000005"]
@@ -574,8 +574,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Tough Opponent"
-			x: 3.0d
-			y: -2.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3000000000000043"]
@@ -622,8 +622,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Elite Challenger"
-			x: 6.0d
-			y: -2.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -664,8 +664,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Quick Battler"
-			x: 0.0d
-			y: 2.5d
+			x: -9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3000000000000008"]
@@ -714,7 +714,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Veteran Battler"
-			x: 12.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -765,7 +765,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Champion Battler"
-			x: 15.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -807,8 +807,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Electric Type Defeater"
-			x: 6.0d
-			y: 5.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -849,8 +849,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Psychic Type Defeater"
-			x: 8.0d
-			y: 5.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -891,8 +891,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ghost Type Defeater"
-			x: 10.0d
-			y: 5.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -934,7 +934,7 @@
 			}]
 			title: "Dark Type Defeater"
 			x: 12.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -975,8 +975,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Bug Type Defeater"
-			x: 14.0d
-			y: 5.0d
+			x: -6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -1017,8 +1017,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Fighting Type Defeater"
-			x: 16.0d
-			y: 5.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -1059,8 +1059,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Steel Type Defeater"
-			x: 18.0d
-			y: 5.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -1101,8 +1101,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ice Type Defeater"
-			x: 20.0d
-			y: 5.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3000000000000046"]
@@ -1151,8 +1151,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ultimate Challenge"
-			x: 9.0d
-			y: -2.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3000000000000015"]
@@ -1201,8 +1201,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "PvP Champion"
-			x: 6.0d
-			y: -5.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3000000000000026"]
@@ -1251,8 +1251,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "NPC Master"
-			x: 6.0d
-			y: -7.5d
+			x: 3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -1293,8 +1293,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Beginner Battles"
-			x: 3.0d
-			y: 2.5d
+			x: -9.0d
+			y: 3.0d
 		}
 	]
 	title: "&4Battling Questline"

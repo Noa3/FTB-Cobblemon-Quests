@@ -31,7 +31,7 @@
 				type: "item"
 			}]
 			title: "First Poké Ball"
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -57,7 +57,7 @@
 				type: "item"
 			}]
 			title: "Better Balls"
-			x: 3.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -83,7 +83,7 @@
 				type: "item"
 			}]
 			title: "Ultimate Balls"
-			x: 6.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			title: "Healing Basics"
-			x: 9.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -135,7 +135,7 @@
 				type: "item"
 			}]
 			title: "Better Healing"
-			x: 12.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -161,7 +161,7 @@
 				type: "item"
 			}]
 			title: "Advanced Healing"
-			x: 15.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -195,7 +195,7 @@
 				type: "item"
 			}]
 			title: "Master Healer"
-			x: 18.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -221,8 +221,8 @@
 				type: "item"
 			}]
 			title: "Second Chance"
-			x: 0.0d
-			y: -2.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4000000000000024"]
@@ -254,8 +254,8 @@
 				type: "item"
 			}]
 			title: "Full Restoration"
-			x: 3.0d
-			y: -2.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -280,8 +280,8 @@
 				type: "item"
 			}]
 			title: "Storage System"
-			x: 0.0d
-			y: -5.0d
+			x: -6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4000000000000031"]
@@ -314,8 +314,8 @@
 				type: "item"
 			}]
 			title: "Pokémon Center"
-			x: 3.0d
-			y: -5.0d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -341,7 +341,7 @@
 			}]
 			title: "Gathering Herbs"
 			x: 0.0d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -373,8 +373,8 @@
 				type: "item"
 			}]
 			title: "Apricorn Collector"
-			x: 6.0d
-			y: -7.5d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4000000000000041"]
@@ -438,8 +438,8 @@
 				}
 			]
 			title: "Rainbow Collection"
-			x: 9.0d
-			y: -7.5d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -478,8 +478,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Training Progress"
-			x: 9.0d
-			y: -2.5d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4000000000000054"]
@@ -526,8 +526,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Halfway There"
-			x: 12.0d
-			y: -2.5d
+			x: 21.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4000000000000057"]
@@ -575,8 +575,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Maximum Power!"
-			x: 18.0d
-			y: -2.5d
+			x: 27.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4000000000000008", "4000000000000020", "4000000000000027", "4000000000000034"]
@@ -604,8 +604,8 @@
 				type: "checkmark"
 			}]
 			title: "Crafting Master"
-			x: 21.0d
-			y: -5.0d
+			x: 27.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4000000000000002"]
@@ -634,8 +634,8 @@
 				type: "item"
 			}]
 			title: "Ball Factory"
-			x: 0.0d
-			y: 2.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4000000000000005"]
@@ -664,8 +664,8 @@
 				type: "item"
 			}]
 			title: "Great Ball Producer"
-			x: 3.0d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4000000000000008"]
@@ -701,8 +701,8 @@
 				type: "item"
 			}]
 			title: "Ultra Ball Manufacturer"
-			x: 6.0d
-			y: 2.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4000000000000011"]
@@ -731,8 +731,8 @@
 				type: "item"
 			}]
 			title: "Potion Stockpile"
-			x: 9.0d
-			y: 2.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4000000000000014"]
@@ -761,8 +761,8 @@
 				type: "item"
 			}]
 			title: "Super Potion Supply"
-			x: 12.0d
-			y: 2.5d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4000000000000017"]
@@ -791,8 +791,8 @@
 				type: "item"
 			}]
 			title: "Hyper Potion Hoarder"
-			x: 15.0d
-			y: 2.5d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4000000000000054"]
@@ -833,8 +833,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Team Training"
-			x: 9.0d
-			y: -5.0d
+			x: 18.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4000000000000057"]
@@ -882,8 +882,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Almost There"
-			x: 15.0d
-			y: -2.5d
+			x: 24.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4000000000000054"]
@@ -932,8 +932,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Training Dedication"
-			x: 12.0d
-			y: -5.0d
+			x: 21.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4000000000000096"]
@@ -982,8 +982,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Training Legend"
-			x: 15.0d
-			y: -5.0d
+			x: 24.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4000000000000041"]
@@ -1012,8 +1012,8 @@
 				type: "item"
 			}]
 			title: "Apricorn Farmer"
-			x: 12.0d
-			y: -7.5d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4000000000000104"]
@@ -1050,8 +1050,8 @@
 				type: "item"
 			}]
 			title: "Apricorn Magnate"
-			x: 15.0d
-			y: -7.5d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4000000000000038"]
@@ -1080,8 +1080,8 @@
 				type: "item"
 			}]
 			title: "Herb Collector"
-			x: 3.0d
-			y: -7.5d
+			x: 0.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -1108,8 +1108,8 @@
 				type: "item"
 			}]
 			title: "Quick Capture"
-			x: 21.0d
-			y: 0.0d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -1137,7 +1137,7 @@
 			}]
 			title: "Deep Dive"
 			x: 21.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -1164,8 +1164,8 @@
 				type: "item"
 			}]
 			title: "Night Hunter"
-			x: 21.0d
-			y: -2.5d
+			x: 24.0d
+			y: 3.0d
 		}
 	]
 	title: "&2Progression Questline"

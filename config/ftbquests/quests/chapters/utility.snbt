@@ -31,7 +31,7 @@
 				type: "item"
 			}]
 			title: "Sweet Treat"
-			x: 0.0d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -71,7 +71,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "First Throw"
-			x: 3.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -111,7 +111,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ball Thrower"
-			x: 6.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -151,8 +151,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Research Assistant"
-			x: 0.0d
-			y: 2.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000011"]
@@ -191,8 +191,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Dedicated Researcher"
-			x: 3.0d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -231,8 +231,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "First Trade"
-			x: 0.0d
-			y: -2.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5000000000000017"]
@@ -271,8 +271,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Trade Complete"
-			x: 3.0d
-			y: -2.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -313,8 +313,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Tough Choices"
-			x: 0.0d
-			y: -5.0d
+			x: -9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -353,8 +353,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Pokédex Started"
-			x: 0.0d
-			y: 5.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5000000000000026"]
@@ -393,8 +393,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Growing Database"
-			x: 3.0d
-			y: 5.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5000000000000029"]
@@ -441,8 +441,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Expert Researcher"
-			x: 6.0d
-			y: 5.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -467,7 +467,7 @@
 				type: "item"
 			}]
 			title: "Evolution Stones"
-			x: 15.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -517,7 +517,7 @@
 				}
 			]
 			title: "Stone Collector"
-			x: 18.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -543,8 +543,8 @@
 				type: "item"
 			}]
 			title: "Berry Picker"
-			x: 15.0d
-			y: -5.0d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
@@ -593,8 +593,8 @@
 				}
 			]
 			title: "Berry Expert"
-			x: 18.0d
-			y: -5.0d
+			x: 15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000008"]
@@ -635,7 +635,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ball Master"
-			x: 9.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -680,7 +680,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ball Legend"
-			x: 12.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -722,8 +722,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Research Master"
-			x: 6.0d
-			y: 2.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000063"]
@@ -772,8 +772,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Professor Status"
-			x: 9.0d
-			y: 2.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000032"]
@@ -822,8 +822,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Advanced Researcher"
-			x: 9.0d
-			y: 5.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5000000000000070"]
@@ -867,8 +867,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Pokédex Master"
-			x: 12.0d
-			y: 5.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5000000000000020"]
@@ -909,8 +909,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Trading Pro"
-			x: 6.0d
-			y: -2.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5000000000000078"]
@@ -958,8 +958,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Trading Tycoon"
-			x: 9.0d
-			y: -2.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
@@ -988,8 +988,8 @@
 				type: "item"
 			}]
 			title: "Berry Farmer"
-			x: 21.0d
-			y: -5.0d
+			x: 18.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000085"]
@@ -1026,8 +1026,8 @@
 				type: "item"
 			}]
 			title: "Berry Tycoon"
-			x: 24.0d
-			y: -5.0d
+			x: 21.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000039"]
@@ -1054,8 +1054,8 @@
 				type: "item"
 			}]
 			title: "Lunar Stone"
-			x: 15.0d
-			y: 2.5d
+			x: 12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000039"]
@@ -1082,8 +1082,8 @@
 				type: "item"
 			}]
 			title: "Solar Stone"
-			x: 18.0d
-			y: 2.5d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000039"]
@@ -1110,8 +1110,8 @@
 				type: "item"
 			}]
 			title: "Shiny Stone"
-			x: 15.0d
-			y: -2.5d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5000000000000039"]
@@ -1138,8 +1138,8 @@
 				type: "item"
 			}]
 			title: "Dusk Stone"
-			x: 18.0d
-			y: -2.5d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5000000000000092", "5000000000000095", "5000000000000098", "5000000000000101"]
@@ -1174,7 +1174,7 @@
 				type: "checkmark"
 			}]
 			title: "Stone Master"
-			x: 21.0d
+			x: 18.0d
 			y: 0.0d
 		}
 	]

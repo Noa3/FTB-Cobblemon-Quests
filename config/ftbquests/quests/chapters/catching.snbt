@@ -45,7 +45,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "First Catch"
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -85,7 +85,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Growing Collection"
-			x: 3.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -125,7 +125,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Expanding Horizons"
-			x: 6.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -168,7 +168,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Master Collector"
-			x: 9.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -214,8 +214,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Water Type Catcher"
-			x: 0.0d
-			y: 2.5d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -254,8 +254,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Fire Type Catcher"
-			x: 2.0d
-			y: 2.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -294,8 +294,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Grass Type Catcher"
-			x: 4.0d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -334,8 +334,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Electric Type Catcher"
-			x: 6.0d
-			y: 2.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -374,8 +374,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Psychic Type Catcher"
-			x: 8.0d
-			y: 2.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2000000000000015", "2000000000000018", "2000000000000021"]
@@ -408,8 +408,8 @@
 				type: "checkmark"
 			}]
 			title: "Starter Type Master"
-			x: 3.0d
-			y: 3.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -448,8 +448,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Dragon Tamer"
-			x: 0.0d
-			y: -2.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -488,8 +488,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ghost Hunter"
-			x: 2.0d
-			y: -2.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -528,8 +528,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Dark Collector"
-			x: 4.0d
-			y: -2.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -568,8 +568,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "First Evolution"
-			x: 3.0d
-			y: -5.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2000000000000043"]
@@ -608,8 +608,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Evolution Expert"
-			x: 6.0d
-			y: -5.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -651,8 +651,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Shiny Hunter!"
-			x: 18.0d
-			y: 0.0d
+			x: -3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -693,8 +693,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Daytime Catcher"
-			x: 0.0d
-			y: 7.5d
+			x: -9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -735,8 +735,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Nighttime Catcher"
-			x: 3.0d
-			y: 7.5d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -777,8 +777,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Normal Type Catcher"
-			x: 10.0d
-			y: 2.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -819,8 +819,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Bug Type Catcher"
-			x: 12.0d
-			y: 2.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -861,8 +861,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Flying Type Catcher"
-			x: 14.0d
-			y: 2.5d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -904,7 +904,7 @@
 			}]
 			title: "Fighting Type Catcher"
 			x: 0.0d
-			y: 5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -945,8 +945,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Poison Type Catcher"
-			x: 2.0d
-			y: 5.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -987,8 +987,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ground Type Catcher"
-			x: 4.0d
-			y: 5.0d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1029,8 +1029,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Rock Type Catcher"
-			x: 6.0d
-			y: 5.0d
+			x: 9.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1071,8 +1071,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ice Type Catcher"
-			x: 8.0d
-			y: 5.0d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1113,8 +1113,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Steel Type Catcher"
-			x: 10.0d
-			y: 5.0d
+			x: 3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1155,8 +1155,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Fairy Type Catcher"
-			x: 12.0d
-			y: 5.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2000000000000008"]
@@ -1200,7 +1200,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Advanced Collector"
-			x: 12.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -1256,7 +1256,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Legendary Collector"
-			x: 15.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -1304,8 +1304,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Evolution Master"
-			x: 9.0d
-			y: -5.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2000000000000098"]
@@ -1354,8 +1354,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Evolution Guru"
-			x: 12.0d
-			y: -5.0d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -1396,8 +1396,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Baby Steps"
-			x: 0.0d
-			y: -7.5d
+			x: -9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1438,8 +1438,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Rising Star"
-			x: 3.0d
-			y: -7.5d
+			x: -9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2000000000000109"]
@@ -1487,8 +1487,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Apex Catcher"
-			x: 6.0d
-			y: -7.5d
+			x: -9.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2000000000000030"]
@@ -1569,8 +1569,8 @@
 				}
 			]
 			title: "Type Diversity"
-			x: 6.0d
-			y: 3.5d
+			x: -3.0d
+			y: 9.0d
 		}
 	]
 	title: "&6Catching Questline"

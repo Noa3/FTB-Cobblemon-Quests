@@ -33,7 +33,7 @@
 				type: "location"
 			}]
 			title: "Plains Explorer"
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -61,7 +61,7 @@
 				type: "location"
 			}]
 			title: "Forest Explorer"
-			x: 3.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -89,7 +89,7 @@
 				type: "location"
 			}]
 			title: "Ocean Explorer"
-			x: 6.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -117,8 +117,8 @@
 				type: "location"
 			}]
 			title: "Mountain Climber"
-			x: 0.0d
-			y: 2.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -145,7 +145,7 @@
 				type: "location"
 			}]
 			title: "Desert Wanderer"
-			x: 9.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -173,7 +173,7 @@
 				type: "location"
 			}]
 			title: "Taiga Explorer"
-			x: 12.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -201,8 +201,8 @@
 				type: "location"
 			}]
 			title: "Jungle Adventurer"
-			x: 3.0d
-			y: 2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1000000000000008"]
@@ -229,8 +229,8 @@
 				type: "location"
 			}]
 			title: "River Tracker"
-			x: 6.0d
-			y: 2.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1000000000000002", "1000000000000005", "1000000000000008", "1000000000000014", "1000000000000017"]
@@ -263,7 +263,7 @@
 				type: "checkmark"
 			}]
 			title: "Biome Master"
-			x: 15.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -292,7 +292,7 @@
 				type: "dimension"
 			}]
 			title: "Into the Nether"
-			x: 18.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -315,8 +315,8 @@
 				type: "dimension"
 			}]
 			title: "Journey to the End"
-			x: 18.0d
-			y: -5.0d
+			x: 15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1000000000000002"]
@@ -345,8 +345,8 @@
 				type: "location"
 			}]
 			title: "Savanna Explorer"
-			x: 9.0d
-			y: 2.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1000000000000002"]
@@ -375,8 +375,8 @@
 				type: "location"
 			}]
 			title: "Swamp Explorer"
-			x: 12.0d
-			y: 2.5d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1000000000000008"]
@@ -405,8 +405,8 @@
 				type: "location"
 			}]
 			title: "Deep Sea Explorer"
-			x: 0.0d
-			y: 5.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1000000000000017"]
@@ -435,8 +435,8 @@
 				type: "location"
 			}]
 			title: "Tundra Explorer"
-			x: 3.0d
-			y: 5.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1000000000000014"]
@@ -465,8 +465,8 @@
 				type: "location"
 			}]
 			title: "Badlands Explorer"
-			x: 6.0d
-			y: 5.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1000000000000011"]
@@ -493,8 +493,8 @@
 				type: "checkmark"
 			}]
 			title: "Peak Climber"
-			x: 0.0d
-			y: -2.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1000000000000026"]
@@ -524,8 +524,8 @@
 				type: "checkmark"
 			}]
 			title: "Ultimate Explorer"
-			x: 3.0d
-			y: -2.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1000000000000030"]
@@ -556,7 +556,7 @@
 				}
 			]
 			title: "Nether Explorer"
-			x: 21.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -584,8 +584,8 @@
 				type: "checkmark"
 			}]
 			title: "Bastion Hunter"
-			x: 21.0d
-			y: 2.5d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1000000000000030"]
@@ -612,8 +612,8 @@
 				type: "checkmark"
 			}]
 			title: "Fortress Finder"
-			x: 21.0d
-			y: -2.5d
+			x: 18.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1000000000000033"]
@@ -642,8 +642,8 @@
 				type: "checkmark"
 			}]
 			title: "End Explorer"
-			x: 21.0d
-			y: -5.0d
+			x: 18.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1000000000000005"]
@@ -680,8 +680,8 @@
 				type: "location"
 			}]
 			title: "Mushroom Seeker"
-			x: 12.0d
-			y: 5.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1000000000000020"]
@@ -710,8 +710,8 @@
 				type: "location"
 			}]
 			title: "Bamboo Explorer"
-			x: 9.0d
-			y: 5.0d
+			x: 6.0d
+			y: 6.0d
 		}
 	]
 	title: "&bAdventure Questline"
