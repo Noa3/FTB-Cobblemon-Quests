@@ -21,7 +21,7 @@
 				{
 					id: "3000000000000003"
 					item: "cobblemon:potion"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -61,7 +61,7 @@
 				{
 					id: "3000000000000006"
 					item: "cobblemon:super_potion"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -85,7 +85,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Battle Training"
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -101,7 +101,7 @@
 				{
 					id: "3000000000000009"
 					item: "cobblemon:hyper_potion"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -125,7 +125,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Experienced Battler"
-			x: 4.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -141,13 +141,13 @@
 				{
 					id: "3000000000000012"
 					item: "cobblemon:full_restore"
-					count: 10
+					count: 5
 					type: "item"
 				}
 				{
 					id: "3000000000000013"
 					item: "minecraft:emerald"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -173,7 +173,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Battle Master"
-			x: 6.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -191,13 +191,13 @@
 				{
 					id: "3000000000000016"
 					item: "cobblemon:revive"
-					count: 5
+					count: 3
 					type: "item"
 				}
 				{
 					id: "3000000000000017"
 					item: "minecraft:gold_ingot"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -222,7 +222,7 @@
 			}]
 			title: "Rival Battle"
 			x: 0.0d
-			y: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3000000000000015"]
@@ -243,13 +243,13 @@
 				{
 					id: "3000000000000020"
 					item: "cobblemon:max_revive"
-					count: 5
+					count: 3
 					type: "item"
 				}
 				{
 					id: "3000000000000021"
 					item: "minecraft:emerald"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -273,8 +273,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Competitive Battler"
-			x: 2.0d
-			y: 2.5d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -291,7 +291,7 @@
 				{
 					id: "3000000000000024"
 					item: "cobblemon:full_heal"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -315,8 +315,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "NPC Challenger"
-			x: -2.0d
-			y: 2.0d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3000000000000023"]
@@ -331,13 +331,13 @@
 				{
 					id: "3000000000000027"
 					item: "cobblemon:rare_candy"
-					count: 5
+					count: 3
 					type: "item"
 				}
 				{
 					id: "3000000000000028"
 					item: "minecraft:diamond"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -361,8 +361,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "NPC Conqueror"
-			x: -4.0d
-			y: 2.5d
+			x: 3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -377,7 +377,7 @@
 				{
 					id: "3000000000000031"
 					item: "cobblemon:burn_heal"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -402,7 +402,7 @@
 			}]
 			title: "Fire Type Defeater"
 			x: 0.0d
-			y: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -423,7 +423,7 @@
 				{
 					id: "3000000000000034"
 					item: "cobblemon:awakening"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -447,8 +447,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Water Type Defeater"
-			x: 1.0d
-			y: -2.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -463,7 +463,7 @@
 				{
 					id: "3000000000000037"
 					item: "cobblemon:paralyze_heal"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -487,8 +487,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Grass Type Defeater"
-			x: -1.0d
-			y: -2.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -503,13 +503,13 @@
 				{
 					id: "3000000000000040"
 					item: "cobblemon:full_restore"
-					count: 5
+					count: 3
 					type: "item"
 				}
 				{
 					id: "3000000000000041"
 					item: "minecraft:emerald"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -534,7 +534,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Dragon Slayer"
-			x: 2.0d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
@@ -550,7 +550,7 @@
 				{
 					id: "3000000000000044"
 					item: "cobblemon:rare_candy"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -574,8 +574,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Tough Opponent"
-			x: 2.0d
-			y: -1.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3000000000000043"]
@@ -590,13 +590,13 @@
 				{
 					id: "3000000000000047"
 					item: "cobblemon:rare_candy"
-					count: 5
+					count: 3
 					type: "item"
 				}
 				{
 					id: "3000000000000048"
 					item: "minecraft:diamond"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -622,8 +622,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Elite Challenger"
-			x: 4.0d
-			y: -1.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -640,7 +640,7 @@
 				{
 					id: "3000000000000051"
 					item: "cobblemon:potion"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -664,8 +664,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Quick Battler"
-			x: 1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3000000000000008"]
@@ -682,13 +682,13 @@
 				{
 					id: "3000000000000054"
 					item: "cobblemon:full_restore"
-					count: 15
+					count: 8
 					type: "item"
 				}
 				{
 					id: "3000000000000055"
 					item: "minecraft:diamond"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -714,8 +714,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Veteran Battler"
-			x: 7.0d
-			y: 1.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3000000000000053"]
@@ -731,20 +731,15 @@
 			rewards: [
 				{
 					id: "3000000000000058"
-					item: "cobblemon:master_ball"
-					count: 1
-					type: "item"
-				}
-				{
 					id: "3000000000000059"
 					item: "minecraft:diamond_block"
-					count: 5
+					count: 3
 					type: "item"
 				}
 				{
 					id: "3000000000000060"
 					item: "cobblemon:full_restore"
-					count: 20
+					count: 10
 					type: "item"
 				}
 			]
@@ -770,8 +765,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Champion Battler"
-			x: 9.0d
-			y: 1.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -788,7 +783,7 @@
 				{
 					id: "3000000000000063"
 					item: "cobblemon:paralyze_heal"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -812,8 +807,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Electric Type Defeater"
-			x: -3.0d
-			y: -2.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -830,7 +825,7 @@
 				{
 					id: "3000000000000066"
 					item: "cobblemon:awakening"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -854,8 +849,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Psychic Type Defeater"
-			x: 3.0d
-			y: -2.5d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -872,7 +867,7 @@
 				{
 					id: "3000000000000069"
 					item: "cobblemon:full_heal"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -896,8 +891,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ghost Type Defeater"
-			x: -3.0d
-			y: 2.5d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -914,7 +909,7 @@
 				{
 					id: "3000000000000072"
 					item: "cobblemon:hyper_potion"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -938,8 +933,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Dark Type Defeater"
-			x: 3.0d
-			y: 2.5d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -956,7 +951,7 @@
 				{
 					id: "3000000000000075"
 					item: "cobblemon:potion"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -980,8 +975,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Bug Type Defeater"
-			x: 0.0d
-			y: 3.5d
+			x: 14.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -998,7 +993,7 @@
 				{
 					id: "3000000000000078"
 					item: "cobblemon:super_potion"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1022,8 +1017,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Fighting Type Defeater"
-			x: -1.5d
-			y: 3.5d
+			x: 16.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -1040,7 +1035,7 @@
 				{
 					id: "3000000000000081"
 					item: "cobblemon:hyper_potion"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1064,8 +1059,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Steel Type Defeater"
-			x: 1.5d
-			y: 3.5d
+			x: 18.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -1082,7 +1077,7 @@
 				{
 					id: "3000000000000084"
 					item: "cobblemon:ice_heal"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1106,8 +1101,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ice Type Defeater"
-			x: 0.0d
-			y: -3.5d
+			x: 20.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000046"]
@@ -1124,13 +1119,13 @@
 				{
 					id: "3000000000000087"
 					item: "cobblemon:rare_candy"
-					count: 10
+					count: 5
 					type: "item"
 				}
 				{
 					id: "3000000000000088"
 					item: "minecraft:diamond_block"
-					count: 2
+					count: 1
 					type: "item"
 				}
 			]
@@ -1156,8 +1151,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ultimate Challenge"
-			x: 6.0d
-			y: -2.0d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3000000000000015"]
@@ -1174,13 +1169,13 @@
 				{
 					id: "3000000000000091"
 					item: "cobblemon:max_revive"
-					count: 10
+					count: 5
 					type: "item"
 				}
 				{
 					id: "3000000000000092"
 					item: "minecraft:emerald_block"
-					count: 2
+					count: 1
 					type: "item"
 				}
 			]
@@ -1206,8 +1201,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "PvP Champion"
-			x: 3.5d
-			y: 2.5d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3000000000000026"]
@@ -1224,13 +1219,13 @@
 				{
 					id: "3000000000000095"
 					item: "cobblemon:rare_candy"
-					count: 15
+					count: 8
 					type: "item"
 				}
 				{
 					id: "3000000000000096"
 					item: "minecraft:diamond_block"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -1256,8 +1251,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "NPC Master"
-			x: -5.5d
-			y: 2.5d
+			x: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3000000000000002"]
@@ -1274,7 +1269,7 @@
 				{
 					id: "3000000000000099"
 					item: "cobblemon:potion"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -1298,8 +1293,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Beginner Battles"
-			x: -1.0d
-			y: 1.0d
+			x: 3.0d
+			y: 2.5d
 		}
 	]
 	title: "&4Battling Questline"

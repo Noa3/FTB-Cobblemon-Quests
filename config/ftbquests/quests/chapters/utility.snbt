@@ -21,7 +21,7 @@
 				{
 					id: "5000000000000003"
 					item: "cobblemon:rare_candy"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -47,7 +47,7 @@
 				{
 					id: "5000000000000006"
 					item: "cobblemon:poke_ball"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -71,7 +71,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "First Throw"
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -87,7 +87,7 @@
 				{
 					id: "5000000000000009"
 					item: "cobblemon:ultra_ball"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -111,7 +111,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ball Thrower"
-			x: 4.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -127,7 +127,7 @@
 				{
 					id: "5000000000000012"
 					item: "cobblemon:poke_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -152,7 +152,7 @@
 			}]
 			title: "Research Assistant"
 			x: 0.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5000000000000011"]
@@ -167,7 +167,7 @@
 				{
 					id: "5000000000000015"
 					item: "cobblemon:great_ball"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -191,8 +191,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Dedicated Researcher"
-			x: 2.0d
-			y: 2.0d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -207,7 +207,7 @@
 				{
 					id: "5000000000000018"
 					item: "minecraft:emerald"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -232,7 +232,7 @@
 			}]
 			title: "First Trade"
 			x: 0.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5000000000000017"]
@@ -247,7 +247,7 @@
 				{
 					id: "5000000000000021"
 					item: "minecraft:gold_ingot"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -271,8 +271,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Trade Complete"
-			x: 2.0d
-			y: -2.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -289,7 +289,7 @@
 				{
 					id: "5000000000000024"
 					item: "cobblemon:poke_ball"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -313,8 +313,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Tough Choices"
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -329,7 +329,7 @@
 				{
 					id: "5000000000000027"
 					item: "cobblemon:poke_ball"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -353,8 +353,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Pokédex Started"
-			x: -2.0d
-			y: 2.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5000000000000026"]
@@ -369,7 +369,7 @@
 				{
 					id: "5000000000000030"
 					item: "cobblemon:great_ball"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -393,8 +393,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Growing Database"
-			x: -4.0d
-			y: 2.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5000000000000029"]
@@ -409,13 +409,13 @@
 				{
 					id: "5000000000000033"
 					item: "cobblemon:ultra_ball"
-					count: 15
+					count: 8
 					type: "item"
 				}
 				{
 					id: "5000000000000034"
 					item: "minecraft:emerald"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -441,8 +441,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Expert Researcher"
-			x: -6.0d
-			y: 2.0d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -457,7 +457,7 @@
 				{
 					id: "5000000000000037"
 					item: "cobblemon:rare_candy"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -467,8 +467,8 @@
 				type: "item"
 			}]
 			title: "Evolution Stones"
-			x: -2.0d
-			y: -2.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5000000000000036"]
@@ -483,13 +483,13 @@
 				{
 					id: "5000000000000040"
 					item: "cobblemon:rare_candy"
-					count: 10
+					count: 5
 					type: "item"
 				}
 				{
 					id: "5000000000000041"
 					item: "minecraft:diamond"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -517,8 +517,8 @@
 				}
 			]
 			title: "Stone Collector"
-			x: -4.0d
-			y: -2.0d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -533,7 +533,7 @@
 				{
 					id: "5000000000000047"
 					item: "cobblemon:oran_berry"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -543,8 +543,8 @@
 				type: "item"
 			}]
 			title: "Berry Picker"
-			x: 0.0d
-			y: -4.0d
+			x: 15.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
@@ -559,13 +559,13 @@
 				{
 					id: "5000000000000050"
 					item: "cobblemon:poke_ball"
-					count: 20
+					count: 10
 					type: "item"
 				}
 				{
 					id: "5000000000000051"
 					item: "minecraft:emerald"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -593,8 +593,8 @@
 				}
 			]
 			title: "Berry Expert"
-			x: 2.0d
-			y: -4.0d
+			x: 18.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5000000000000008"]
@@ -611,7 +611,7 @@
 				{
 					id: "5000000000000057"
 					item: "cobblemon:ultra_ball"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
@@ -635,8 +635,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ball Master"
-			x: 5.0d
-			y: 0.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5000000000000056"]
@@ -652,14 +652,9 @@
 			rewards: [
 				{
 					id: "5000000000000060"
-					item: "cobblemon:master_ball"
-					count: 1
-					type: "item"
-				}
-				{
 					id: "5000000000000061"
 					item: "cobblemon:ultra_ball"
-					count: 30
+					count: 15
 					type: "item"
 				}
 			]
@@ -685,8 +680,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ball Legend"
-			x: 6.5d
-			y: 0.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5000000000000014"]
@@ -703,7 +698,7 @@
 				{
 					id: "5000000000000064"
 					item: "cobblemon:ultra_ball"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
@@ -727,7 +722,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Research Master"
-			x: 3.0d
+			x: 6.0d
 			y: 2.5d
 		}
 		{
@@ -745,13 +740,13 @@
 				{
 					id: "5000000000000067"
 					item: "cobblemon:rare_candy"
-					count: 20
+					count: 10
 					type: "item"
 				}
 				{
 					id: "5000000000000068"
 					item: "minecraft:emerald"
-					count: 20
+					count: 10
 					type: "item"
 				}
 			]
@@ -777,8 +772,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Professor Status"
-			x: 4.5d
-			y: 3.0d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5000000000000032"]
@@ -795,13 +790,13 @@
 				{
 					id: "5000000000000071"
 					item: "cobblemon:ultra_ball"
-					count: 20
+					count: 10
 					type: "item"
 				}
 				{
 					id: "5000000000000072"
 					item: "minecraft:diamond"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -827,8 +822,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Advanced Researcher"
-			x: -7.0d
-			y: 2.5d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5000000000000070"]
@@ -844,14 +839,9 @@
 			rewards: [
 				{
 					id: "5000000000000075"
-					item: "cobblemon:master_ball"
-					count: 2
-					type: "item"
-				}
-				{
 					id: "5000000000000076"
 					item: "minecraft:diamond_block"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -877,8 +867,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Pokédex Master"
-			x: -8.5d
-			y: 3.0d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5000000000000020"]
@@ -895,7 +885,7 @@
 				{
 					id: "5000000000000079"
 					item: "minecraft:emerald"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
@@ -919,7 +909,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Trading Pro"
-			x: 3.0d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
@@ -937,13 +927,13 @@
 				{
 					id: "5000000000000082"
 					item: "minecraft:emerald_block"
-					count: 3
+					count: 2
 					type: "item"
 				}
 				{
 					id: "5000000000000083"
 					item: "cobblemon:rare_candy"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -968,8 +958,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Trading Tycoon"
-			x: 4.5d
-			y: -3.0d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5000000000000046"]
@@ -986,20 +976,20 @@
 				{
 					id: "5000000000000086"
 					item: "cobblemon:oran_berry"
-					count: 20
+					count: 10
 					type: "item"
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 50L
+				count: 25L
 				id: "5000000000000087"
 				item: "cobblemon:oran_berry"
 				type: "item"
 			}]
 			title: "Berry Farmer"
-			x: 1.0d
-			y: -4.5d
+			x: 21.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5000000000000085"]
@@ -1016,13 +1006,13 @@
 				{
 					id: "5000000000000089"
 					item: "cobblemon:sitrus_berry"
-					count: 30
+					count: 15
 					type: "item"
 				}
 				{
 					id: "5000000000000090"
 					item: "minecraft:emerald"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
@@ -1030,13 +1020,13 @@
 			size: 1.5d
 			tasks: [{
 				consume_items: false
-				count: 100L
+				count: 50L
 				id: "5000000000000091"
 				item: "cobblemon:oran_berry"
 				type: "item"
 			}]
 			title: "Berry Tycoon"
-			x: 3.0d
+			x: 24.0d
 			y: -5.0d
 		}
 		{
@@ -1054,7 +1044,7 @@
 				{
 					id: "5000000000000093"
 					item: "cobblemon:rare_candy"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1064,8 +1054,8 @@
 				type: "item"
 			}]
 			title: "Lunar Stone"
-			x: -5.0d
-			y: -2.5d
+			x: 15.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5000000000000039"]
@@ -1082,7 +1072,7 @@
 				{
 					id: "5000000000000096"
 					item: "cobblemon:rare_candy"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1092,8 +1082,8 @@
 				type: "item"
 			}]
 			title: "Solar Stone"
-			x: -5.5d
-			y: -2.0d
+			x: 18.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5000000000000039"]
@@ -1110,7 +1100,7 @@
 				{
 					id: "5000000000000099"
 					item: "cobblemon:rare_candy"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1120,8 +1110,8 @@
 				type: "item"
 			}]
 			title: "Shiny Stone"
-			x: -5.5d
-			y: -3.0d
+			x: 15.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5000000000000039"]
@@ -1138,7 +1128,7 @@
 				{
 					id: "5000000000000102"
 					item: "cobblemon:rare_candy"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1148,8 +1138,8 @@
 				type: "item"
 			}]
 			title: "Dusk Stone"
-			x: -5.0d
-			y: -3.5d
+			x: 18.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5000000000000092", "5000000000000095", "5000000000000098", "5000000000000101"]
@@ -1166,13 +1156,13 @@
 				{
 					id: "5000000000000105"
 					item: "cobblemon:rare_candy"
-					count: 20
+					count: 10
 					type: "item"
 				}
 				{
 					id: "5000000000000106"
 					item: "minecraft:diamond_block"
-					count: 2
+					count: 1
 					type: "item"
 				}
 			]
@@ -1184,8 +1174,8 @@
 				type: "checkmark"
 			}]
 			title: "Stone Master"
-			x: -6.5d
-			y: -2.5d
+			x: 21.0d
+			y: 0.0d
 		}
 	]
 	title: "&dUtility Questline"

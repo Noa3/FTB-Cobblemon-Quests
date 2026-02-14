@@ -21,7 +21,7 @@
 				{
 					id: "4000000000000003"
 					item: "cobblemon:poke_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -47,7 +47,7 @@
 				{
 					id: "4000000000000006"
 					item: "cobblemon:great_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -57,7 +57,7 @@
 				type: "item"
 			}]
 			title: "Better Balls"
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -73,7 +73,7 @@
 				{
 					id: "4000000000000009"
 					item: "cobblemon:ultra_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -83,7 +83,7 @@
 				type: "item"
 			}]
 			title: "Ultimate Balls"
-			x: 4.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -99,7 +99,7 @@
 				{
 					id: "4000000000000012"
 					item: "cobblemon:potion"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -109,8 +109,8 @@
 				type: "item"
 			}]
 			title: "Healing Basics"
-			x: 0.0d
-			y: 2.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4000000000000011"]
@@ -125,7 +125,7 @@
 				{
 					id: "4000000000000015"
 					item: "cobblemon:super_potion"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -135,8 +135,8 @@
 				type: "item"
 			}]
 			title: "Better Healing"
-			x: 2.0d
-			y: 2.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4000000000000014"]
@@ -151,7 +151,7 @@
 				{
 					id: "4000000000000018"
 					item: "cobblemon:hyper_potion"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -161,8 +161,8 @@
 				type: "item"
 			}]
 			title: "Advanced Healing"
-			x: 4.0d
-			y: 2.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4000000000000017"]
@@ -177,13 +177,13 @@
 				{
 					id: "4000000000000021"
 					item: "cobblemon:full_restore"
-					count: 5
+					count: 3
 					type: "item"
 				}
 				{
 					id: "4000000000000022"
 					item: "minecraft:gold_ingot"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -195,8 +195,8 @@
 				type: "item"
 			}]
 			title: "Master Healer"
-			x: 6.0d
-			y: 2.0d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4000000000000002"]
@@ -211,7 +211,7 @@
 				{
 					id: "4000000000000025"
 					item: "cobblemon:revive"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -222,7 +222,7 @@
 			}]
 			title: "Second Chance"
 			x: 0.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4000000000000024"]
@@ -237,13 +237,13 @@
 				{
 					id: "4000000000000028"
 					item: "cobblemon:max_revive"
-					count: 3
+					count: 2
 					type: "item"
 				}
 				{
 					id: "4000000000000029"
 					item: "minecraft:diamond"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -254,8 +254,8 @@
 				type: "item"
 			}]
 			title: "Full Restoration"
-			x: 2.0d
-			y: -2.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -270,7 +270,7 @@
 				{
 					id: "4000000000000032"
 					item: "minecraft:iron_ingot"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -280,8 +280,8 @@
 				type: "item"
 			}]
 			title: "Storage System"
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4000000000000031"]
@@ -296,13 +296,13 @@
 				{
 					id: "4000000000000035"
 					item: "cobblemon:potion"
-					count: 20
+					count: 10
 					type: "item"
 				}
 				{
 					id: "4000000000000036"
 					item: "minecraft:emerald"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -314,8 +314,8 @@
 				type: "item"
 			}]
 			title: "Pokémon Center"
-			x: -4.0d
-			y: 0.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -330,7 +330,7 @@
 				{
 					id: "4000000000000039"
 					item: "cobblemon:medicinal_leek"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -340,8 +340,8 @@
 				type: "item"
 			}]
 			title: "Gathering Herbs"
-			x: -2.0d
-			y: 2.0d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -356,7 +356,7 @@
 				{
 					id: "4000000000000042"
 					item: "cobblemon:red_apricorn"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -373,8 +373,8 @@
 				type: "item"
 			}]
 			title: "Apricorn Collector"
-			x: -2.0d
-			y: -2.0d
+			x: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4000000000000041"]
@@ -389,13 +389,13 @@
 				{
 					id: "4000000000000045"
 					item: "cobblemon:poke_ball"
-					count: 20
+					count: 10
 					type: "item"
 				}
 				{
 					id: "4000000000000046"
 					item: "minecraft:emerald"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -438,8 +438,8 @@
 				}
 			]
 			title: "Rainbow Collection"
-			x: -4.0d
-			y: -2.0d
+			x: 9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -454,7 +454,7 @@
 				{
 					id: "4000000000000055"
 					item: "cobblemon:rare_candy"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -478,8 +478,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Training Progress"
-			x: 0.0d
-			y: -4.0d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4000000000000054"]
@@ -494,13 +494,13 @@
 				{
 					id: "4000000000000058"
 					item: "cobblemon:rare_candy"
-					count: 10
+					count: 5
 					type: "item"
 				}
 				{
 					id: "4000000000000059"
 					item: "minecraft:diamond"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -526,8 +526,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Halfway There"
-			x: 2.0d
-			y: -4.0d
+			x: 12.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4000000000000057"]
@@ -541,20 +541,15 @@
 			rewards: [
 				{
 					id: "4000000000000062"
-					item: "cobblemon:master_ball"
-					count: 1
-					type: "item"
-				}
-				{
 					id: "4000000000000063"
 					item: "minecraft:diamond_block"
-					count: 5
+					count: 3
 					type: "item"
 				}
 				{
 					id: "4000000000000064"
 					item: "cobblemon:rare_candy"
-					count: 20
+					count: 10
 					type: "item"
 				}
 			]
@@ -580,8 +575,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Maximum Power!"
-			x: 4.0d
-			y: -4.0d
+			x: 18.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4000000000000008", "4000000000000020", "4000000000000027", "4000000000000034"]
@@ -595,14 +590,9 @@
 			rewards: [
 				{
 					id: "4000000000000067"
-					item: "cobblemon:master_ball"
-					count: 1
-					type: "item"
-				}
-				{
 					id: "4000000000000068"
 					item: "minecraft:emerald_block"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -614,8 +604,8 @@
 				type: "checkmark"
 			}]
 			title: "Crafting Master"
-			x: 3.0d
-			y: 1.0d
+			x: 21.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4000000000000002"]
@@ -632,20 +622,20 @@
 				{
 					id: "4000000000000071"
 					item: "cobblemon:poke_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 10L
+				count: 5L
 				id: "4000000000000072"
 				item: "cobblemon:poke_ball"
 				type: "item"
 			}]
 			title: "Ball Factory"
-			x: 1.0d
-			y: 0.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4000000000000005"]
@@ -662,20 +652,20 @@
 				{
 					id: "4000000000000074"
 					item: "cobblemon:great_ball"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 20L
+				count: 10L
 				id: "4000000000000075"
 				item: "cobblemon:great_ball"
 				type: "item"
 			}]
 			title: "Great Ball Producer"
 			x: 3.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4000000000000008"]
@@ -692,27 +682,27 @@
 				{
 					id: "4000000000000077"
 					item: "cobblemon:ultra_ball"
-					count: 15
+					count: 8
 					type: "item"
 				}
 				{
 					id: "4000000000000078"
 					item: "minecraft:emerald"
-					count: 20
+					count: 10
 					type: "item"
 				}
 			]
 			shape: "circle"
 			tasks: [{
 				consume_items: false
-				count: 30L
+				count: 15L
 				id: "4000000000000079"
 				item: "cobblemon:ultra_ball"
 				type: "item"
 			}]
 			title: "Ultra Ball Manufacturer"
-			x: 5.0d
-			y: 0.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4000000000000011"]
@@ -729,19 +719,19 @@
 				{
 					id: "4000000000000081"
 					item: "cobblemon:super_potion"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 20L
+				count: 10L
 				id: "4000000000000082"
 				item: "cobblemon:potion"
 				type: "item"
 			}]
 			title: "Potion Stockpile"
-			x: 1.0d
+			x: 9.0d
 			y: 2.5d
 		}
 		{
@@ -759,19 +749,19 @@
 				{
 					id: "4000000000000084"
 					item: "cobblemon:hyper_potion"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 15L
+				count: 8L
 				id: "4000000000000085"
 				item: "cobblemon:super_potion"
 				type: "item"
 			}]
 			title: "Super Potion Supply"
-			x: 3.0d
+			x: 12.0d
 			y: 2.5d
 		}
 		{
@@ -789,19 +779,19 @@
 				{
 					id: "4000000000000087"
 					item: "cobblemon:full_restore"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 10L
+				count: 5L
 				id: "4000000000000088"
 				item: "cobblemon:hyper_potion"
 				type: "item"
 			}]
 			title: "Hyper Potion Hoarder"
-			x: 5.0d
+			x: 15.0d
 			y: 2.5d
 		}
 		{
@@ -819,7 +809,7 @@
 				{
 					id: "4000000000000090"
 					item: "cobblemon:rare_candy"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -843,8 +833,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Team Training"
-			x: 1.0d
-			y: -4.5d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4000000000000057"]
@@ -861,13 +851,13 @@
 				{
 					id: "4000000000000093"
 					item: "cobblemon:rare_candy"
-					count: 15
+					count: 8
 					type: "item"
 				}
 				{
 					id: "4000000000000094"
 					item: "minecraft:diamond"
-					count: 8
+					count: 4
 					type: "item"
 				}
 			]
@@ -892,8 +882,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Almost There"
-			x: 3.0d
-			y: -4.5d
+			x: 15.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4000000000000054"]
@@ -910,13 +900,13 @@
 				{
 					id: "4000000000000097"
 					item: "cobblemon:rare_candy"
-					count: 20
+					count: 10
 					type: "item"
 				}
 				{
 					id: "4000000000000098"
 					item: "minecraft:emerald"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
@@ -942,8 +932,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Training Dedication"
-			x: -1.0d
-			y: -4.5d
+			x: 12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4000000000000096"]
@@ -960,13 +950,13 @@
 				{
 					id: "4000000000000101"
 					item: "cobblemon:rare_candy"
-					count: 40
+					count: 20
 					type: "item"
 				}
 				{
 					id: "4000000000000102"
 					item: "minecraft:diamond_block"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -992,7 +982,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Training Legend"
-			x: -3.0d
+			x: 15.0d
 			y: -5.0d
 		}
 		{
@@ -1010,20 +1000,20 @@
 				{
 					id: "4000000000000105"
 					item: "cobblemon:poke_ball"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 50L
+				count: 25L
 				id: "4000000000000106"
 				item: "cobblemon:red_apricorn"
 				type: "item"
 			}]
 			title: "Apricorn Farmer"
-			x: -3.0d
-			y: -2.5d
+			x: 12.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4000000000000104"]
@@ -1040,13 +1030,13 @@
 				{
 					id: "4000000000000108"
 					item: "cobblemon:ultra_ball"
-					count: 20
+					count: 10
 					type: "item"
 				}
 				{
 					id: "4000000000000109"
 					item: "minecraft:emerald"
-					count: 20
+					count: 10
 					type: "item"
 				}
 			]
@@ -1054,14 +1044,14 @@
 			size: 1.5d
 			tasks: [{
 				consume_items: false
-				count: 100L
+				count: 50L
 				id: "4000000000000110"
 				item: "cobblemon:red_apricorn"
 				type: "item"
 			}]
 			title: "Apricorn Magnate"
-			x: -5.0d
-			y: -3.0d
+			x: 15.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4000000000000038"]
@@ -1078,20 +1068,20 @@
 				{
 					id: "4000000000000112"
 					item: "cobblemon:potion"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 20L
+				count: 10L
 				id: "4000000000000113"
 				item: "cobblemon:medicinal_leek"
 				type: "item"
 			}]
 			title: "Herb Collector"
-			x: -3.0d
-			y: 2.5d
+			x: 3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -1108,7 +1098,7 @@
 				{
 					id: "4000000000000115"
 					item: "cobblemon:quick_ball"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -1118,8 +1108,8 @@
 				type: "item"
 			}]
 			title: "Quick Capture"
-			x: -4.5d
-			y: 0.5d
+			x: 21.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -1136,7 +1126,7 @@
 				{
 					id: "4000000000000118"
 					item: "cobblemon:dive_ball"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -1146,8 +1136,8 @@
 				type: "item"
 			}]
 			title: "Deep Dive"
-			x: -4.5d
-			y: -0.5d
+			x: 21.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0000000000000002"]
@@ -1164,7 +1154,7 @@
 				{
 					id: "4000000000000121"
 					item: "cobblemon:dusk_ball"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -1174,8 +1164,8 @@
 				type: "item"
 			}]
 			title: "Night Hunter"
-			x: -5.5d
-			y: 0.0d
+			x: 21.0d
+			y: -2.5d
 		}
 	]
 	title: "&2Progression Questline"

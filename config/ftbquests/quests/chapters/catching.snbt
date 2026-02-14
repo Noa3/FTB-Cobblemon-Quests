@@ -21,7 +21,7 @@
 				{
 					id: "2000000000000003"
 					item: "cobblemon:poke_ball"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -61,7 +61,7 @@
 				{
 					id: "2000000000000006"
 					item: "cobblemon:great_ball"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
@@ -85,7 +85,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Growing Collection"
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -101,7 +101,7 @@
 				{
 					id: "2000000000000009"
 					item: "cobblemon:ultra_ball"
-					count: 20
+					count: 10
 					type: "item"
 				}
 			]
@@ -125,7 +125,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Expanding Horizons"
-			x: 4.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -140,14 +140,9 @@
 			rewards: [
 				{
 					id: "2000000000000012"
-					item: "cobblemon:master_ball"
-					count: 1
-					type: "item"
-				}
-				{
 					id: "2000000000000013"
 					item: "minecraft:diamond"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -173,7 +168,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Master Collector"
-			x: 6.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -195,7 +190,7 @@
 				{
 					id: "2000000000000016"
 					item: "cobblemon:dive_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -220,7 +215,7 @@
 			}]
 			title: "Water Type Catcher"
 			x: 0.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -235,7 +230,7 @@
 				{
 					id: "2000000000000019"
 					item: "cobblemon:repeat_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -259,7 +254,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Fire Type Catcher"
-			x: 1.0d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -275,7 +270,7 @@
 				{
 					id: "2000000000000022"
 					item: "cobblemon:nest_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -299,7 +294,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Grass Type Catcher"
-			x: -1.0d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -315,7 +310,7 @@
 				{
 					id: "2000000000000025"
 					item: "cobblemon:quick_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -339,7 +334,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Electric Type Catcher"
-			x: 2.0d
+			x: 6.0d
 			y: 2.5d
 		}
 		{
@@ -355,7 +350,7 @@
 				{
 					id: "2000000000000028"
 					item: "cobblemon:timer_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -379,7 +374,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Psychic Type Catcher"
-			x: -2.0d
+			x: 8.0d
 			y: 2.5d
 		}
 		{
@@ -395,13 +390,13 @@
 				{
 					id: "2000000000000031"
 					item: "cobblemon:ultra_ball"
-					count: 10
+					count: 5
 					type: "item"
 				}
 				{
 					id: "2000000000000032"
 					item: "minecraft:emerald"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -413,8 +408,8 @@
 				type: "checkmark"
 			}]
 			title: "Starter Type Master"
-			x: 0.0d
-			y: 4.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -429,7 +424,7 @@
 				{
 					id: "2000000000000035"
 					item: "cobblemon:ultra_ball"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -454,7 +449,7 @@
 			}]
 			title: "Dragon Tamer"
 			x: 0.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -469,7 +464,7 @@
 				{
 					id: "2000000000000038"
 					item: "cobblemon:dusk_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -493,7 +488,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ghost Hunter"
-			x: 1.0d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -509,7 +504,7 @@
 				{
 					id: "2000000000000041"
 					item: "cobblemon:luxury_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -533,7 +528,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Dark Collector"
-			x: -1.0d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
@@ -549,7 +544,7 @@
 				{
 					id: "2000000000000044"
 					item: "cobblemon:rare_candy"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -573,8 +568,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "First Evolution"
-			x: 2.0d
-			y: -2.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2000000000000043"]
@@ -589,7 +584,7 @@
 				{
 					id: "2000000000000047"
 					item: "cobblemon:rare_candy"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -613,8 +608,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Evolution Expert"
-			x: 4.0d
-			y: -2.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -628,14 +623,9 @@
 			rewards: [
 				{
 					id: "2000000000000050"
-					item: "cobblemon:master_ball"
-					count: 1
-					type: "item"
-				}
-				{
 					id: "2000000000000051"
 					item: "minecraft:diamond_block"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -661,7 +651,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Shiny Hunter!"
-			x: -4.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -679,7 +669,7 @@
 				{
 					id: "2000000000000054"
 					item: "cobblemon:poke_ball"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -703,8 +693,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Daytime Catcher"
-			x: 1.5d
-			y: 1.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -721,7 +711,7 @@
 				{
 					id: "2000000000000057"
 					item: "cobblemon:dusk_ball"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -745,8 +735,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Nighttime Catcher"
-			x: -1.5d
-			y: 1.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -763,7 +753,7 @@
 				{
 					id: "2000000000000060"
 					item: "cobblemon:poke_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -787,8 +777,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Normal Type Catcher"
-			x: 3.0d
-			y: 1.5d
+			x: 10.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -805,7 +795,7 @@
 				{
 					id: "2000000000000063"
 					item: "cobblemon:net_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -829,8 +819,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Bug Type Catcher"
-			x: 3.0d
-			y: -1.5d
+			x: 12.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -847,7 +837,7 @@
 				{
 					id: "2000000000000066"
 					item: "cobblemon:quick_ball"
-					count: 3
+					count: 2
 					type: "item"
 				}
 			]
@@ -871,8 +861,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Flying Type Catcher"
-			x: 3.5d
-			y: 0.0d
+			x: 14.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -889,7 +879,7 @@
 				{
 					id: "2000000000000069"
 					item: "cobblemon:ultra_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -913,8 +903,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Fighting Type Catcher"
-			x: 1.5d
-			y: 3.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -931,7 +921,7 @@
 				{
 					id: "2000000000000072"
 					item: "cobblemon:antidote"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -955,8 +945,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Poison Type Catcher"
-			x: -1.5d
-			y: 3.5d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -973,7 +963,7 @@
 				{
 					id: "2000000000000075"
 					item: "cobblemon:heavy_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -997,8 +987,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ground Type Catcher"
-			x: 1.5d
-			y: -3.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1015,7 +1005,7 @@
 				{
 					id: "2000000000000078"
 					item: "cobblemon:heavy_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1039,8 +1029,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Rock Type Catcher"
-			x: -1.5d
-			y: -3.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1057,7 +1047,7 @@
 				{
 					id: "2000000000000081"
 					item: "cobblemon:ice_heal"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -1081,8 +1071,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ice Type Catcher"
-			x: -3.5d
-			y: 0.0d
+			x: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1099,7 +1089,7 @@
 				{
 					id: "2000000000000084"
 					item: "cobblemon:ultra_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1123,8 +1113,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Steel Type Catcher"
-			x: -3.0d
-			y: 1.5d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1141,7 +1131,7 @@
 				{
 					id: "2000000000000087"
 					item: "cobblemon:love_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1165,8 +1155,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Fairy Type Catcher"
-			x: -3.0d
-			y: -1.5d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2000000000000008"]
@@ -1182,14 +1172,9 @@
 			rewards: [
 				{
 					id: "2000000000000090"
-					item: "cobblemon:master_ball"
-					count: 1
-					type: "item"
-				}
-				{
 					id: "2000000000000091"
 					item: "minecraft:diamond"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
@@ -1215,8 +1200,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Advanced Collector"
-			x: 6.5d
-			y: 1.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2000000000000089"]
@@ -1233,19 +1218,19 @@
 				{
 					id: "2000000000000094"
 					item: "cobblemon:master_ball"
-					count: 2
+					count: 1
 					type: "item"
 				}
 				{
 					id: "2000000000000095"
 					item: "minecraft:diamond_block"
-					count: 3
+					count: 2
 					type: "item"
 				}
 				{
 					id: "2000000000000096"
 					item: "cobblemon:rare_candy"
-					count: 20
+					count: 10
 					type: "item"
 				}
 			]
@@ -1271,8 +1256,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Legendary Collector"
-			x: 9.0d
-			y: 1.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2000000000000046"]
@@ -1289,13 +1274,13 @@
 				{
 					id: "2000000000000099"
 					item: "cobblemon:rare_candy"
-					count: 15
+					count: 8
 					type: "item"
 				}
 				{
 					id: "2000000000000100"
 					item: "minecraft:emerald"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -1319,8 +1304,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Evolution Master"
-			x: 6.0d
-			y: -2.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2000000000000098"]
@@ -1337,13 +1322,13 @@
 				{
 					id: "2000000000000103"
 					item: "cobblemon:rare_candy"
-					count: 30
+					count: 15
 					type: "item"
 				}
 				{
 					id: "2000000000000104"
 					item: "minecraft:diamond"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -1369,8 +1354,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Evolution Guru"
-			x: 8.0d
-			y: -2.5d
+			x: 12.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2000000000000002"]
@@ -1387,7 +1372,7 @@
 				{
 					id: "2000000000000107"
 					item: "cobblemon:poke_ball"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1411,8 +1396,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Baby Steps"
-			x: -5.0d
-			y: 1.0d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2000000000000005"]
@@ -1429,7 +1414,7 @@
 				{
 					id: "2000000000000110"
 					item: "cobblemon:great_ball"
-					count: 10
+					count: 5
 					type: "item"
 				}
 			]
@@ -1453,8 +1438,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Rising Star"
-			x: -5.0d
-			y: -1.0d
+			x: 3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2000000000000109"]
@@ -1471,13 +1456,13 @@
 				{
 					id: "2000000000000113"
 					item: "cobblemon:ultra_ball"
-					count: 15
+					count: 8
 					type: "item"
 				}
 				{
 					id: "2000000000000114"
 					item: "minecraft:diamond"
-					count: 5
+					count: 3
 					type: "item"
 				}
 			]
@@ -1502,8 +1487,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Apex Catcher"
-			x: -7.0d
-			y: -1.5d
+			x: 6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2000000000000030"]
@@ -1520,7 +1505,7 @@
 				{
 					id: "2000000000000117"
 					item: "cobblemon:ultra_ball"
-					count: 15
+					count: 8
 					type: "item"
 				}
 			]
@@ -1584,8 +1569,8 @@
 				}
 			]
 			title: "Type Diversity"
-			x: 0.0d
-			y: 5.5d
+			x: 6.0d
+			y: 3.5d
 		}
 	]
 	title: "&6Catching Questline"
