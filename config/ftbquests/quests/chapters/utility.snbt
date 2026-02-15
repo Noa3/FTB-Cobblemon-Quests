@@ -2,420 +2,381 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "utility"
-	group: "0000000000000001"
-	icon: "minecraft:chest"
+	group: ""
 	id: "5000000000000001"
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Rare Candies instantly level up your Pokémon!"
-				""
-				"Obtain a Rare Candy."
-			]
-			icon: "cobblemon:rare_candy"
 			id: "5000000000000002"
-			rewards: [
-				{
-					id: "5000000000000003"
-					item: "cobblemon:rare_candy"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000003"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
-			tasks: [{
-				id: "5000000000000004"
-				item: "cobblemon:rare_candy"
 				type: "item"
 			}]
-			title: "Sweet Treat"
-			x: -9.0d
-			y: 0.0d
+			tasks: [{
+				id: "5000000000000004"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Throw a Poké Ball at a Pokémon!"
-				""
-				"Whether you catch it or not, you tried!"
-			]
-			icon: "cobblemon:poke_ball"
 			id: "5000000000000005"
-			rewards: [
-				{
-					id: "5000000000000006"
-					item: "cobblemon:poke_ball"
-					count: 2
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "5000000000000006"
+				item: {
+					count: 1
+					id: "cobblemon:poke_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "throw_ball"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000007"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "First Throw"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5000000000000005"]
-			description: [
-				"Practice makes perfect!"
-				""
-				"Throw 50 Poké Balls."
-			]
-			icon: "cobblemon:great_ball"
 			id: "5000000000000008"
-			rewards: [
-				{
-					id: "5000000000000009"
-					item: "cobblemon:ultra_ball"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "5000000000000009"
+				item: {
+					count: 1
+					id: "cobblemon:ultra_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "throw_ball"
 				amount: 50L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000010"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ball Thrower"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Scan a Pokémon with a Pokédex!"
-				""
-				"Learn more about the Pokémon you encounter."
-			]
-			icon: "cobblemon:pokedex"
 			id: "5000000000000011"
-			rewards: [
-				{
-					id: "5000000000000012"
-					item: "cobblemon:poke_ball"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000012"
+				item: {
+					count: 1
+					id: "cobblemon:poke_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "scan"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000013"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Research Assistant"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000011"]
-			description: [
-				"Scan many Pokémon!"
-				""
-				"Build your Pokédex knowledge."
-			]
-			icon: "minecraft:book"
 			id: "5000000000000014"
-			rewards: [
-				{
-					id: "5000000000000015"
-					item: "cobblemon:great_ball"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "5000000000000015"
+				item: {
+					count: 1
+					id: "cobblemon:great_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "scan"
 				amount: 25L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000016"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Dedicated Researcher"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Trading is an important part of being a trainer!"
-				""
-				"Trade away a Pokémon."
-			]
-			icon: "minecraft:emerald"
 			id: "5000000000000017"
-			rewards: [
-				{
-					id: "5000000000000018"
-					item: "minecraft:emerald"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000018"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "trade_away"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000019"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "First Trade"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5000000000000017"]
-			description: [
-				"Receive a Pokémon through trading!"
-				""
-				"Complete a trade to get a new Pokémon."
-			]
-			icon: "minecraft:gold_ingot"
 			id: "5000000000000020"
-			rewards: [
-				{
-					id: "5000000000000021"
-					item: "minecraft:gold_ingot"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "5000000000000021"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "trade_for"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000022"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Trade Complete"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Sometimes you need to make room!"
-				""
-				"Release a Pokémon from your PC."
-				""
-				"&cWarning: This permanently removes the Pokémon!"
-			]
-			icon: "minecraft:barrier"
 			id: "5000000000000023"
-			rewards: [
-				{
-					id: "5000000000000024"
-					item: "cobblemon:poke_ball"
-					count: 2
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "5000000000000024"
+				item: {
+					count: 1
+					id: "cobblemon:poke_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "release"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000025"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Tough Choices"
 			x: -9.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Register Pokémon in your Pokédex!"
-				""
-				"Have 10 Pokémon registered (seen or caught)."
-			]
-			icon: "minecraft:writable_book"
 			id: "5000000000000026"
-			rewards: [
-				{
-					id: "5000000000000027"
-					item: "cobblemon:poke_ball"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "5000000000000027"
+				item: {
+					count: 1
+					id: "cobblemon:poke_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "have_registered"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000028"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Pokédex Started"
 			x: -3.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["5000000000000026"]
-			description: [
-				"Expand your Pokédex!"
-				""
-				"Have 25 Pokémon registered."
-			]
-			icon: "minecraft:written_book"
-			id: "5000000000000029"
-			rewards: [
-				{
-					id: "5000000000000030"
-					item: "cobblemon:great_ball"
-					count: 5
-					type: "item"
-				}
-			]
-			tasks: [{
-				action: "have_registered"
-				amount: 25L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "5000000000000031"
-				max_level: 100
-				min_level: 0
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: ""
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Growing Database"
-			x: 0.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["5000000000000029"]
-			description: [
-				"You're making great progress!"
-				""
-				"Have 50 Pokémon registered in your Pokédex."
-			]
-			icon: "minecraft:enchanted_book"
 			id: "5000000000000032"
 			rewards: [
 				{
-					id: "5000000000000033"
-					item: "cobblemon:ultra_ball"
 					count: 8
+					id: "5000000000000033"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000034"
-					item: "minecraft:emerald"
 					count: 5
+					id: "5000000000000034"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
@@ -424,72 +385,72 @@
 			tasks: [{
 				action: "have_registered"
 				amount: 50L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000035"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Expert Researcher"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Obtain any Evolution Stone!"
-				""
-				"These are used to evolve certain Pokémon."
-			]
-			icon: "cobblemon:fire_stone"
 			id: "5000000000000036"
-			rewards: [
-				{
-					id: "5000000000000037"
-					item: "cobblemon:rare_candy"
-					count: 2
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "5000000000000037"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
-			tasks: [{
-				id: "5000000000000038"
-				item: "cobblemon:fire_stone"
 				type: "item"
 			}]
-			title: "Evolution Stones"
+			tasks: [{
+				id: "5000000000000038"
+				item: { count: 1, id: "cobblemon:fire_stone" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5000000000000036"]
-			description: [
-				"Collect different Evolution Stones!"
-				""
-				"Each one evolves different Pokémon."
-			]
-			icon: "cobblemon:water_stone"
 			id: "5000000000000039"
 			rewards: [
 				{
-					id: "5000000000000040"
-					item: "cobblemon:rare_candy"
 					count: 5
+					id: "5000000000000040"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000041"
-					item: "minecraft:diamond"
 					count: 3
+					id: "5000000000000041"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 			]
@@ -497,75 +458,67 @@
 			tasks: [
 				{
 					id: "5000000000000042"
-					item: "cobblemon:fire_stone"
+					item: { count: 1, id: "cobblemon:fire_stone" }
 					type: "item"
 				}
 				{
 					id: "5000000000000043"
-					item: "cobblemon:water_stone"
+					item: { count: 1, id: "cobblemon:water_stone" }
 					type: "item"
 				}
 				{
 					id: "5000000000000044"
-					item: "cobblemon:thunder_stone"
+					item: { count: 1, id: "cobblemon:thunder_stone" }
 					type: "item"
 				}
 				{
 					id: "5000000000000045"
-					item: "cobblemon:leaf_stone"
+					item: { count: 1, id: "cobblemon:leaf_stone" }
 					type: "item"
 				}
 			]
-			title: "Stone Collector"
 			x: 15.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Berries are useful for healing and effects!"
-				""
-				"Obtain any Berry."
-			]
-			icon: "cobblemon:oran_berry"
 			id: "5000000000000046"
-			rewards: [
-				{
-					id: "5000000000000047"
-					item: "cobblemon:oran_berry"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "5000000000000047"
+				item: {
+					count: 1
+					id: "cobblemon:oran_berry"
 				}
-			]
-			tasks: [{
-				id: "5000000000000048"
-				item: "cobblemon:oran_berry"
 				type: "item"
 			}]
-			title: "Berry Picker"
+			tasks: [{
+				id: "5000000000000048"
+				item: { count: 1, id: "cobblemon:oran_berry" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Collect various Berries!"
-				""
-				"Each Berry has unique effects."
-			]
-			icon: "cobblemon:sitrus_berry"
 			id: "5000000000000049"
 			rewards: [
 				{
-					id: "5000000000000050"
-					item: "cobblemon:poke_ball"
 					count: 10
+					id: "5000000000000050"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000051"
-					item: "minecraft:emerald"
 					count: 3
+					id: "5000000000000051"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
@@ -573,180 +526,176 @@
 			tasks: [
 				{
 					id: "5000000000000052"
-					item: "cobblemon:oran_berry"
+					item: { count: 1, id: "cobblemon:oran_berry" }
 					type: "item"
 				}
 				{
 					id: "5000000000000053"
-					item: "cobblemon:sitrus_berry"
+					item: { count: 1, id: "cobblemon:sitrus_berry" }
 					type: "item"
 				}
 				{
 					id: "5000000000000054"
-					item: "cobblemon:pecha_berry"
+					item: { count: 1, id: "cobblemon:pecha_berry" }
 					type: "item"
 				}
 				{
 					id: "5000000000000055"
-					item: "cobblemon:cheri_berry"
+					item: { count: 1, id: "cobblemon:cheri_berry" }
 					type: "item"
 				}
 			]
-			title: "Berry Expert"
 			x: 15.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000008"]
-			description: [
-				"You're getting good at this!"
-				""
-				"Throw 100 Poké Balls."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:ultra_ball"
 			id: "5000000000000056"
-			rewards: [
-				{
-					id: "5000000000000057"
-					item: "cobblemon:ultra_ball"
-					count: 8
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "5000000000000057"
+				item: {
+					count: 1
+					id: "cobblemon:ultra_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "throw_ball"
 				amount: 100L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000058"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ball Master"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5000000000000056"]
-			description: [
-				"You've thrown countless balls!"
-				""
-				"Throw 250 Poké Balls."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "cobblemon:master_ball"
 			id: "5000000000000059"
-			rewards: [
-				{
-					id: "5000000000000060"
-					id: "5000000000000061"
-					item: "cobblemon:ultra_ball"
-					count: 15
-					type: "item"
+			rewards: [{
+				count: 15
+				id: "5000000000000061"
+				item: {
+					count: 1
+					id: "cobblemon:ultra_ball"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				action: "throw_ball"
 				amount: 250L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000062"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ball Legend"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5000000000000014"]
-			description: [
-				"Become a research expert!"
-				""
-				"Scan 50 Pokémon with your Pokédex."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:writable_book"
 			id: "5000000000000063"
-			rewards: [
-				{
-					id: "5000000000000064"
-					item: "cobblemon:ultra_ball"
-					count: 8
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "5000000000000064"
+				item: {
+					count: 1
+					id: "cobblemon:ultra_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "scan"
 				amount: 50L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000065"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Research Master"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000063"]
-			description: [
-				"You're a scanning legend!"
-				""
-				"Scan 100 Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:enchanted_book"
 			id: "5000000000000066"
 			rewards: [
 				{
-					id: "5000000000000067"
-					item: "cobblemon:rare_candy"
 					count: 10
+					id: "5000000000000067"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000068"
-					item: "minecraft:emerald"
 					count: 10
+					id: "5000000000000068"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
@@ -755,48 +704,53 @@
 			tasks: [{
 				action: "scan"
 				amount: 100L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000069"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Professor Status"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000032"]
-			description: [
-				"You're filling that Pokédex!"
-				""
-				"Have 75 Pokémon registered."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:knowledge_book"
 			id: "5000000000000070"
 			rewards: [
 				{
-					id: "5000000000000071"
-					item: "cobblemon:ultra_ball"
 					count: 10
+					id: "5000000000000071"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000072"
-					item: "minecraft:diamond"
 					count: 5
+					id: "5000000000000072"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 			]
@@ -805,135 +759,139 @@
 			tasks: [{
 				action: "have_registered"
 				amount: 75L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000073"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Advanced Researcher"
 			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5000000000000070"]
-			description: [
-				"The Pokédex is nearly complete!"
-				""
-				"Have 100 Pokémon registered."
-				""
-				"&cLong Playtime Quest&r - Epic achievement!"
-			]
-			icon: "minecraft:nether_star"
 			id: "5000000000000074"
-			rewards: [
-				{
-					id: "5000000000000075"
-					id: "5000000000000076"
-					item: "minecraft:diamond_block"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000076"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				action: "have_registered"
 				amount: 100L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000077"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Pokédex Master"
 			x: 9.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5000000000000020"]
-			description: [
-				"Trading is your specialty!"
-				""
-				"Complete 5 trades (receiving Pokémon)."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:emerald_block"
 			id: "5000000000000078"
-			rewards: [
-				{
-					id: "5000000000000079"
-					item: "minecraft:emerald"
-					count: 8
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "5000000000000079"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "trade_for"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000080"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Trading Pro"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5000000000000078"]
-			description: [
-				"You're a trading tycoon!"
-				""
-				"Complete 10 trades."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:gold_block"
 			id: "5000000000000081"
 			rewards: [
 				{
-					id: "5000000000000082"
-					item: "minecraft:emerald_block"
 					count: 2
+					id: "5000000000000082"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000083"
-					item: "cobblemon:rare_candy"
 					count: 5
+					id: "5000000000000083"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 			]
@@ -941,78 +899,75 @@
 			tasks: [{
 				action: "trade_for"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000084"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Trading Tycoon"
 			x: 6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Collect many berries!"
-				""
-				"Have 50 berries of any type."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:sitrus_berry"
 			id: "5000000000000085"
-			rewards: [
-				{
-					id: "5000000000000086"
-					item: "cobblemon:oran_berry"
-					count: 10
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "5000000000000086"
+				item: {
+					count: 1
+					id: "cobblemon:oran_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 25L
 				id: "5000000000000087"
-				item: "cobblemon:oran_berry"
+				item: { count: 1, id: "cobblemon:oran_berry" }
 				type: "item"
 			}]
-			title: "Berry Farmer"
 			x: 18.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000085"]
-			description: [
-				"You're a berry farming master!"
-				""
-				"Have 100 berries."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "cobblemon:leppa_berry"
 			id: "5000000000000088"
 			rewards: [
 				{
-					id: "5000000000000089"
-					item: "cobblemon:sitrus_berry"
 					count: 15
+					id: "5000000000000089"
+					item: {
+						count: 1
+						id: "cobblemon:sitrus_berry"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000090"
-					item: "minecraft:emerald"
 					count: 8
+					id: "5000000000000090"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
@@ -1022,147 +977,116 @@
 				consume_items: false
 				count: 50L
 				id: "5000000000000091"
-				item: "cobblemon:oran_berry"
+				item: { count: 1, id: "cobblemon:oran_berry" }
 				type: "item"
 			}]
-			title: "Berry Tycoon"
 			x: 21.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000039"]
-			description: [
-				"Collect rare evolution stones!"
-				""
-				"Obtain a Moon Stone."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:moon_stone"
 			id: "5000000000000092"
-			rewards: [
-				{
-					id: "5000000000000093"
-					item: "cobblemon:rare_candy"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000093"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5000000000000094"
-				item: "cobblemon:moon_stone"
+				item: { count: 1, id: "cobblemon:moon_stone" }
 				type: "item"
 			}]
-			title: "Lunar Stone"
 			x: 12.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000039"]
-			description: [
-				"Collect rare evolution stones!"
-				""
-				"Obtain a Sun Stone."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:sun_stone"
 			id: "5000000000000095"
-			rewards: [
-				{
-					id: "5000000000000096"
-					item: "cobblemon:rare_candy"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000096"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "5000000000000097"
-				item: "cobblemon:sun_stone"
+				item: { count: 1, id: "cobblemon:sun_stone" }
 				type: "item"
 			}]
-			title: "Solar Stone"
 			x: 15.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5000000000000039"]
-			description: [
-				"Collect special evolution stones!"
-				""
-				"Obtain a Shiny Stone."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:shiny_stone"
 			id: "5000000000000098"
-			rewards: [
-				{
-					id: "5000000000000099"
-					item: "cobblemon:rare_candy"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000099"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
-			tasks: [{
-				id: "5000000000000100"
-				item: "cobblemon:shiny_stone"
 				type: "item"
 			}]
-			title: "Shiny Stone"
+			tasks: [{
+				id: "5000000000000100"
+				item: { count: 1, id: "cobblemon:shiny_stone" }
+				type: "item"
+			}]
 			x: 12.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5000000000000039"]
-			description: [
-				"Collect special evolution stones!"
-				""
-				"Obtain a Dusk Stone."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:dusk_stone"
 			id: "5000000000000101"
-			rewards: [
-				{
-					id: "5000000000000102"
-					item: "cobblemon:rare_candy"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000102"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
-			tasks: [{
-				id: "5000000000000103"
-				item: "cobblemon:dusk_stone"
 				type: "item"
 			}]
-			title: "Dusk Stone"
+			tasks: [{
+				id: "5000000000000103"
+				item: { count: 1, id: "cobblemon:dusk_stone" }
+				type: "item"
+			}]
 			x: 15.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["5000000000000092", "5000000000000095", "5000000000000098", "5000000000000101"]
-			description: [
-				"You've collected all the rare stones!"
-				""
-				"Stone collection complete!"
-				""
-				"&cLong Playtime Quest&r"
+			dependencies: [
+				"5000000000000092"
+				"5000000000000095"
+				"5000000000000098"
+				"5000000000000101"
 			]
-			icon: "minecraft:nether_star"
 			id: "5000000000000104"
 			rewards: [
 				{
-					id: "5000000000000105"
-					item: "cobblemon:rare_candy"
 					count: 10
+					id: "5000000000000105"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 				{
 					id: "5000000000000106"
-					item: "minecraft:diamond_block"
-					count: 1
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
 					type: "item"
 				}
 			]
@@ -1170,383 +1094,304 @@
 			size: 1.5d
 			tasks: [{
 				id: "5000000000000107"
-				title: "Stone Master"
 				type: "checkmark"
 			}]
-			title: "Stone Master"
 			x: 18.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Oran Berries restore HP!"
-				""
-				"Collect 5 Oran Berries."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "cobblemon:oran_berry"
 			id: "5000000000000108"
-			rewards: [
-				{
-					id: "5000000000000109"
-					item: "cobblemon:oran_berry"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000109"
+				item: {
+					count: 1
+					id: "cobblemon:oran_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 5L
 				id: "5000000000000110"
-				item: "cobblemon:oran_berry"
+				item: { count: 1, id: "cobblemon:oran_berry" }
 				type: "item"
 			}]
-			title: "Oran Harvest"
 			x: -12.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Pecha Berries cure poison!"
-				""
-				"Collect 5 Pecha Berries."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "cobblemon:pecha_berry"
 			id: "5000000000000111"
-			rewards: [
-				{
-					id: "5000000000000112"
-					item: "cobblemon:pecha_berry"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000112"
+				item: {
+					count: 1
+					id: "cobblemon:pecha_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 5L
 				id: "5000000000000113"
-				item: "cobblemon:pecha_berry"
+				item: { count: 1, id: "cobblemon:pecha_berry" }
 				type: "item"
 			}]
-			title: "Pecha Harvest"
 			x: -9.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Chesto Berries cure sleep!"
-				""
-				"Collect 5 Chesto Berries."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "cobblemon:chesto_berry"
 			id: "5000000000000114"
-			rewards: [
-				{
-					id: "5000000000000115"
-					item: "cobblemon:chesto_berry"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000115"
+				item: {
+					count: 1
+					id: "cobblemon:chesto_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 5L
 				id: "5000000000000116"
-				item: "cobblemon:chesto_berry"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
 				type: "item"
 			}]
-			title: "Chesto Harvest"
 			x: -6.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Rawst Berries cure burns!"
-				""
-				"Collect 5 Rawst Berries."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "cobblemon:rawst_berry"
 			id: "5000000000000117"
-			rewards: [
-				{
-					id: "5000000000000118"
-					item: "cobblemon:rawst_berry"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000118"
+				item: {
+					count: 1
+					id: "cobblemon:rawst_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 5L
 				id: "5000000000000119"
-				item: "cobblemon:rawst_berry"
+				item: { count: 1, id: "cobblemon:rawst_berry" }
 				type: "item"
 			}]
-			title: "Rawst Harvest"
 			x: -3.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Aspear Berries cure freeze!"
-				""
-				"Collect 5 Aspear Berries."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "cobblemon:aspear_berry"
 			id: "5000000000000120"
-			rewards: [
-				{
-					id: "5000000000000121"
-					item: "cobblemon:aspear_berry"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000121"
+				item: {
+					count: 1
+					id: "cobblemon:aspear_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 5L
 				id: "5000000000000122"
-				item: "cobblemon:aspear_berry"
+				item: { count: 1, id: "cobblemon:aspear_berry" }
 				type: "item"
 			}]
-			title: "Aspear Harvest"
 			x: 0.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Leppa Berries restore PP!"
-				""
-				"Collect 5 Leppa Berries."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:leppa_berry"
 			id: "5000000000000123"
-			rewards: [
-				{
-					id: "5000000000000124"
-					item: "cobblemon:leppa_berry"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000124"
+				item: {
+					count: 1
+					id: "cobblemon:leppa_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 5L
 				id: "5000000000000125"
-				item: "cobblemon:leppa_berry"
+				item: { count: 1, id: "cobblemon:leppa_berry" }
 				type: "item"
 			}]
-			title: "Leppa Harvest"
 			x: 3.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Sitrus Berries restore lots of HP!"
-				""
-				"Collect 5 Sitrus Berries."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:sitrus_berry"
 			id: "5000000000000126"
-			rewards: [
-				{
-					id: "5000000000000127"
-					item: "cobblemon:sitrus_berry"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000127"
+				item: {
+					count: 1
+					id: "cobblemon:sitrus_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 5L
 				id: "5000000000000128"
-				item: "cobblemon:sitrus_berry"
+				item: { count: 1, id: "cobblemon:sitrus_berry" }
 				type: "item"
 			}]
-			title: "Sitrus Harvest"
 			x: 6.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Lum Berries cure all status conditions!"
-				""
-				"Collect 3 Lum Berries."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:lum_berry"
 			id: "5000000000000129"
-			rewards: [
-				{
-					id: "5000000000000130"
-					item: "cobblemon:lum_berry"
-					count: 2
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "5000000000000130"
+				item: {
+					count: 1
+					id: "cobblemon:lum_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 3L
 				id: "5000000000000131"
-				item: "cobblemon:lum_berry"
+				item: { count: 1, id: "cobblemon:lum_berry" }
 				type: "item"
 			}]
-			title: "Lum Harvest"
 			x: 9.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Cheri Berries cure paralysis!"
-				""
-				"Collect 5 Cheri Berries."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "cobblemon:cheri_berry"
 			id: "5000000000000132"
-			rewards: [
-				{
-					id: "5000000000000133"
-					item: "cobblemon:cheri_berry"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000133"
+				item: {
+					count: 1
+					id: "cobblemon:cheri_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 5L
 				id: "5000000000000134"
-				item: "cobblemon:cheri_berry"
+				item: { count: 1, id: "cobblemon:cheri_berry" }
 				type: "item"
 			}]
-			title: "Cheri Harvest"
 			x: 12.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["5000000000000046"]
-			description: [
-				"Persim Berries cure confusion!"
-				""
-				"Collect 5 Persim Berries."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "cobblemon:persim_berry"
 			id: "5000000000000135"
-			rewards: [
-				{
-					id: "5000000000000136"
-					item: "cobblemon:persim_berry"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000136"
+				item: {
+					count: 1
+					id: "cobblemon:persim_berry"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: false
 				count: 5L
 				id: "5000000000000137"
-				item: "cobblemon:persim_berry"
+				item: { count: 1, id: "cobblemon:persim_berry" }
 				type: "item"
 			}]
-			title: "Persim Harvest"
 			x: -12.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5000000000000014"]
-			description: [
-				"Continue scanning Pokémon!"
-				""
-				"Scan 50 different Pokémon with your Pokédex."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:written_book"
 			id: "5000000000000138"
 			rewards: [
 				{
-					id: "5000000000000139"
-					item: "cobblemon:great_ball"
 					count: 8
+					id: "5000000000000139"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000140"
-					item: "cobblemon:rare_candy"
 					count: 2
+					id: "5000000000000140"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				action: "scan"
 				amount: 50L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000141"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Scanner Expert"
-			x: -6.0d
+			x: -3.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5000000000000138"]
-			description: [
-				"You're becoming a scanning master!"
-				""
-				"Scan 100 Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:enchanted_book"
 			id: "5000000000000142"
 			rewards: [
 				{
-					id: "5000000000000143"
-					item: "cobblemon:ultra_ball"
 					count: 10
+					id: "5000000000000143"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000144"
-					item: "cobblemon:rare_candy"
 					count: 5
+					id: "5000000000000144"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 			]
@@ -1554,48 +1399,53 @@
 			tasks: [{
 				action: "scan"
 				amount: 100L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000145"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Scan Master"
-			x: -3.0d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5000000000000142"]
-			description: [
-				"An incredible milestone!"
-				""
-				"Scan 150 Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:knowledge_book"
 			id: "5000000000000197"
 			rewards: [
 				{
-					id: "5000000000000198"
-					item: "cobblemon:ultra_ball"
 					count: 15
+					id: "5000000000000198"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000199"
-					item: "minecraft:emerald"
 					count: 10
+					id: "5000000000000199"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
@@ -1604,48 +1454,52 @@
 			tasks: [{
 				action: "scan"
 				amount: 150L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000200"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Scan Legend"
-			x: 0.0d
+			x: 3.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5000000000000197"]
-			description: [
-				"You've scanned so many Pokémon!"
-				""
-				"Scan 200 Pokémon."
-				""
-				"&cLong Playtime Quest&r - Elite achievement!"
-			]
-			icon: "minecraft:nether_star"
 			id: "5000000000000201"
 			rewards: [
 				{
 					id: "5000000000000202"
-					item: "cobblemon:master_ball"
-					count: 1
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000203"
-					item: "cobblemon:rare_candy"
 					count: 10
+					id: "5000000000000203"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 			]
@@ -1654,90 +1508,95 @@
 			tasks: [{
 				action: "scan"
 				amount: 200L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000204"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Scan Champion"
-			x: 3.0d
+			x: 6.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5000000000000008"]
-			description: [
-				"Keep throwing those balls!"
-				""
-				"Throw 100 Poké Balls."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:ultra_ball"
 			id: "5000000000000153"
-			rewards: [
-				{
-					id: "5000000000000154"
-					item: "cobblemon:great_ball"
-					count: 10
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "5000000000000154"
+				item: {
+					count: 1
+					id: "cobblemon:great_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "throw_ball"
 				amount: 100L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000155"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ball Ace"
 			x: -6.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000153"]
-			description: [
-				"You're an expert thrower!"
-				""
-				"Throw 250 Poké Balls."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "cobblemon:ultra_ball"
 			id: "5000000000000156"
 			rewards: [
 				{
-					id: "5000000000000157"
-					item: "cobblemon:ultra_ball"
 					count: 12
+					id: "5000000000000157"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000158"
-					item: "cobblemon:rare_candy"
 					count: 3
+					id: "5000000000000158"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 			]
@@ -1745,48 +1604,53 @@
 			tasks: [{
 				action: "throw_ball"
 				amount: 250L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000159"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ball Expert"
 			x: -9.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000156"]
-			description: [
-				"Your aim is legendary!"
-				""
-				"Throw 500 Poké Balls."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "cobblemon:master_ball"
 			id: "5000000000000160"
 			rewards: [
 				{
-					id: "5000000000000161"
-					item: "cobblemon:ultra_ball"
 					count: 20
+					id: "5000000000000161"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000162"
-					item: "minecraft:emerald"
 					count: 15
+					id: "5000000000000162"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
@@ -1795,48 +1659,53 @@
 			tasks: [{
 				action: "throw_ball"
 				amount: 500L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000163"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ball Champion"
 			x: -12.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5000000000000160"]
-			description: [
-				"You've thrown more balls than anyone!"
-				""
-				"Throw 1000 Poké Balls."
-				""
-				"&cLong Playtime Quest&r - Ultimate achievement!"
-			]
-			icon: "minecraft:nether_star"
 			id: "5000000000000164"
 			rewards: [
 				{
-					id: "5000000000000165"
-					item: "cobblemon:master_ball"
 					count: 2
+					id: "5000000000000165"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000166"
-					item: "minecraft:diamond_block"
 					count: 2
+					id: "5000000000000166"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
 					type: "item"
 				}
 			]
@@ -1845,90 +1714,94 @@
 			tasks: [{
 				action: "throw_ball"
 				amount: 1000L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000167"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ball Deity"
 			x: -15.0d
 			y: -6.0d
 		}
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Start building your collection!"
-				""
-				"Store 30 Pokémon in your PC."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:chest"
 			id: "5000000000000168"
-			rewards: [
-				{
-					id: "5000000000000169"
-					item: "cobblemon:poke_ball"
-					count: 10
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "5000000000000169"
+				item: {
+					count: 1
+					id: "cobblemon:poke_ball"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "pc_store"
 				amount: 30L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000170"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "PC Starter"
 			x: 9.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5000000000000168"]
-			description: [
-				"Your collection is growing!"
-				""
-				"Store 60 Pokémon in your PC."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:ender_chest"
 			id: "5000000000000171"
 			rewards: [
 				{
-					id: "5000000000000172"
-					item: "cobblemon:great_ball"
 					count: 15
+					id: "5000000000000172"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000173"
-					item: "cobblemon:rare_candy"
 					count: 3
+					id: "5000000000000173"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 			]
@@ -1936,48 +1809,53 @@
 			tasks: [{
 				action: "pc_store"
 				amount: 60L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000174"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "PC Collector"
 			x: 12.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5000000000000171"]
-			description: [
-				"An impressive collection!"
-				""
-				"Store 100 Pokémon in your PC."
-				""
-				"&cLong Playtime Quest&r - Major achievement!"
-			]
-			icon: "minecraft:nether_star"
 			id: "5000000000000175"
 			rewards: [
 				{
-					id: "5000000000000176"
-					item: "cobblemon:ultra_ball"
 					count: 20
+					id: "5000000000000176"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000177"
-					item: "minecraft:diamond"
 					count: 10
+					id: "5000000000000177"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 			]
@@ -1986,254 +1864,275 @@
 			tasks: [{
 				action: "pc_store"
 				amount: 100L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000178"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "PC Master"
 			x: 15.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["5000000000000002"]
-			description: [
-				"Power up your Pokémon instantly!"
-				""
-				"Use a Rare Candy on a Pokémon."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "cobblemon:rare_candy"
 			id: "5000000000000179"
-			rewards: [
-				{
-					id: "5000000000000180"
-					item: "cobblemon:rare_candy"
-					count: 2
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "5000000000000180"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "use_rare_candy"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000181"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Sweet Power"
 			x: 6.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["5000000000000002"]
-			description: [
-				"Evolution stones change your Pokémon!"
-				""
-				"Use any Evolution Stone on a Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "cobblemon:fire_stone"
 			id: "5000000000000182"
-			rewards: [
-				{
-					id: "5000000000000183"
-					item: "cobblemon:rare_candy"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "5000000000000183"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "evolve_pokemon"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000184"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Evolution Master"
 			x: 3.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["5000000000000002"]
-			description: [
-				"Keep your Pokémon healthy!"
-				""
-				"Heal at a Pokémon Center 25 times."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:beacon"
 			id: "5000000000000185"
 			rewards: [
 				{
-					id: "5000000000000186"
-					item: "cobblemon:oran_berry"
 					count: 5
+					id: "5000000000000186"
+					item: {
+						count: 1
+						id: "cobblemon:oran_berry"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000187"
-					item: "cobblemon:sitrus_berry"
 					count: 3
+					id: "5000000000000187"
+					item: {
+						count: 1
+						id: "cobblemon:sitrus_berry"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				action: "heal"
 				amount: 25L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000188"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Healing Routine"
 			x: 0.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["5000000000000002"]
-			description: [
-				"Experience the Pokémon journey!"
-				""
-				"Battle wild Pokémon 50 times."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:iron_sword"
 			id: "5000000000000189"
 			rewards: [
 				{
-					id: "5000000000000190"
-					item: "cobblemon:great_ball"
 					count: 5
+					id: "5000000000000190"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000191"
-					item: "cobblemon:rare_candy"
 					count: 2
+					id: "5000000000000191"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				action: "battle_wild"
 				amount: 50L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000192"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Battle Veteran"
 			x: -3.0d
-			y: 12.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["5000000000000002"]
-			description: [
-				"Breed Pokémon to get new ones!"
-				""
-				"Breed 5 Pokémon eggs."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:egg"
 			id: "5000000000000193"
 			rewards: [
 				{
-					id: "5000000000000194"
-					item: "cobblemon:rare_candy"
 					count: 5
+					id: "5000000000000194"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 				{
-					id: "5000000000000195"
-					item: "minecraft:emerald"
 					count: 5
+					id: "5000000000000195"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				action: "breed"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "5000000000000196"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Pokemon Breeder"
 			x: -6.0d
-			y: 12.0d
+			y: 14.5d
 		}
 	]
-	title: "&dUtility Questline"
 }

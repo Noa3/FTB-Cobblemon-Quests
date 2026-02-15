@@ -2,152 +2,156 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "battling"
-	group: "0000000000000001"
-	icon: "minecraft:iron_sword"
+	group: ""
 	id: "3000000000000001"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0000000000000002"]
-			description: [
-				"Every trainer must learn to battle!"
-				""
-				"Defeat your first wild Pokémon."
-			]
-			icon: "minecraft:wooden_sword"
 			id: "3000000000000002"
-			rewards: [
-				{
-					id: "3000000000000003"
-					item: "cobblemon:potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000003"
+				item: {
+					count: 1
+					id: "cobblemon:potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000004"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "First Battle"
-			x: -3.0d
-			y: 0.0d
+			x: -12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Build your battling experience!"
-				""
-				"Defeat 10 wild Pokémon."
-			]
-			icon: "minecraft:stone_sword"
 			id: "3000000000000005"
-			rewards: [
-				{
-					id: "3000000000000006"
-					item: "cobblemon:super_potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000006"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000007"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Battle Training"
-			x: 0.0d
-			y: 0.0d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"You're getting stronger!"
-				""
-				"Defeat 25 wild Pokémon."
-			]
-			icon: "minecraft:iron_sword"
 			id: "3000000000000008"
-			rewards: [
-				{
-					id: "3000000000000009"
-					item: "cobblemon:hyper_potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000009"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 25L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000010"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Experienced Battler"
-			x: 3.0d
-			y: 0.0d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3000000000000008"]
-			description: [
-				"You're a seasoned battler now!"
-				""
-				"Defeat 50 wild Pokémon."
-			]
-			icon: "minecraft:diamond_sword"
 			id: "3000000000000011"
 			rewards: [
 				{
-					id: "3000000000000012"
-					item: "cobblemon:full_restore"
 					count: 5
+					id: "3000000000000012"
+					item: {
+						count: 1
+						id: "cobblemon:full_restore"
+					}
 					type: "item"
 				}
 				{
-					id: "3000000000000013"
-					item: "minecraft:emerald"
 					count: 5
+					id: "3000000000000013"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
@@ -156,360 +160,386 @@
 			tasks: [{
 				action: "defeat"
 				amount: 50L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000014"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Battle Master"
-			x: 6.0d
-			y: 0.0d
+			x: 6.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Test your skills against other trainers!"
-				""
-				"Defeat a player in battle."
-				""
-				"Note: You must defeat another player's Pokémon team."
-			]
-			icon: "minecraft:player_head"
 			id: "3000000000000015"
 			rewards: [
 				{
-					id: "3000000000000016"
-					item: "cobblemon:revive"
 					count: 3
+					id: "3000000000000016"
+					item: {
+						count: 1
+						id: "cobblemon:revive"
+					}
 					type: "item"
 				}
 				{
-					id: "3000000000000017"
-					item: "minecraft:gold_ingot"
 					count: 3
+					id: "3000000000000017"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				action: "defeat_player"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000018"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Rival Battle"
-			x: -3.0d
-			y: -6.0d
+			x: -7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3000000000000015"]
-			description: [
-				"Prove your dominance!"
-				""
-				"Defeat 5 players in battle."
-			]
 			icon: {
-				Count: 1b
 				id: "minecraft:player_head"
-				tag: {
-					SkullOwner: "MHF_Steve"
-				}
 			}
 			id: "3000000000000019"
 			rewards: [
 				{
-					id: "3000000000000020"
-					item: "cobblemon:max_revive"
 					count: 3
+					id: "3000000000000020"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
 					type: "item"
 				}
 				{
-					id: "3000000000000021"
-					item: "minecraft:emerald"
 					count: 5
+					id: "3000000000000021"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				action: "defeat_player"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000022"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Competitive Battler"
-			x: 0.0d
-			y: -6.0d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"NPC trainers are waiting to challenge you!"
-				""
-				"Defeat an NPC trainer."
-				""
-				"Note: This requires NPCs to be set up on your server."
-			]
-			icon: "minecraft:villager_spawn_egg"
 			id: "3000000000000023"
-			rewards: [
-				{
-					id: "3000000000000024"
-					item: "cobblemon:full_heal"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000024"
+				item: {
+					count: 1
+					id: "cobblemon:full_heal"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat_npc"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000025"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "NPC Challenger"
-			x: -3.0d
-			y: -9.0d
+			x: -8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3000000000000023"]
-			description: [
-				"Keep challenging NPC trainers!"
-				""
-				"Defeat 5 NPC trainers."
-			]
-			icon: "minecraft:iron_block"
 			id: "3000000000000026"
 			rewards: [
 				{
-					id: "3000000000000027"
-					item: "cobblemon:rare_candy"
 					count: 3
+					id: "3000000000000027"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 				{
-					id: "3000000000000028"
-					item: "minecraft:diamond"
 					count: 3
+					id: "3000000000000028"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				action: "defeat_npc"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000029"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "NPC Conqueror"
-			x: 0.0d
-			y: -9.0d
+			x: -8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Fire types are formidable opponents!"
-				""
-				"Defeat a Fire type Pokémon."
-			]
-			icon: "minecraft:blaze_powder"
 			id: "3000000000000030"
-			rewards: [
-				{
-					id: "3000000000000031"
-					item: "cobblemon:burn_heal"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000031"
+				item: {
+					count: 1
+					id: "cobblemon:burn_heal"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000032"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "fire"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Fire Type Defeater"
-			x: -6.0d
-			y: 3.0d
+			x: -10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Water types can be tricky!"
-				""
-				"Defeat a Water type Pokémon."
-			]
 			icon: {
-				Count: 1b
 				id: "minecraft:potion"
-				tag: {
-					Potion: "minecraft:water"
-				}
 			}
 			id: "3000000000000033"
-			rewards: [
-				{
-					id: "3000000000000034"
-					item: "cobblemon:awakening"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000034"
+				item: {
+					count: 1
+					id: "cobblemon:awakening"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000035"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "water"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Water Type Defeater"
-			x: -3.0d
-			y: 3.0d
+			x: -9.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Grass types have unique strengths!"
-				""
-				"Defeat a Grass type Pokémon."
-			]
-			icon: "minecraft:grass"
 			id: "3000000000000036"
-			rewards: [
-				{
-					id: "3000000000000037"
-					item: "cobblemon:paralyze_heal"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000037"
+				item: {
+					count: 1
+					id: "cobblemon:paralyze_heal"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000038"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "grass"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Grass Type Defeater"
-			x: 0.0d
-			y: 3.0d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Dragon types are the ultimate challenge!"
-				""
-				"Defeat a Dragon type Pokémon."
-			]
-			icon: "minecraft:dragon_breath"
 			id: "3000000000000039"
 			rewards: [
 				{
-					id: "3000000000000040"
-					item: "cobblemon:full_restore"
 					count: 3
+					id: "3000000000000040"
+					item: {
+						count: 1
+						id: "cobblemon:full_restore"
+					}
 					type: "item"
 				}
 				{
-					id: "3000000000000041"
-					item: "minecraft:emerald"
 					count: 3
+					id: "3000000000000041"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 			]
@@ -517,86 +547,95 @@
 			tasks: [{
 				action: "defeat"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000042"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "dragon"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Dragon Slayer"
-			x: -6.0d
-			y: -3.0d
+			x: -13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"Face stronger opponents!"
-				""
-				"Defeat a Pokémon level 30 or higher."
-			]
-			icon: "minecraft:experience_bottle"
 			id: "3000000000000043"
-			rewards: [
-				{
-					id: "3000000000000044"
-					item: "cobblemon:rare_candy"
-					count: 2
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "3000000000000044"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000045"
 				max_level: 100
+				max_turns: 0
 				min_level: 30
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Tough Opponent"
-			x: 0.0d
-			y: -3.0d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000043"]
-			description: [
-				"Only the strongest trainers can do this!"
-				""
-				"Defeat a Pokémon level 50 or higher."
-			]
-			icon: "minecraft:enchanted_book"
 			id: "3000000000000046"
 			rewards: [
 				{
-					id: "3000000000000047"
-					item: "cobblemon:rare_candy"
 					count: 3
+					id: "3000000000000047"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 				{
-					id: "3000000000000048"
-					item: "minecraft:diamond"
 					count: 2
+					id: "3000000000000048"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 			]
@@ -605,90 +644,95 @@
 			tasks: [{
 				action: "defeat"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000049"
 				max_level: 100
+				max_turns: 0
 				min_level: 50
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Elite Challenger"
 			x: 3.0d
-			y: -3.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Quick battles for quick rewards!"
-				""
-				"Defeat 5 wild Pokémon."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "minecraft:stone_pickaxe"
 			id: "3000000000000050"
-			rewards: [
-				{
-					id: "3000000000000051"
-					item: "cobblemon:potion"
-					count: 2
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "3000000000000051"
+				item: {
+					count: 1
+					id: "cobblemon:potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000052"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Quick Battler"
-			x: -9.0d
-			y: 0.0d
+			x: -16.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3000000000000008"]
-			description: [
-				"You're on a winning streak!"
-				""
-				"Defeat 75 wild Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:netherite_sword"
 			id: "3000000000000053"
 			rewards: [
 				{
-					id: "3000000000000054"
-					item: "cobblemon:full_restore"
 					count: 8
+					id: "3000000000000054"
+					item: {
+						count: 1
+						id: "cobblemon:full_restore"
+					}
 					type: "item"
 				}
 				{
-					id: "3000000000000055"
-					item: "minecraft:diamond"
 					count: 5
+					id: "3000000000000055"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 			]
@@ -697,49 +741,53 @@
 			tasks: [{
 				action: "defeat"
 				amount: 75L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000056"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Veteran Battler"
 			x: 9.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["3000000000000053"]
-			description: [
-				"The ultimate battle challenge!"
-				""
-				"Defeat 100 wild Pokémon."
-				""
-				"&cLong Playtime Quest&r - Major achievement!"
-			]
-			icon: "minecraft:nether_star"
 			id: "3000000000000057"
 			rewards: [
 				{
-					id: "3000000000000058"
-					id: "3000000000000059"
-					item: "minecraft:diamond_block"
 					count: 3
+					id: "3000000000000059"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
 					type: "item"
 				}
 				{
-					id: "3000000000000060"
-					item: "cobblemon:full_restore"
 					count: 10
+					id: "3000000000000060"
+					item: {
+						count: 1
+						id: "cobblemon:full_restore"
+					}
 					type: "item"
 				}
 			]
@@ -748,384 +796,388 @@
 			tasks: [{
 				action: "defeat"
 				amount: 100L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000061"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Champion Battler"
 			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3000000000000002"]
+			id: "3000000000000062"
+			rewards: [{
+				count: 3
+				id: "3000000000000063"
+				item: {
+					count: 1
+					id: "cobblemon:paralyze_heal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 3L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "3000000000000064"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "electric"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000002"]
+			id: "3000000000000065"
+			rewards: [{
+				count: 3
+				id: "3000000000000066"
+				item: {
+					count: 1
+					id: "cobblemon:awakening"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 3L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "3000000000000067"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "psychic"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000002"]
+			id: "3000000000000068"
+			rewards: [{
+				count: 3
+				id: "3000000000000069"
+				item: {
+					count: 1
+					id: "cobblemon:full_heal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 3L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "3000000000000070"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000002"]
+			id: "3000000000000071"
+			rewards: [{
+				count: 3
+				id: "3000000000000072"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 3L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "3000000000000073"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000002"]
+			id: "3000000000000074"
+			rewards: [{
+				count: 3
+				id: "3000000000000075"
+				item: {
+					count: 1
+					id: "cobblemon:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 5L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "3000000000000076"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "bug"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -16.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Defeat Electric type Pokémon!"
-				""
-				"Watch out for paralysis!"
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "minecraft:redstone_block"
-			id: "3000000000000062"
-			rewards: [
-				{
-					id: "3000000000000063"
-					item: "cobblemon:paralyze_heal"
-					count: 3
-					type: "item"
-				}
-			]
-			tasks: [{
-				action: "defeat"
-				amount: 3L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "3000000000000064"
-				max_level: 100
-				min_level: 0
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "electric"
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Electric Type Defeater"
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3000000000000002"]
-			description: [
-				"Defeat Psychic type Pokémon!"
-				""
-				"Mental fortitude required!"
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:enchanting_table"
-			id: "3000000000000065"
-			rewards: [
-				{
-					id: "3000000000000066"
-					item: "cobblemon:awakening"
-					count: 3
-					type: "item"
-				}
-			]
-			tasks: [{
-				action: "defeat"
-				amount: 3L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "3000000000000067"
-				max_level: 100
-				min_level: 0
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "psychic"
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Psychic Type Defeater"
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3000000000000002"]
-			description: [
-				"Defeat Ghost type Pokémon!"
-				""
-				"Face your fears!"
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:soul_sand"
-			id: "3000000000000068"
-			rewards: [
-				{
-					id: "3000000000000069"
-					item: "cobblemon:full_heal"
-					count: 3
-					type: "item"
-				}
-			]
-			tasks: [{
-				action: "defeat"
-				amount: 3L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "3000000000000070"
-				max_level: 100
-				min_level: 0
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "ghost"
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Ghost Type Defeater"
-			x: 9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3000000000000002"]
-			description: [
-				"Defeat Dark type Pokémon!"
-				""
-				"Bring light to darkness!"
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:coal_block"
-			id: "3000000000000071"
-			rewards: [
-				{
-					id: "3000000000000072"
-					item: "cobblemon:hyper_potion"
-					count: 3
-					type: "item"
-				}
-			]
-			tasks: [{
-				action: "defeat"
-				amount: 3L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "3000000000000073"
-				max_level: 100
-				min_level: 0
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "dark"
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Dark Type Defeater"
-			x: 12.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3000000000000002"]
-			description: [
-				"Defeat Bug type Pokémon!"
-				""
-				"Extermination time!"
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "minecraft:cobweb"
-			id: "3000000000000074"
-			rewards: [
-				{
-					id: "3000000000000075"
-					item: "cobblemon:potion"
-					count: 3
-					type: "item"
-				}
-			]
-			tasks: [{
-				action: "defeat"
-				amount: 5L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "3000000000000076"
-				max_level: 100
-				min_level: 0
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "bug"
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Bug Type Defeater"
-			x: -6.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["3000000000000002"]
-			description: [
-				"Defeat Fighting type Pokémon!"
-				""
-				"Show your strength!"
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:golden_sword"
 			id: "3000000000000077"
-			rewards: [
-				{
-					id: "3000000000000078"
-					item: "cobblemon:super_potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000078"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 3L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000079"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "fighting"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Fighting Type Defeater"
-			x: -3.0d
-			y: 6.0d
+			x: -16.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Defeat Steel type Pokémon!"
-				""
-				"Break through their defense!"
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:anvil"
 			id: "3000000000000080"
-			rewards: [
-				{
-					id: "3000000000000081"
-					item: "cobblemon:hyper_potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000081"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 3L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000082"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "steel"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Steel Type Defeater"
-			x: 0.0d
-			y: 6.0d
+			x: -16.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Defeat Ice type Pokémon!"
-				""
-				"Melt their defenses!"
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:snow_block"
 			id: "3000000000000083"
-			rewards: [
-				{
-					id: "3000000000000084"
-					item: "cobblemon:ice_heal"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000084"
+				item: {
+					count: 1
+					id: "cobblemon:ice_heal"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 3L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000085"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "ice"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ice Type Defeater"
-			x: 3.0d
-			y: 6.0d
+			x: -16.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3000000000000046"]
-			description: [
-				"Challenge powerful Pokémon!"
-				""
-				"Defeat a Pokémon level 60 or higher."
-				""
-				"&cLong Playtime Quest&r - Very challenging!"
-			]
-			icon: "minecraft:totem_of_undying"
 			id: "3000000000000086"
 			rewards: [
 				{
-					id: "3000000000000087"
-					item: "cobblemon:rare_candy"
 					count: 5
+					id: "3000000000000087"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 				{
 					id: "3000000000000088"
-					item: "minecraft:diamond_block"
-					count: 1
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
 					type: "item"
 				}
 			]
@@ -1134,48 +1186,52 @@
 			tasks: [{
 				action: "defeat"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000089"
 				max_level: 100
+				max_turns: 0
 				min_level: 60
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ultimate Challenge"
-			x: 6.0d
-			y: -3.0d
+			x: 6.75d
+			y: -6.75d
 		}
 		{
 			dependencies: ["3000000000000015"]
-			description: [
-				"Prove yourself in PvP!"
-				""
-				"Defeat 10 players in battle."
-				""
-				"&cLong Playtime Quest&r - Competitive!"
-			]
-			icon: "minecraft:diamond_helmet"
 			id: "3000000000000090"
 			rewards: [
 				{
-					id: "3000000000000091"
-					item: "cobblemon:max_revive"
 					count: 5
+					id: "3000000000000091"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
 					type: "item"
 				}
 				{
 					id: "3000000000000092"
-					item: "minecraft:emerald_block"
-					count: 1
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
 					type: "item"
 				}
 			]
@@ -1184,48 +1240,53 @@
 			tasks: [{
 				action: "defeat_player"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000093"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "PvP Champion"
-			x: 3.0d
-			y: -6.0d
+			x: -7.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["3000000000000026"]
-			description: [
-				"Become an NPC battle champion!"
-				""
-				"Defeat 10 NPC trainers."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:diamond_block"
 			id: "3000000000000094"
 			rewards: [
 				{
-					id: "3000000000000095"
-					item: "cobblemon:rare_candy"
 					count: 8
+					id: "3000000000000095"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
 					type: "item"
 				}
 				{
-					id: "3000000000000096"
-					item: "minecraft:diamond_block"
 					count: 2
+					id: "3000000000000096"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
 					type: "item"
 				}
 			]
@@ -1234,1812 +1295,1809 @@
 			tasks: [{
 				action: "defeat_npc"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000097"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "NPC Master"
-			x: 3.0d
-			y: -9.0d
+			x: -8.25d
+			y: 8.25d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Defeat low-level Pokémon!"
-				""
-				"Level 10 or below."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "minecraft:wooden_sword"
 			id: "3000000000000098"
-			rewards: [
-				{
-					id: "3000000000000099"
-					item: "cobblemon:potion"
-					count: 2
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "3000000000000099"
+				item: {
+					count: 1
+					id: "cobblemon:potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000100"
 				max_level: 10
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Beginner Battles"
-			x: -9.0d
-			y: 3.0d
+			x: -16.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3000000000000030"]
-			description: [
-				"Become a Fire type specialist!"
-				""
-				"Defeat 10 Fire type Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:fire_charge"
 			id: "3000000000000101"
-			rewards: [
-				{
-					id: "3000000000000102"
-					item: "cobblemon:burn_heal"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000102"
+				item: {
+					count: 1
+					id: "cobblemon:burn_heal"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000103"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "fire"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Fire Specialist"
-			x: -6.0d
-			y: 9.0d
+			x: -10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000033"]
-			description: [
-				"Become a Water type specialist!"
-				""
-				"Defeat 10 Water type Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:water_bucket"
 			id: "3000000000000104"
-			rewards: [
-				{
-					id: "3000000000000105"
-					item: "cobblemon:super_potion"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000105"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000106"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "water"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Water Specialist"
-			x: -3.0d
-			y: 9.0d
+			x: -9.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000036"]
-			description: [
-				"Become a Grass type specialist!"
-				""
-				"Defeat 10 Grass type Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:oak_sapling"
 			id: "3000000000000107"
-			rewards: [
-				{
-					id: "3000000000000108"
-					item: "cobblemon:hyper_potion"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000108"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000109"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "grass"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Grass Specialist"
-			x: 0.0d
-			y: 9.0d
+			x: -11.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000062"]
-			description: [
-				"Become an Electric type specialist!"
-				""
-				"Defeat 10 Electric type Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:lightning_rod"
 			id: "3000000000000110"
-			rewards: [
-				{
-					id: "3000000000000111"
-					item: "cobblemon:paralyze_heal"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000111"
+				item: {
+					count: 1
+					id: "cobblemon:paralyze_heal"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000112"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "electric"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Electric Specialist"
-			x: 3.0d
-			y: 9.0d
+			x: -14.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000065"]
-			description: [
-				"Become a Psychic type specialist!"
-				""
-				"Defeat 10 Psychic type Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:amethyst_shard"
 			id: "3000000000000113"
-			rewards: [
-				{
-					id: "3000000000000114"
-					item: "cobblemon:awakening"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000114"
+				item: {
+					count: 1
+					id: "cobblemon:awakening"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000115"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "psychic"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Psychic Specialist"
-			x: 6.0d
-			y: 9.0d
+			x: -6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000039"]
-			description: [
-				"Become a Dragon type specialist!"
-				""
-				"Defeat 10 Dragon type Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:dragon_egg"
 			id: "3000000000000116"
-			rewards: [
-				{
-					id: "3000000000000117"
-					item: "cobblemon:full_restore"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000117"
+				item: {
+					count: 1
+					id: "cobblemon:full_restore"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000118"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "dragon"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Dragon Specialist"
-			x: -6.0d
-			y: -6.0d
+			x: -13.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000068"]
-			description: [
-				"Become a Ghost type specialist!"
-				""
-				"Defeat 10 Ghost type Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:soul_lantern"
 			id: "3000000000000119"
-			rewards: [
-				{
-					id: "3000000000000120"
-					item: "cobblemon:full_heal"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000120"
+				item: {
+					count: 1
+					id: "cobblemon:full_heal"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000121"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "ghost"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ghost Specialist"
-			x: 9.0d
-			y: 9.0d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000071"]
-			description: [
-				"Become a Dark type specialist!"
-				""
-				"Defeat 10 Dark type Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:obsidian"
 			id: "3000000000000122"
-			rewards: [
-				{
-					id: "3000000000000123"
-					item: "cobblemon:hyper_potion"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000123"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000124"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: "dark"
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Dark Specialist"
-			x: 12.0d
-			y: 9.0d
+			x: -4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000043"]
-			description: [
-				"Challenge level 30+ Pokémon!"
-				""
-				"Defeat 5 Pokémon level 30 or higher."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:iron_block"
 			id: "3000000000000125"
-			rewards: [
-				{
-					id: "3000000000000126"
-					item: "cobblemon:super_potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000126"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000127"
 				max_level: 100
+				max_turns: 0
 				min_level: 30
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level 30+ Challenge"
-			x: -3.0d
-			y: -3.0d
+			x: 0.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3000000000000046"]
-			description: [
-				"Face level 45+ Pokémon!"
-				""
-				"Defeat 5 Pokémon level 45 or higher."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:gold_block"
 			id: "3000000000000128"
-			rewards: [
-				{
-					id: "3000000000000129"
-					item: "cobblemon:hyper_potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000129"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000130"
 				max_level: 100
+				max_turns: 0
 				min_level: 45
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level 45+ Challenge"
 			x: 3.0d
-			y: -6.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["3000000000000086"]
-			description: [
-				"Face level 60+ Pokémon!"
-				""
-				"Defeat 5 Pokémon level 60 or higher."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:diamond"
 			id: "3000000000000131"
-			rewards: [
-				{
-					id: "3000000000000132"
-					item: "cobblemon:full_restore"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000132"
+				item: {
+					count: 1
+					id: "cobblemon:full_restore"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000133"
 				max_level: 100
+				max_turns: 0
 				min_level: 60
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level 60+ Challenge"
 			x: 9.0d
-			y: -3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3000000000000131"]
-			description: [
-				"Face level 75+ Pokémon!"
-				""
-				"Defeat 3 Pokémon level 75 or higher."
-				""
-				"&cLong Playtime Quest&r - Very difficult!"
-			]
-			icon: "minecraft:netherite_ingot"
 			id: "3000000000000134"
-			rewards: [
-				{
-					id: "3000000000000135"
-					item: "cobblemon:full_restore"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000135"
+				item: {
+					count: 1
+					id: "cobblemon:full_restore"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 3L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000136"
 				max_level: 100
+				max_turns: 0
 				min_level: 75
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level 75+ Challenge"
-			x: 12.0d
-			y: -3.0d
+			x: 11.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3000000000000134"]
-			description: [
-				"Face level 90+ Pokémon!"
-				""
-				"Defeat 1 Pokémon level 90 or higher."
-				""
-				"&cLong Playtime Quest&r - Expert only!"
-			]
-			icon: "minecraft:enchanted_golden_apple"
 			id: "3000000000000137"
-			rewards: [
-				{
-					id: "3000000000000138"
-					item: "cobblemon:rare_candy"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000138"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				action: "defeat"
 				amount: 1L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000139"
 				max_level: 100
+				max_turns: 0
 				min_level: 90
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level 90+ Challenge"
-			x: 15.0d
-			y: -3.0d
+			x: 14.25d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"Desert battles await!"
-				""
-				"Defeat 20 Pokémon in desert biomes."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:sand"
 			id: "3000000000000140"
-			rewards: [
-				{
-					id: "3000000000000141"
-					item: "cobblemon:super_potion"
-					count: 4
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "3000000000000141"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 20L
+				aspects: ""
 				biome: "minecraft:desert"
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000142"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Desert Battler"
-			x: -12.0d
-			y: 0.0d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"Ocean battles await!"
-				""
-				"Defeat 20 Pokémon in ocean biomes."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:tropical_fish"
 			id: "3000000000000143"
-			rewards: [
-				{
-					id: "3000000000000144"
-					item: "cobblemon:super_potion"
-					count: 4
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "3000000000000144"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 20L
+				aspects: ""
 				biome: "minecraft:ocean"
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000145"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ocean Battler"
-			x: -12.0d
-			y: 3.0d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"Mountain battles await!"
-				""
-				"Defeat 20 Pokémon in mountain biomes."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:stone"
 			id: "3000000000000146"
-			rewards: [
-				{
-					id: "3000000000000147"
-					item: "cobblemon:super_potion"
-					count: 4
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "3000000000000147"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 20L
+				aspects: ""
 				biome: "minecraft:mountains"
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000148"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Mountain Battler"
-			x: -12.0d
-			y: 6.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"Forest battles await!"
-				""
-				"Defeat 20 Pokémon in forest biomes."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:oak_log"
 			id: "3000000000000149"
-			rewards: [
-				{
-					id: "3000000000000150"
-					item: "cobblemon:super_potion"
-					count: 4
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "3000000000000150"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 20L
+				aspects: ""
 				biome: "minecraft:forest"
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000151"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Forest Battler"
-			x: -12.0d
-			y: -3.0d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"Plains battles await!"
-				""
-				"Defeat 20 Pokémon in plains biomes."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:tall_grass"
 			id: "3000000000000152"
-			rewards: [
-				{
-					id: "3000000000000153"
-					item: "cobblemon:super_potion"
-					count: 4
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "3000000000000153"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 20L
+				aspects: ""
 				biome: "minecraft:plains"
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000154"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Plains Battler"
-			x: -15.0d
-			y: 0.0d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"Snowy battles await!"
-				""
-				"Defeat 20 Pokémon in snowy biomes."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:snowball"
 			id: "3000000000000155"
-			rewards: [
-				{
-					id: "3000000000000156"
-					item: "cobblemon:super_potion"
-					count: 4
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "3000000000000156"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 20L
+				aspects: ""
 				biome: "minecraft:snowy_plains"
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000157"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Snowy Battler"
-			x: -15.0d
-			y: 3.0d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000011"]
-			description: [
-				"Century of battles!"
-				""
-				"Defeat 100 wild Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:golden_sword"
 			id: "3000000000000158"
-			rewards: [
-				{
-					id: "3000000000000159"
-					item: "cobblemon:revive"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000159"
+				item: {
+					count: 1
+					id: "cobblemon:revive"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 100L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000160"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Century Mark"
-			x: 6.0d
-			y: 6.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000158"]
-			description: [
-				"Quarter thousand battles!"
-				""
-				"Defeat 250 wild Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:iron_block"
 			id: "3000000000000161"
-			rewards: [
-				{
-					id: "3000000000000162"
-					item: "cobblemon:max_revive"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000162"
+				item: {
+					count: 1
+					id: "cobblemon:max_revive"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 250L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000163"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Quarter Thousand"
 			x: 9.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000161"]
-			description: [
-				"Half thousand battles!"
-				""
-				"Defeat 500 wild Pokémon."
-				""
-				"&cLong Playtime Quest&r - Major grind!"
-			]
-			icon: "minecraft:gold_block"
 			id: "3000000000000164"
-			rewards: [
-				{
-					id: "3000000000000165"
-					item: "cobblemon:full_restore"
-					count: 10
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "3000000000000165"
+				item: {
+					count: 1
+					id: "cobblemon:full_restore"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				action: "defeat"
 				amount: 500L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000166"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Half Thousand"
 			x: 12.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000164"]
-			description: [
-				"Three quarter thousand!"
-				""
-				"Defeat 750 wild Pokémon."
-				""
-				"&cLong Playtime Quest&r - Extreme dedication!"
-			]
-			icon: "minecraft:diamond_block"
 			id: "3000000000000167"
-			rewards: [
-				{
-					id: "3000000000000168"
-					item: "cobblemon:rare_candy"
-					count: 10
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "3000000000000168"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				action: "defeat"
 				amount: 750L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000169"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Three Quarter Thousand"
 			x: 15.0d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000167"]
-			description: [
-				"One thousand battles!"
-				""
-				"Defeat 1000 wild Pokémon."
-				""
-				"&cLong Playtime Quest&r - Ultimate achievement!"
-			]
-			icon: "minecraft:netherite_block"
 			id: "3000000000000170"
-			rewards: [
-				{
-					id: "3000000000000171"
-					item: "cobblemon:rare_candy"
-					count: 20
-					type: "item"
+			rewards: [{
+				count: 20
+				id: "3000000000000171"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				action: "defeat"
 				amount: 1000L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000172"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Thousand Battles"
-			x: 15.0d
-			y: 9.0d
+			x: 19.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Battle under the moonlight!"
-				""
-				"Defeat 10 Pokémon during nighttime."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "minecraft:glowstone"
 			id: "3000000000000173"
-			rewards: [
-				{
-					id: "3000000000000174"
-					item: "cobblemon:potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000174"
+				item: {
+					count: 1
+					id: "cobblemon:potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000175"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 13000L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Night Warrior"
-			x: -9.0d
-			y: -3.0d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Battle under the sun!"
-				""
-				"Defeat 10 Pokémon during daytime."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "minecraft:daylight_detector"
 			id: "3000000000000176"
-			rewards: [
-				{
-					id: "3000000000000177"
-					item: "cobblemon:potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000177"
+				item: {
+					count: 1
+					id: "cobblemon:potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000178"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 12000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Day Warrior"
-			x: -9.0d
-			y: -6.0d
+			x: -12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Battle in the rain!"
-				""
-				"Defeat 5 Pokémon during rain."
-				""
-				"Note: Weather-based, may take time!"
-				""
-				"&6Mid Playtime Quest&r"
-			]
 			icon: {
-				Count: 1b
 				id: "minecraft:potion"
-				tag: {
-					Potion: "minecraft:water"
-				}
 			}
 			id: "3000000000000179"
-			rewards: [
-				{
-					id: "3000000000000180"
-					item: "cobblemon:super_potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000180"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000181"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Rain Battler"
-			x: -6.0d
-			y: -9.0d
+			x: -16.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3000000000000002"]
-			description: [
-				"Battle in the snow!"
-				""
-				"Defeat 5 Pokémon in snowy weather."
-				""
-				"Note: Weather-based, may take time!"
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:powder_snow_bucket"
 			id: "3000000000000182"
-			rewards: [
-				{
-					id: "3000000000000183"
-					item: "cobblemon:super_potion"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000183"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000184"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Snow Battler"
-			x: -9.0d
-			y: -9.0d
+			x: -16.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3000000000000173"]
-			description: [
-				"Become a night specialist!"
-				""
-				"Defeat 25 Pokémon during nighttime."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:lantern"
 			id: "3000000000000185"
-			rewards: [
-				{
-					id: "3000000000000186"
-					item: "cobblemon:hyper_potion"
-					count: 4
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "3000000000000186"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 25L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000187"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 13000L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Night Specialist"
-			x: -12.0d
-			y: -3.0d
+			x: -3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000176"]
-			description: [
-				"Become a day specialist!"
-				""
-				"Defeat 25 Pokémon during daytime."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:torch"
 			id: "3000000000000188"
-			rewards: [
-				{
-					id: "3000000000000189"
-					item: "cobblemon:hyper_potion"
-					count: 4
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "3000000000000189"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 25L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000190"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 12000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Day Specialist"
-			x: -12.0d
-			y: -6.0d
+			x: -12.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3000000000000008"]
-			description: [
-				"Face evolved Pokémon!"
-				""
-				"Defeat 25 evolved Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:ender_pearl"
 			id: "3000000000000191"
-			rewards: [
-				{
-					id: "3000000000000192"
-					item: "cobblemon:super_potion"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000192"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 25L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000193"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Evolution Hunter"
-			x: 6.0d
-			y: -6.0d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3000000000000191"]
-			description: [
-				"Face fully evolved Pokémon!"
-				""
-				"Defeat 10 fully evolved Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:ender_eye"
 			id: "3000000000000194"
-			rewards: [
-				{
-					id: "3000000000000195"
-					item: "cobblemon:hyper_potion"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000195"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000196"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Final Form Fighter"
-			x: 9.0d
-			y: -6.0d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"Win streak challenge!"
-				""
-				"Defeat 5 Pokémon consecutively."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "minecraft:golden_apple"
 			id: "3000000000000197"
-			rewards: [
-				{
-					id: "3000000000000198"
-					item: "cobblemon:revive"
-					count: 2
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "3000000000000198"
+				item: {
+					count: 1
+					id: "cobblemon:revive"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 5L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000199"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Win Streak"
-			x: -3.0d
-			y: 12.0d
+			x: -7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000008"]
-			description: [
-				"No healing allowed!"
-				""
-				"Defeat 10 Pokémon without healing."
-				""
-				"Note: Build a strong team!"
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:brewing_stand"
 			id: "3000000000000200"
-			rewards: [
-				{
-					id: "3000000000000201"
-					item: "cobblemon:full_restore"
-					count: 3
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3000000000000201"
+				item: {
+					count: 1
+					id: "cobblemon:full_restore"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000202"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "No Healing Challenge"
-			x: 0.0d
-			y: 12.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3000000000000197"]
-			description: [
-				"Extended win streak!"
-				""
-				"Defeat 10 Pokémon consecutively."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:enchanted_golden_apple"
 			id: "3000000000000203"
-			rewards: [
-				{
-					id: "3000000000000204"
-					item: "cobblemon:revive"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000204"
+				item: {
+					count: 1
+					id: "cobblemon:revive"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000205"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Extended Streak"
-			x: 3.0d
-			y: 12.0d
+			x: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3000000000000005"]
-			description: [
-				"Quick battles!"
-				""
-				"Defeat 15 Pokémon quickly."
-				""
-				"&eShort Playtime Quest&r"
-			]
-			icon: "minecraft:sugar"
 			id: "3000000000000206"
-			rewards: [
-				{
-					id: "3000000000000207"
-					item: "cobblemon:potion"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000207"
+				item: {
+					count: 1
+					id: "cobblemon:potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 15L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000208"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Speed Battler"
-			x: 6.0d
-			y: 12.0d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000008"]
-			description: [
-				"Marathon battles!"
-				""
-				"Defeat 30 Pokémon in one session."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:feather"
 			id: "3000000000000209"
-			rewards: [
-				{
-					id: "3000000000000210"
-					item: "cobblemon:hyper_potion"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000210"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 30L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000211"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Marathon Battler"
-			x: 9.0d
-			y: 12.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3000000000000043"]
-			description: [
-				"Challenge yourself!"
-				""
-				"Defeat 20 level 30+ Pokémon."
-				""
-				"&6Mid Playtime Quest&r"
-			]
-			icon: "minecraft:iron_ingot"
 			id: "3000000000000212"
-			rewards: [
-				{
-					id: "3000000000000213"
-					item: "cobblemon:super_potion"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000213"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 20L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000214"
 				max_level: 100
+				max_turns: 0
 				min_level: 30
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Veteran Challenge"
-			x: 12.0d
-			y: 12.0d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3000000000000046"]
-			description: [
-				"Elite challenge!"
-				""
-				"Defeat 15 level 50+ Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:gold_ingot"
 			id: "3000000000000215"
-			rewards: [
-				{
-					id: "3000000000000216"
-					item: "cobblemon:full_restore"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000216"
+				item: {
+					count: 1
+					id: "cobblemon:full_restore"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 15L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000217"
 				max_level: 100
+				max_turns: 0
 				min_level: 50
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Elite Challenge"
-			x: -3.0d
-			y: -12.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3000000000000203"]
-			description: [
-				"Ultimate win streak!"
-				""
-				"Defeat 20 Pokémon consecutively."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:beacon"
 			id: "3000000000000218"
-			rewards: [
-				{
-					id: "3000000000000219"
-					item: "cobblemon:max_revive"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000219"
+				item: {
+					count: 1
+					id: "cobblemon:max_revive"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				action: "defeat"
 				amount: 20L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000220"
 				max_level: 100
+				max_turns: 0
 				min_level: 0
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ultimate Streak"
-			x: 0.0d
-			y: -12.0d
+			x: -4.5d
+			y: -6.75d
 		}
 		{
 			dependencies: ["3000000000000086"]
-			description: [
-				"Master level battler!"
-				""
-				"Defeat 10 level 60+ Pokémon."
-				""
-				"&cLong Playtime Quest&r"
-			]
-			icon: "minecraft:emerald"
 			id: "3000000000000221"
-			rewards: [
-				{
-					id: "3000000000000222"
-					item: "cobblemon:rare_candy"
-					count: 5
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "3000000000000222"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				action: "defeat"
 				amount: 10L
+				aspects: ""
 				biome: ""
+				dex_progress: "seen"
 				dimension: ""
 				form: ""
 				gender: ""
+				held_items: ""
 				id: "3000000000000223"
 				max_level: 100
+				max_turns: 0
 				min_level: 60
+				moves: ""
+				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
 				pokemon_type: ""
+				raid_tiers: ""
 				region: ""
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
+				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Master Challenge"
-			x: 3.0d
-			y: -12.0d
+			x: 7.0d
+			y: -9.5d
 		}
 	]
-	title: "&4Battling Questline"
 }
