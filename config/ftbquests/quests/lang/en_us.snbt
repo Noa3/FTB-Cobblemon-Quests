@@ -1,0 +1,1995 @@
+{
+	chapter.1000000000000001.title: "&bAdventure Questline"
+	chapter.2000000000000001.title: "&6Catching Questline"
+	chapter.3000000000000001.title: "&4Battling Questline"
+	chapter.4000000000000001.title: "&2Progression Questline"
+	chapter.5000000000000001.title: "&dUtility Questline"
+	quest.1000000000000002.quest_desc: [
+		"Start your adventure by exploring the world!"
+		""
+		"Visit a plains biome to find common Pokémon."
+	]
+	quest.1000000000000002.title: "Plains Explorer"
+	quest.1000000000000005.quest_desc: [
+		"Forests are home to many Bug and Normal type Pokémon."
+		""
+		"Explore a forest biome to continue your journey!"
+	]
+	quest.1000000000000005.title: "Forest Explorer"
+	quest.1000000000000008.quest_desc: [
+		"The ocean is vast and full of Water type Pokémon!"
+		""
+		"Find an ocean biome to discover aquatic Pokémon."
+	]
+	quest.1000000000000008.title: "Ocean Explorer"
+	quest.1000000000000011.quest_desc: [
+		"Mountains are home to Rock and Flying type Pokémon."
+		""
+		"Scale the peaks to find rare Pokémon!"
+	]
+	quest.1000000000000011.title: "Mountain Climber"
+	quest.1000000000000014.quest_desc: [
+		"Desert biomes are harsh but home to Ground and Rock type Pokémon."
+		""
+		"Explore the sandy dunes!"
+	]
+	quest.1000000000000014.title: "Desert Wanderer"
+	quest.1000000000000017.quest_desc: [
+		"The taiga is a cold forest biome with unique Pokémon."
+		""
+		"Venture into the snowy woods!"
+	]
+	quest.1000000000000017.title: "Taiga Explorer"
+	quest.1000000000000020.quest_desc: [
+		"The jungle is dense and full of exotic Pokémon!"
+		""
+		"Navigate through the vines to find them."
+	]
+	quest.1000000000000020.title: "Jungle Adventurer"
+	quest.1000000000000023.quest_desc: [
+		"Rivers flow through the land, home to various Water type Pokémon."
+		""
+		"Follow the river to find them!"
+	]
+	quest.1000000000000023.title: "River Tracker"
+	quest.1000000000000026.quest_desc: [
+		"You've explored many biomes!"
+		""
+		"Your understanding of Pokémon habitats has grown."
+	]
+	quest.1000000000000026.title: "Biome Master"
+	quest.1000000000000030.quest_desc: [
+		"Enter the Nether dimension!"
+		""
+		"Be prepared for dangerous Fire and Poison type Pokémon."
+	]
+	quest.1000000000000030.title: "Into the Nether"
+	quest.1000000000000033.quest_desc: [
+		"The End awaits brave trainers."
+		""
+		"Who knows what Pokémon you'll find there?"
+	]
+	quest.1000000000000033.title: "Journey to the End"
+	quest.1000000000000036.quest_desc: [
+		"Visit a savanna biome!"
+		""
+		"Wide open grasslands await!"
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.1000000000000036.title: "Savanna Explorer"
+	quest.1000000000000039.quest_desc: [
+		"Visit a swamp biome!"
+		""
+		"Murky waters and unique Pokémon!"
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.1000000000000039.title: "Swamp Explorer"
+	quest.1000000000000042.quest_desc: [
+		"Explore the deep ocean!"
+		""
+		"Dive deep for rare Water Pokémon!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.1000000000000042.title: "Deep Sea Explorer"
+	quest.1000000000000045.quest_desc: [
+		"Brave the snowy tundra!"
+		""
+		"Cold temperatures, Ice type Pokémon!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.1000000000000045.title: "Tundra Explorer"
+	quest.1000000000000048.quest_desc: [
+		"Explore a mesa/badlands biome!"
+		""
+		"Red rocks and rare finds!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.1000000000000048.title: "Badlands Explorer"
+	quest.1000000000000051.quest_desc: [
+		"Scale tall mountain peaks!"
+		""
+		"Reach above Y=150"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.1000000000000051.title: "Peak Climber"
+	quest.1000000000000054.quest_desc: [
+		"Visit 10 different biomes!"
+		""
+		"You're a true explorer!"
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.1000000000000054.title: "Ultimate Explorer"
+	quest.1000000000000058.quest_desc: [
+		"Explore the Nether thoroughly!"
+		""
+		"Visit different Nether biomes."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.1000000000000058.title: "Nether Explorer"
+	quest.1000000000000061.quest_desc: [
+		"Find a Bastion Remnant!"
+		""
+		"Ancient Nether structure."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.1000000000000061.title: "Bastion Hunter"
+	quest.1000000000000064.quest_desc: [
+		"Find a Nether Fortress!"
+		""
+		"Home to dangerous mobs."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.1000000000000064.title: "Fortress Finder"
+	quest.1000000000000067.quest_desc: [
+		"Explore the End islands!"
+		""
+		"Find the outer End islands."
+		""
+		"&cLong Playtime Quest&r - Very challenging!"
+	]
+	quest.1000000000000067.title: "End Explorer"
+	quest.1000000000000071.quest_desc: [
+		"Discover a mushroom island!"
+		""
+		"Rare and unique biome!"
+		""
+		"&cLong Playtime Quest&r - Rare to find!"
+	]
+	quest.1000000000000071.title: "Mushroom Seeker"
+	quest.1000000000000075.quest_desc: [
+		"Navigate a bamboo jungle!"
+		""
+		"Dense bamboo forests!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.1000000000000075.title: "Bamboo Explorer"
+	quest.2000000000000002.quest_desc: [
+		"Every great trainer starts somewhere!"
+		""
+		"Catch your very first Pokémon to begin your collection."
+	]
+	quest.2000000000000002.title: "First Catch"
+	quest.2000000000000005.quest_desc: [
+		"Build your collection!"
+		""
+		"Catch 10 different Pokémon species."
+	]
+	quest.2000000000000005.title: "Growing Collection"
+	quest.2000000000000008.quest_desc: [
+		"Your collection is expanding!"
+		""
+		"Catch 25 different Pokémon species."
+	]
+	quest.2000000000000008.title: "Expanding Horizons"
+	quest.2000000000000011.quest_desc: [
+		"You're becoming a true Pokémon Collector!"
+		""
+		"Catch 50 different Pokémon species."
+	]
+	quest.2000000000000011.title: "Master Collector"
+	quest.2000000000000015.quest_desc: [
+		"Water types are essential for any balanced team!"
+		""
+		"Catch a Water type Pokémon."
+	]
+	quest.2000000000000015.title: "Water Type Catcher"
+	quest.2000000000000018.quest_desc: [
+		"Fire types bring the heat!"
+		""
+		"Catch a Fire type Pokémon."
+	]
+	quest.2000000000000018.title: "Fire Type Catcher"
+	quest.2000000000000021.quest_desc: [
+		"Grass types are nature's power!"
+		""
+		"Catch a Grass type Pokémon."
+	]
+	quest.2000000000000021.title: "Grass Type Catcher"
+	quest.2000000000000024.quest_desc: [
+		"Electric types are shockingly good!"
+		""
+		"Catch an Electric type Pokémon."
+	]
+	quest.2000000000000024.title: "Electric Type Catcher"
+	quest.2000000000000027.quest_desc: [
+		"Psychic types have mysterious powers!"
+		""
+		"Catch a Psychic type Pokémon."
+	]
+	quest.2000000000000027.title: "Psychic Type Catcher"
+	quest.2000000000000030.quest_desc: [
+		"You've caught the starter trio types!"
+		""
+		"Fire, Water, and Grass - the foundation of any team."
+	]
+	quest.2000000000000030.title: "Starter Type Master"
+	quest.2000000000000034.quest_desc: [
+		"Dragon types are rare and powerful!"
+		""
+		"Catch a Dragon type Pokémon."
+	]
+	quest.2000000000000034.title: "Dragon Tamer"
+	quest.2000000000000037.quest_desc: [
+		"Ghost types lurk in the shadows!"
+		""
+		"Catch a Ghost type Pokémon."
+	]
+	quest.2000000000000037.title: "Ghost Hunter"
+	quest.2000000000000040.quest_desc: [
+		"Dark types are mysterious and cunning!"
+		""
+		"Catch a Dark type Pokémon."
+	]
+	quest.2000000000000040.title: "Dark Collector"
+	quest.2000000000000043.quest_desc: [
+		"Evolution is a key part of training!"
+		""
+		"Evolve any Pokémon once."
+	]
+	quest.2000000000000043.title: "First Evolution"
+	quest.2000000000000046.quest_desc: [
+		"Keep evolving your Pokémon!"
+		""
+		"Evolve 5 Pokémon."
+	]
+	quest.2000000000000046.title: "Evolution Expert"
+	quest.2000000000000049.quest_desc: [
+		"The ultimate prize for any trainer!"
+		""
+		"Catch a Shiny Pokémon."
+	]
+	quest.2000000000000049.title: "Shiny Hunter!"
+	quest.2000000000000053.quest_desc: [
+		"Catch Pokémon during the day!"
+		""
+		"Daytime is between 0-12000 ticks."
+		""
+		"&eShort Playtime Quest&r - Quick to complete!"
+	]
+	quest.2000000000000053.title: "Daytime Catcher"
+	quest.2000000000000056.quest_desc: [
+		"Catch Pokémon during the night!"
+		""
+		"Nighttime is between 13000-24000 ticks."
+		""
+		"&eShort Playtime Quest&r - Quick to complete!"
+	]
+	quest.2000000000000056.title: "Nighttime Catcher"
+	quest.2000000000000059.quest_desc: [
+		"Catch Normal type Pokémon!"
+		""
+		"Normal types are common and versatile."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.2000000000000059.title: "Normal Type Catcher"
+	quest.2000000000000062.quest_desc: [
+		"Catch Bug type Pokémon!"
+		""
+		"Bug types are often found in forests."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.2000000000000062.title: "Bug Type Catcher"
+	quest.2000000000000065.quest_desc: [
+		"Catch Flying type Pokémon!"
+		""
+		"Look to the skies!"
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.2000000000000065.title: "Flying Type Catcher"
+	quest.2000000000000068.quest_desc: [
+		"Catch Fighting type Pokémon!"
+		""
+		"Strong and powerful fighters!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000068.title: "Fighting Type Catcher"
+	quest.2000000000000071.quest_desc: [
+		"Catch Poison type Pokémon!"
+		""
+		"Handle with care!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000071.title: "Poison Type Catcher"
+	quest.2000000000000074.quest_desc: [
+		"Catch Ground type Pokémon!"
+		""
+		"Found in deserts and mountains!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000074.title: "Ground Type Catcher"
+	quest.2000000000000077.quest_desc: [
+		"Catch Rock type Pokémon!"
+		""
+		"Solid as a rock!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000077.title: "Rock Type Catcher"
+	quest.2000000000000080.quest_desc: [
+		"Catch Ice type Pokémon!"
+		""
+		"Cool as ice!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000080.title: "Ice Type Catcher"
+	quest.2000000000000083.quest_desc: [
+		"Catch Steel type Pokémon!"
+		""
+		"Strong and durable!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000083.title: "Steel Type Catcher"
+	quest.2000000000000086.quest_desc: [
+		"Catch Fairy type Pokémon!"
+		""
+		"Magical and mystical!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000086.title: "Fairy Type Catcher"
+	quest.2000000000000089.quest_desc: [
+		"You're a serious collector now!"
+		""
+		"Catch 75 different Pokémon species."
+		""
+		"&cLong Playtime Quest&r - Dedication required!"
+	]
+	quest.2000000000000089.title: "Advanced Collector"
+	quest.2000000000000093.quest_desc: [
+		"You're approaching mastery!"
+		""
+		"Catch 100 different Pokémon species."
+		""
+		"&cLong Playtime Quest&r - Major achievement!"
+	]
+	quest.2000000000000093.title: "Legendary Collector"
+	quest.2000000000000098.quest_desc: [
+		"Keep evolving your team!"
+		""
+		"Evolve 10 Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000098.title: "Evolution Master"
+	quest.2000000000000102.quest_desc: [
+		"You're an evolution specialist!"
+		""
+		"Evolve 25 Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.2000000000000102.title: "Evolution Guru"
+	quest.2000000000000106.quest_desc: [
+		"Catch a low-level Pokémon!"
+		""
+		"Level 10 or below."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.2000000000000106.title: "Baby Steps"
+	quest.2000000000000109.quest_desc: [
+		"Catch a mid-level Pokémon!"
+		""
+		"Level 20-30."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000109.title: "Rising Star"
+	quest.2000000000000112.quest_desc: [
+		"Catch a high-level Pokémon!"
+		""
+		"Level 40 or above."
+		""
+		"&cLong Playtime Quest&r - Challenging!"
+	]
+	quest.2000000000000112.title: "Apex Catcher"
+	quest.2000000000000116.quest_desc: [
+		"Catch all starter types in one session!"
+		""
+		"Fire, Water, and Grass."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.2000000000000116.title: "Type Diversity"
+	quest.3000000000000002.quest_desc: [
+		"Every trainer must learn to battle!"
+		""
+		"Defeat your first wild Pokémon."
+	]
+	quest.3000000000000002.title: "First Battle"
+	quest.3000000000000005.quest_desc: [
+		"Build your battling experience!"
+		""
+		"Defeat 10 wild Pokémon."
+	]
+	quest.3000000000000005.title: "Battle Training"
+	quest.3000000000000008.quest_desc: [
+		"You're getting stronger!"
+		""
+		"Defeat 25 wild Pokémon."
+	]
+	quest.3000000000000008.title: "Experienced Battler"
+	quest.3000000000000011.quest_desc: [
+		"You're a seasoned battler now!"
+		""
+		"Defeat 50 wild Pokémon."
+	]
+	quest.3000000000000011.title: "Battle Master"
+	quest.3000000000000015.quest_desc: [
+		"Test your skills against other trainers!"
+		""
+		"Defeat a player in battle."
+		""
+		"Note: You must defeat another player's Pokémon team."
+	]
+	quest.3000000000000015.title: "Rival Battle"
+	quest.3000000000000019.quest_desc: [
+		"Prove your dominance!"
+		""
+		"Defeat 5 players in battle."
+	]
+	quest.3000000000000019.title: "Competitive Battler"
+	quest.3000000000000023.quest_desc: [
+		"NPC trainers are waiting to challenge you!"
+		""
+		"Defeat an NPC trainer."
+		""
+		"Note: This requires NPCs to be set up on your server."
+	]
+	quest.3000000000000023.title: "NPC Challenger"
+	quest.3000000000000026.quest_desc: [
+		"Keep challenging NPC trainers!"
+		""
+		"Defeat 5 NPC trainers."
+	]
+	quest.3000000000000026.title: "NPC Conqueror"
+	quest.3000000000000030.quest_desc: [
+		"Fire types are formidable opponents!"
+		""
+		"Defeat a Fire type Pokémon."
+	]
+	quest.3000000000000030.title: "Fire Type Defeater"
+	quest.3000000000000033.quest_desc: [
+		"Water types can be tricky!"
+		""
+		"Defeat a Water type Pokémon."
+	]
+	quest.3000000000000033.title: "Water Type Defeater"
+	quest.3000000000000036.quest_desc: [
+		"Grass types have unique strengths!"
+		""
+		"Defeat a Grass type Pokémon."
+	]
+	quest.3000000000000036.title: "Grass Type Defeater"
+	quest.3000000000000039.quest_desc: [
+		"Dragon types are the ultimate challenge!"
+		""
+		"Defeat a Dragon type Pokémon."
+	]
+	quest.3000000000000039.title: "Dragon Slayer"
+	quest.3000000000000043.quest_desc: [
+		"Face stronger opponents!"
+		""
+		"Defeat a Pokémon level 30 or higher."
+	]
+	quest.3000000000000043.title: "Tough Opponent"
+	quest.3000000000000046.quest_desc: [
+		"Only the strongest trainers can do this!"
+		""
+		"Defeat a Pokémon level 50 or higher."
+	]
+	quest.3000000000000046.title: "Elite Challenger"
+	quest.3000000000000050.quest_desc: [
+		"Quick battles for quick rewards!"
+		""
+		"Defeat 5 wild Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.3000000000000050.title: "Quick Battler"
+	quest.3000000000000053.quest_desc: [
+		"You're on a winning streak!"
+		""
+		"Defeat 75 wild Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000053.title: "Veteran Battler"
+	quest.3000000000000057.quest_desc: [
+		"The ultimate battle challenge!"
+		""
+		"Defeat 100 wild Pokémon."
+		""
+		"&cLong Playtime Quest&r - Major achievement!"
+	]
+	quest.3000000000000057.title: "Champion Battler"
+	quest.3000000000000062.quest_desc: [
+		"Defeat Electric type Pokémon!"
+		""
+		"Watch out for paralysis!"
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.3000000000000062.title: "Electric Type Defeater"
+	quest.3000000000000065.quest_desc: [
+		"Defeat Psychic type Pokémon!"
+		""
+		"Mental fortitude required!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000065.title: "Psychic Type Defeater"
+	quest.3000000000000068.quest_desc: [
+		"Defeat Ghost type Pokémon!"
+		""
+		"Face your fears!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000068.title: "Ghost Type Defeater"
+	quest.3000000000000071.quest_desc: [
+		"Defeat Dark type Pokémon!"
+		""
+		"Bring light to darkness!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000071.title: "Dark Type Defeater"
+	quest.3000000000000074.quest_desc: [
+		"Defeat Bug type Pokémon!"
+		""
+		"Extermination time!"
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.3000000000000074.title: "Bug Type Defeater"
+	quest.3000000000000077.quest_desc: [
+		"Defeat Fighting type Pokémon!"
+		""
+		"Show your strength!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000077.title: "Fighting Type Defeater"
+	quest.3000000000000080.quest_desc: [
+		"Defeat Steel type Pokémon!"
+		""
+		"Break through their defense!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000080.title: "Steel Type Defeater"
+	quest.3000000000000083.quest_desc: [
+		"Defeat Ice type Pokémon!"
+		""
+		"Melt their defenses!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000083.title: "Ice Type Defeater"
+	quest.3000000000000086.quest_desc: [
+		"Challenge powerful Pokémon!"
+		""
+		"Defeat a Pokémon level 60 or higher."
+		""
+		"&cLong Playtime Quest&r - Very challenging!"
+	]
+	quest.3000000000000086.title: "Ultimate Challenge"
+	quest.3000000000000090.quest_desc: [
+		"Prove yourself in PvP!"
+		""
+		"Defeat 10 players in battle."
+		""
+		"&cLong Playtime Quest&r - Competitive!"
+	]
+	quest.3000000000000090.title: "PvP Champion"
+	quest.3000000000000094.quest_desc: [
+		"Become an NPC battle champion!"
+		""
+		"Defeat 10 NPC trainers."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000094.title: "NPC Master"
+	quest.3000000000000098.quest_desc: [
+		"Defeat low-level Pokémon!"
+		""
+		"Level 10 or below."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.3000000000000098.title: "Beginner Battles"
+	quest.3000000000000101.quest_desc: [
+		"Become a Fire type specialist!"
+		""
+		"Defeat 10 Fire type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000101.title: "Fire Specialist"
+	quest.3000000000000104.quest_desc: [
+		"Become a Water type specialist!"
+		""
+		"Defeat 10 Water type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000104.title: "Water Specialist"
+	quest.3000000000000107.quest_desc: [
+		"Become a Grass type specialist!"
+		""
+		"Defeat 10 Grass type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000107.title: "Grass Specialist"
+	quest.3000000000000110.quest_desc: [
+		"Become an Electric type specialist!"
+		""
+		"Defeat 10 Electric type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000110.title: "Electric Specialist"
+	quest.3000000000000113.quest_desc: [
+		"Become a Psychic type specialist!"
+		""
+		"Defeat 10 Psychic type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000113.title: "Psychic Specialist"
+	quest.3000000000000116.quest_desc: [
+		"Become a Dragon type specialist!"
+		""
+		"Defeat 10 Dragon type Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000116.title: "Dragon Specialist"
+	quest.3000000000000119.quest_desc: [
+		"Become a Ghost type specialist!"
+		""
+		"Defeat 10 Ghost type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000119.title: "Ghost Specialist"
+	quest.3000000000000122.quest_desc: [
+		"Become a Dark type specialist!"
+		""
+		"Defeat 10 Dark type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000122.title: "Dark Specialist"
+	quest.3000000000000125.quest_desc: [
+		"Challenge level 30+ Pokémon!"
+		""
+		"Defeat 5 Pokémon level 30 or higher."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000125.title: "Level 30+ Challenge"
+	quest.3000000000000128.quest_desc: [
+		"Face level 45+ Pokémon!"
+		""
+		"Defeat 5 Pokémon level 45 or higher."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000128.title: "Level 45+ Challenge"
+	quest.3000000000000131.quest_desc: [
+		"Face level 60+ Pokémon!"
+		""
+		"Defeat 5 Pokémon level 60 or higher."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000131.title: "Level 60+ Challenge"
+	quest.3000000000000134.quest_desc: [
+		"Face level 75+ Pokémon!"
+		""
+		"Defeat 3 Pokémon level 75 or higher."
+		""
+		"&cLong Playtime Quest&r - Very difficult!"
+	]
+	quest.3000000000000134.title: "Level 75+ Challenge"
+	quest.3000000000000137.quest_desc: [
+		"Face level 90+ Pokémon!"
+		""
+		"Defeat 1 Pokémon level 90 or higher."
+		""
+		"&cLong Playtime Quest&r - Expert only!"
+	]
+	quest.3000000000000137.title: "Level 90+ Challenge"
+	quest.3000000000000140.quest_desc: [
+		"Desert battles await!"
+		""
+		"Defeat 20 Pokémon in desert biomes."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000140.title: "Desert Battler"
+	quest.3000000000000143.quest_desc: [
+		"Ocean battles await!"
+		""
+		"Defeat 20 Pokémon in ocean biomes."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000143.title: "Ocean Battler"
+	quest.3000000000000146.quest_desc: [
+		"Mountain battles await!"
+		""
+		"Defeat 20 Pokémon in mountain biomes."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000146.title: "Mountain Battler"
+	quest.3000000000000149.quest_desc: [
+		"Forest battles await!"
+		""
+		"Defeat 20 Pokémon in forest biomes."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000149.title: "Forest Battler"
+	quest.3000000000000152.quest_desc: [
+		"Plains battles await!"
+		""
+		"Defeat 20 Pokémon in plains biomes."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000152.title: "Plains Battler"
+	quest.3000000000000155.quest_desc: [
+		"Snowy battles await!"
+		""
+		"Defeat 20 Pokémon in snowy biomes."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000155.title: "Snowy Battler"
+	quest.3000000000000158.quest_desc: [
+		"Century of battles!"
+		""
+		"Defeat 100 wild Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000158.title: "Century Mark"
+	quest.3000000000000161.quest_desc: [
+		"Quarter thousand battles!"
+		""
+		"Defeat 250 wild Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000161.title: "Quarter Thousand"
+	quest.3000000000000164.quest_desc: [
+		"Half thousand battles!"
+		""
+		"Defeat 500 wild Pokémon."
+		""
+		"&cLong Playtime Quest&r - Major grind!"
+	]
+	quest.3000000000000164.title: "Half Thousand"
+	quest.3000000000000167.quest_desc: [
+		"Three quarter thousand!"
+		""
+		"Defeat 750 wild Pokémon."
+		""
+		"&cLong Playtime Quest&r - Extreme dedication!"
+	]
+	quest.3000000000000167.title: "Three Quarter Thousand"
+	quest.3000000000000170.quest_desc: [
+		"One thousand battles!"
+		""
+		"Defeat 1000 wild Pokémon."
+		""
+		"&cLong Playtime Quest&r - Ultimate achievement!"
+	]
+	quest.3000000000000170.title: "Thousand Battles"
+	quest.3000000000000173.quest_desc: [
+		"Battle under the moonlight!"
+		""
+		"Defeat 10 Pokémon during nighttime."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.3000000000000173.title: "Night Warrior"
+	quest.3000000000000176.quest_desc: [
+		"Battle under the sun!"
+		""
+		"Defeat 10 Pokémon during daytime."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.3000000000000176.title: "Day Warrior"
+	quest.3000000000000179.quest_desc: [
+		"Battle in the rain!"
+		""
+		"Defeat 5 Pokémon during rain."
+		""
+		"Note: Weather-based, may take time!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000179.title: "Rain Battler"
+	quest.3000000000000182.quest_desc: [
+		"Battle in the snow!"
+		""
+		"Defeat 5 Pokémon in snowy weather."
+		""
+		"Note: Weather-based, may take time!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000182.title: "Snow Battler"
+	quest.3000000000000185.quest_desc: [
+		"Become a night specialist!"
+		""
+		"Defeat 25 Pokémon during nighttime."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000185.title: "Night Specialist"
+	quest.3000000000000188.quest_desc: [
+		"Become a day specialist!"
+		""
+		"Defeat 25 Pokémon during daytime."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000188.title: "Day Specialist"
+	quest.3000000000000191.quest_desc: [
+		"Face evolved Pokémon!"
+		""
+		"Defeat 25 evolved Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000191.title: "Evolution Hunter"
+	quest.3000000000000194.quest_desc: [
+		"Face fully evolved Pokémon!"
+		""
+		"Defeat 10 fully evolved Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000194.title: "Final Form Fighter"
+	quest.3000000000000197.quest_desc: [
+		"Win streak challenge!"
+		""
+		"Defeat 5 Pokémon consecutively."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.3000000000000197.title: "Win Streak"
+	quest.3000000000000200.quest_desc: [
+		"No healing allowed!"
+		""
+		"Defeat 10 Pokémon without healing."
+		""
+		"Note: Build a strong team!"
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000200.title: "No Healing Challenge"
+	quest.3000000000000203.quest_desc: [
+		"Extended win streak!"
+		""
+		"Defeat 10 Pokémon consecutively."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000203.title: "Extended Streak"
+	quest.3000000000000206.quest_desc: [
+		"Quick battles!"
+		""
+		"Defeat 15 Pokémon quickly."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.3000000000000206.title: "Speed Battler"
+	quest.3000000000000209.quest_desc: [
+		"Marathon battles!"
+		""
+		"Defeat 30 Pokémon in one session."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000209.title: "Marathon Battler"
+	quest.3000000000000212.quest_desc: [
+		"Challenge yourself!"
+		""
+		"Defeat 20 level 30+ Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.3000000000000212.title: "Veteran Challenge"
+	quest.3000000000000215.quest_desc: [
+		"Elite challenge!"
+		""
+		"Defeat 15 level 50+ Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000215.title: "Elite Challenge"
+	quest.3000000000000218.quest_desc: [
+		"Ultimate win streak!"
+		""
+		"Defeat 20 Pokémon consecutively."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000218.title: "Ultimate Streak"
+	quest.3000000000000221.quest_desc: [
+		"Master level battler!"
+		""
+		"Defeat 10 level 60+ Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.3000000000000221.title: "Master Challenge"
+	quest.4000000000000002.quest_desc: [
+		"Poké Balls are essential for catching Pokémon!"
+		""
+		"Craft your first Poké Ball."
+	]
+	quest.4000000000000002.title: "First Poké Ball"
+	quest.4000000000000005.quest_desc: [
+		"Great Balls offer better catch rates!"
+		""
+		"Craft a Great Ball."
+	]
+	quest.4000000000000005.title: "Better Balls"
+	quest.4000000000000008.quest_desc: [
+		"Ultra Balls are even more effective!"
+		""
+		"Craft an Ultra Ball."
+	]
+	quest.4000000000000008.title: "Ultimate Balls"
+	quest.4000000000000011.quest_desc: [
+		"Heal your Pokémon after battles!"
+		""
+		"Craft a Potion."
+	]
+	quest.4000000000000011.title: "Healing Basics"
+	quest.4000000000000014.quest_desc: [
+		"Super Potions heal more HP!"
+		""
+		"Craft a Super Potion."
+	]
+	quest.4000000000000014.title: "Better Healing"
+	quest.4000000000000017.quest_desc: [
+		"Hyper Potions are very effective!"
+		""
+		"Craft a Hyper Potion."
+	]
+	quest.4000000000000017.title: "Advanced Healing"
+	quest.4000000000000020.quest_desc: [
+		"Full Restores completely heal your Pokémon!"
+		""
+		"Craft a Full Restore."
+	]
+	quest.4000000000000020.title: "Master Healer"
+	quest.4000000000000024.quest_desc: [
+		"Revives bring back fainted Pokémon!"
+		""
+		"Craft a Revive."
+	]
+	quest.4000000000000024.title: "Second Chance"
+	quest.4000000000000027.quest_desc: [
+		"Max Revives fully restore fainted Pokémon!"
+		""
+		"Craft a Max Revive."
+	]
+	quest.4000000000000027.title: "Full Restoration"
+	quest.4000000000000031.quest_desc: [
+		"Build a PC to store your Pokémon!"
+		""
+		"Craft a PC."
+	]
+	quest.4000000000000031.title: "Storage System"
+	quest.4000000000000034.quest_desc: [
+		"The Healing Machine restores your team!"
+		""
+		"Craft a Healing Machine."
+	]
+	quest.4000000000000034.title: "Pokémon Center"
+	quest.4000000000000038.quest_desc: [
+		"Medicinal Leeks are valuable crafting materials!"
+		""
+		"Obtain a Medicinal Leek."
+	]
+	quest.4000000000000038.title: "Gathering Herbs"
+	quest.4000000000000041.quest_desc: [
+		"Apricorns are used to craft Poké Balls!"
+		""
+		"Obtain any Apricorn."
+	]
+	quest.4000000000000041.title: "Apricorn Collector"
+	quest.4000000000000044.quest_desc: [
+		"Collect all colors of Apricorns!"
+		""
+		"Each color makes different Poké Balls."
+	]
+	quest.4000000000000044.title: "Rainbow Collection"
+	quest.4000000000000054.quest_desc: [
+		"Level up your Pokémon!"
+		""
+		"Level up a Pokémon by 10 levels."
+	]
+	quest.4000000000000054.title: "Training Progress"
+	quest.4000000000000057.quest_desc: [
+		"Reach level 50 with a Pokémon!"
+		""
+		"This is a significant milestone."
+	]
+	quest.4000000000000057.title: "Halfway There"
+	quest.4000000000000061.quest_desc: [
+		"Reach level 100 with a Pokémon!"
+		""
+		"Only true masters achieve this!"
+	]
+	quest.4000000000000061.title: "Maximum Power!"
+	quest.4000000000000066.quest_desc: [
+		"You've mastered crafting!"
+		""
+		"You can create everything a trainer needs."
+	]
+	quest.4000000000000066.title: "Crafting Master"
+	quest.4000000000000070.quest_desc: [
+		"Craft multiple Poké Balls!"
+		""
+		"Create 10 Poké Balls."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000070.title: "Ball Factory"
+	quest.4000000000000073.quest_desc: [
+		"Mass production of Great Balls!"
+		""
+		"Create 20 Great Balls."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000073.title: "Great Ball Producer"
+	quest.4000000000000076.quest_desc: [
+		"Ultra Ball mass production!"
+		""
+		"Create 30 Ultra Balls."
+		""
+		"&cLong Playtime Quest&r - Resource intensive!"
+	]
+	quest.4000000000000076.title: "Ultra Ball Manufacturer"
+	quest.4000000000000080.quest_desc: [
+		"Stock up on healing!"
+		""
+		"Craft 20 Potions."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000080.title: "Potion Stockpile"
+	quest.4000000000000083.quest_desc: [
+		"Advanced healing production!"
+		""
+		"Craft 15 Super Potions."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000083.title: "Super Potion Supply"
+	quest.4000000000000086.quest_desc: [
+		"Maximum healing production!"
+		""
+		"Craft 10 Hyper Potions."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000086.title: "Hyper Potion Hoarder"
+	quest.4000000000000089.quest_desc: [
+		"Train a team of Pokémon!"
+		""
+		"Level up 3 different Pokémon by 5 levels each."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000089.title: "Team Training"
+	quest.4000000000000092.quest_desc: [
+		"Reach level 75 with a Pokémon!"
+		""
+		"You're approaching max level!"
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000092.title: "Almost There"
+	quest.4000000000000096.quest_desc: [
+		"Train multiple Pokémon!"
+		""
+		"Level up 50 total levels across all Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000096.title: "Training Dedication"
+	quest.4000000000000100.quest_desc: [
+		"Become a training master!"
+		""
+		"Level up 100 total levels across all Pokémon."
+		""
+		"&cLong Playtime Quest&r - Epic achievement!"
+	]
+	quest.4000000000000100.title: "Training Legend"
+	quest.4000000000000104.quest_desc: [
+		"Harvest lots of Apricorns!"
+		""
+		"Collect 50 Apricorns of any color."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000104.title: "Apricorn Farmer"
+	quest.4000000000000107.quest_desc: [
+		"Become an Apricorn tycoon!"
+		""
+		"Collect 100 Apricorns total."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000107.title: "Apricorn Magnate"
+	quest.4000000000000111.quest_desc: [
+		"Gather lots of Medicinal Leeks!"
+		""
+		"Collect 20 Medicinal Leeks."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000111.title: "Herb Collector"
+	quest.4000000000000114.quest_desc: [
+		"Craft specialty balls!"
+		""
+		"Create a Quick Ball."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000114.title: "Quick Capture"
+	quest.4000000000000117.quest_desc: [
+		"Craft water specialty balls!"
+		""
+		"Create a Dive Ball."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000117.title: "Deep Dive"
+	quest.4000000000000120.quest_desc: [
+		"Craft nighttime specialty balls!"
+		""
+		"Create a Dusk Ball."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000120.title: "Night Hunter"
+	quest.4000000000000123.quest_desc: [
+		"Craft a large batch of Poké Balls!"
+		""
+		"Create 25 Poké Balls."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000123.title: "Poké Ball Production"
+	quest.4000000000000126.quest_desc: [
+		"Mass produce Poké Balls!"
+		""
+		"Create 50 Poké Balls."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000126.title: "Poké Ball Mass Production"
+	quest.4000000000000129.quest_desc: [
+		"Ultimate Poké Ball manufacturing!"
+		""
+		"Create 100 Poké Balls."
+		""
+		"&cLong Playtime Quest&r - Industrial scale!"
+	]
+	quest.4000000000000129.title: "Poké Ball Tycoon"
+	quest.4000000000000133.quest_desc: [
+		"Produce many Great Balls!"
+		""
+		"Create 25 Great Balls."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000133.title: "Great Ball Factory"
+	quest.4000000000000136.quest_desc: [
+		"Produce many Ultra Balls!"
+		""
+		"Create 25 Ultra Balls."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000136.title: "Ultra Ball Factory"
+	quest.4000000000000139.quest_desc: [
+		"Craft a large batch of Potions!"
+		""
+		"Create 50 Potions."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000139.title: "Potion Warehouse"
+	quest.4000000000000142.quest_desc: [
+		"Produce many Super Potions!"
+		""
+		"Create 25 Super Potions."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000142.title: "Super Potion Factory"
+	quest.4000000000000145.quest_desc: [
+		"Stock up on Revives!"
+		""
+		"Create 25 Revives."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000145.title: "Revive Stockpile"
+	quest.4000000000000148.quest_desc: [
+		"Craft a Nest Ball!"
+		""
+		"Perfect for catching lower level Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000148.title: "Nesting Grounds"
+	quest.4000000000000151.quest_desc: [
+		"Craft a Net Ball!"
+		""
+		"Great for Bug and Water-type Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000151.title: "Net Caster"
+	quest.4000000000000154.quest_desc: [
+		"Craft a Timer Ball!"
+		""
+		"Better catch rate as battle duration increases."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000154.title: "Patience Pays"
+	quest.4000000000000157.quest_desc: [
+		"Craft a Repeat Ball!"
+		""
+		"Better for catching Pokémon you've caught before."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000157.title: "Catch 'Em Again"
+	quest.4000000000000160.quest_desc: [
+		"Craft a Luxury Ball!"
+		""
+		"Makes caught Pokémon friendlier."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000160.title: "Luxury Living"
+	quest.4000000000000163.quest_desc: [
+		"Craft a Heavy Ball!"
+		""
+		"Great for heavy Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000163.title: "Heavy Hitter"
+	quest.4000000000000166.quest_desc: [
+		"Craft a Level Ball!"
+		""
+		"Works better on lower-level Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000166.title: "Level Playing Field"
+	quest.4000000000000169.quest_desc: [
+		"Craft a Love Ball!"
+		""
+		"Better for catching Pokémon of opposite gender."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000169.title: "Love Connection"
+	quest.4000000000000172.quest_desc: [
+		"Craft a Moon Ball!"
+		""
+		"Works better on Pokémon that evolve with Moon Stone."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000172.title: "Lunar Capture"
+	quest.4000000000000175.quest_desc: [
+		"Craft a Friend Ball!"
+		""
+		"Makes caught Pokémon immediately friendly."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000175.title: "Instant Friendship"
+	quest.4000000000000178.quest_desc: [
+		"Craft a Lure Ball!"
+		""
+		"Great for Pokémon encountered while fishing."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000178.title: "Fishing Master"
+	quest.4000000000000181.quest_desc: [
+		"Craft a Fast Ball!"
+		""
+		"Better for catching fast Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000181.title: "Speed Demon"
+	quest.4000000000000184.quest_desc: [
+		"Craft a Sport Ball!"
+		""
+		"Used in Bug-Catching Contests."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000184.title: "Sporting Chance"
+	quest.4000000000000187.quest_desc: [
+		"Craft a Safari Ball!"
+		""
+		"A special ball for Safari Zone adventures."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000187.title: "Safari Explorer"
+	quest.4000000000000190.quest_desc: [
+		"Craft a Full Heal!"
+		""
+		"Cures all status conditions."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000190.title: "Status Cure"
+	quest.4000000000000193.quest_desc: [
+		"Craft an Antidote!"
+		""
+		"Cures poisoned Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000193.title: "Poison Cure"
+	quest.4000000000000196.quest_desc: [
+		"Craft a Burn Heal!"
+		""
+		"Heals burned Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000196.title: "Burn Treatment"
+	quest.4000000000000199.quest_desc: [
+		"Craft an Ice Heal!"
+		""
+		"Thaws frozen Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000199.title: "Freeze Cure"
+	quest.4000000000000202.quest_desc: [
+		"Craft an Awakening!"
+		""
+		"Wakes up sleeping Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000202.title: "Wake Up Call"
+	quest.4000000000000205.quest_desc: [
+		"Craft a Paralyze Heal!"
+		""
+		"Cures paralyzed Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.4000000000000205.title: "Paralysis Cure"
+	quest.4000000000000208.quest_desc: [
+		"Craft Leftovers!"
+		""
+		"A held item that restores HP gradually."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000208.title: "Gradual Recovery"
+	quest.4000000000000211.quest_desc: [
+		"Craft a Choice Band!"
+		""
+		"Boosts Attack but locks you into one move."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000211.title: "Power Choice"
+	quest.4000000000000214.quest_desc: [
+		"Craft a Choice Scarf!"
+		""
+		"Boosts Speed but locks you into one move."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000214.title: "Speed Choice"
+	quest.4000000000000217.quest_desc: [
+		"Craft a Focus Sash!"
+		""
+		"Prevents one-hit KOs when at full HP."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000217.title: "Survival Instinct"
+	quest.4000000000000220.quest_desc: [
+		"Craft a Life Orb!"
+		""
+		"Boosts move power but damages the holder."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.4000000000000220.title: "Risk and Reward"
+	quest.4000000000000223.quest_desc: [
+		"Craft a Thunder Stone!"
+		""
+		"Evolves certain Electric-type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000223.title: "Electric Evolution"
+	quest.4000000000000226.quest_desc: [
+		"Craft a Fire Stone!"
+		""
+		"Evolves certain Fire-type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000226.title: "Flame Evolution"
+	quest.4000000000000229.quest_desc: [
+		"Craft a Water Stone!"
+		""
+		"Evolves certain Water-type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000229.title: "Aquatic Evolution"
+	quest.4000000000000232.quest_desc: [
+		"Craft a Leaf Stone!"
+		""
+		"Evolves certain Grass-type Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000232.title: "Nature's Evolution"
+	quest.4000000000000235.quest_desc: [
+		"Craft a Moon Stone!"
+		""
+		"Evolves Pokémon with lunar affinity."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000235.title: "Lunar Evolution"
+	quest.4000000000000238.quest_desc: [
+		"Craft a Sun Stone!"
+		""
+		"Evolves Pokémon with solar affinity."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000238.title: "Solar Evolution"
+	quest.4000000000000241.quest_desc: [
+		"Craft a Shiny Stone!"
+		""
+		"Evolves certain beautiful Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000241.title: "Radiant Evolution"
+	quest.4000000000000244.quest_desc: [
+		"Craft a Dusk Stone!"
+		""
+		"Evolves certain dark Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000244.title: "Shadow Evolution"
+	quest.4000000000000247.quest_desc: [
+		"Craft a Dawn Stone!"
+		""
+		"Evolves certain Pokémon at dawn."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.4000000000000247.title: "Morning Evolution"
+	quest.5000000000000002.quest_desc: [
+		"Rare Candies instantly level up your Pokémon!"
+		""
+		"Obtain a Rare Candy."
+	]
+	quest.5000000000000002.title: "Sweet Treat"
+	quest.5000000000000005.quest_desc: [
+		"Throw a Poké Ball at a Pokémon!"
+		""
+		"Whether you catch it or not, you tried!"
+	]
+	quest.5000000000000005.title: "First Throw"
+	quest.5000000000000008.quest_desc: [
+		"Practice makes perfect!"
+		""
+		"Throw 50 Poké Balls."
+	]
+	quest.5000000000000008.title: "Ball Thrower"
+	quest.5000000000000011.quest_desc: [
+		"Scan a Pokémon with a Pokédex!"
+		""
+		"Learn more about the Pokémon you encounter."
+	]
+	quest.5000000000000011.title: "Research Assistant"
+	quest.5000000000000014.quest_desc: [
+		"Scan many Pokémon!"
+		""
+		"Build your Pokédex knowledge."
+	]
+	quest.5000000000000014.title: "Dedicated Researcher"
+	quest.5000000000000017.quest_desc: [
+		"Trading is an important part of being a trainer!"
+		""
+		"Trade away a Pokémon."
+	]
+	quest.5000000000000017.title: "First Trade"
+	quest.5000000000000020.quest_desc: [
+		"Receive a Pokémon through trading!"
+		""
+		"Complete a trade to get a new Pokémon."
+	]
+	quest.5000000000000020.title: "Trade Complete"
+	quest.5000000000000023.quest_desc: [
+		"Sometimes you need to make room!"
+		""
+		"Release a Pokémon from your PC."
+		""
+		"&cWarning: This permanently removes the Pokémon!"
+	]
+	quest.5000000000000023.title: "Tough Choices"
+	quest.5000000000000026.quest_desc: [
+		"Register Pokémon in your Pokédex!"
+		""
+		"Have 10 Pokémon registered (seen or caught)."
+	]
+	quest.5000000000000026.title: "Pokédex Started"
+	quest.5000000000000029.quest_desc: [
+		"Expand your Pokédex!"
+		""
+		"Have 25 Pokémon registered."
+	]
+	quest.5000000000000029.title: "Growing Database"
+	quest.5000000000000032.quest_desc: [
+		"You're making great progress!"
+		""
+		"Have 50 Pokémon registered in your Pokédex."
+	]
+	quest.5000000000000032.title: "Expert Researcher"
+	quest.5000000000000036.quest_desc: [
+		"Obtain any Evolution Stone!"
+		""
+		"These are used to evolve certain Pokémon."
+	]
+	quest.5000000000000036.title: "Evolution Stones"
+	quest.5000000000000039.quest_desc: [
+		"Collect different Evolution Stones!"
+		""
+		"Each one evolves different Pokémon."
+	]
+	quest.5000000000000039.title: "Stone Collector"
+	quest.5000000000000046.quest_desc: [
+		"Berries are useful for healing and effects!"
+		""
+		"Obtain any Berry."
+	]
+	quest.5000000000000046.title: "Berry Picker"
+	quest.5000000000000049.quest_desc: [
+		"Collect various Berries!"
+		""
+		"Each Berry has unique effects."
+	]
+	quest.5000000000000049.title: "Berry Expert"
+	quest.5000000000000056.quest_desc: [
+		"You're getting good at this!"
+		""
+		"Throw 100 Poké Balls."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000056.title: "Ball Master"
+	quest.5000000000000059.quest_desc: [
+		"You've thrown countless balls!"
+		""
+		"Throw 250 Poké Balls."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000059.title: "Ball Legend"
+	quest.5000000000000063.quest_desc: [
+		"Become a research expert!"
+		""
+		"Scan 50 Pokémon with your Pokédex."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000063.title: "Research Master"
+	quest.5000000000000066.quest_desc: [
+		"You're a scanning legend!"
+		""
+		"Scan 100 Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000066.title: "Professor Status"
+	quest.5000000000000070.quest_desc: [
+		"You're filling that Pokédex!"
+		""
+		"Have 75 Pokémon registered."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000070.title: "Advanced Researcher"
+	quest.5000000000000074.quest_desc: [
+		"The Pokédex is nearly complete!"
+		""
+		"Have 100 Pokémon registered."
+		""
+		"&cLong Playtime Quest&r - Epic achievement!"
+	]
+	quest.5000000000000074.title: "Pokédex Master"
+	quest.5000000000000078.quest_desc: [
+		"Trading is your specialty!"
+		""
+		"Complete 5 trades (receiving Pokémon)."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000078.title: "Trading Pro"
+	quest.5000000000000081.quest_desc: [
+		"You're a trading tycoon!"
+		""
+		"Complete 10 trades."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000081.title: "Trading Tycoon"
+	quest.5000000000000085.quest_desc: [
+		"Collect many berries!"
+		""
+		"Have 50 berries of any type."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000085.title: "Berry Farmer"
+	quest.5000000000000088.quest_desc: [
+		"You're a berry farming master!"
+		""
+		"Have 100 berries."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000088.title: "Berry Tycoon"
+	quest.5000000000000092.quest_desc: [
+		"Collect rare evolution stones!"
+		""
+		"Obtain a Moon Stone."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000092.title: "Lunar Stone"
+	quest.5000000000000095.quest_desc: [
+		"Collect rare evolution stones!"
+		""
+		"Obtain a Sun Stone."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000095.title: "Solar Stone"
+	quest.5000000000000098.quest_desc: [
+		"Collect special evolution stones!"
+		""
+		"Obtain a Shiny Stone."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000098.title: "Shiny Stone"
+	quest.5000000000000101.quest_desc: [
+		"Collect special evolution stones!"
+		""
+		"Obtain a Dusk Stone."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000101.title: "Dusk Stone"
+	quest.5000000000000104.quest_desc: [
+		"You've collected all the rare stones!"
+		""
+		"Stone collection complete!"
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000104.title: "Stone Master"
+	quest.5000000000000108.quest_desc: [
+		"Oran Berries restore HP!"
+		""
+		"Collect 5 Oran Berries."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.5000000000000108.title: "Oran Harvest"
+	quest.5000000000000111.quest_desc: [
+		"Pecha Berries cure poison!"
+		""
+		"Collect 5 Pecha Berries."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.5000000000000111.title: "Pecha Harvest"
+	quest.5000000000000114.quest_desc: [
+		"Chesto Berries cure sleep!"
+		""
+		"Collect 5 Chesto Berries."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.5000000000000114.title: "Chesto Harvest"
+	quest.5000000000000117.quest_desc: [
+		"Rawst Berries cure burns!"
+		""
+		"Collect 5 Rawst Berries."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.5000000000000117.title: "Rawst Harvest"
+	quest.5000000000000120.quest_desc: [
+		"Aspear Berries cure freeze!"
+		""
+		"Collect 5 Aspear Berries."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.5000000000000120.title: "Aspear Harvest"
+	quest.5000000000000123.quest_desc: [
+		"Leppa Berries restore PP!"
+		""
+		"Collect 5 Leppa Berries."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000123.title: "Leppa Harvest"
+	quest.5000000000000126.quest_desc: [
+		"Sitrus Berries restore lots of HP!"
+		""
+		"Collect 5 Sitrus Berries."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000126.title: "Sitrus Harvest"
+	quest.5000000000000129.quest_desc: [
+		"Lum Berries cure all status conditions!"
+		""
+		"Collect 3 Lum Berries."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000129.title: "Lum Harvest"
+	quest.5000000000000132.quest_desc: [
+		"Cheri Berries cure paralysis!"
+		""
+		"Collect 5 Cheri Berries."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.5000000000000132.title: "Cheri Harvest"
+	quest.5000000000000135.quest_desc: [
+		"Persim Berries cure confusion!"
+		""
+		"Collect 5 Persim Berries."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.5000000000000135.title: "Persim Harvest"
+	quest.5000000000000138.quest_desc: [
+		"Continue scanning Pokémon!"
+		""
+		"Scan 50 different Pokémon with your Pokédex."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000138.title: "Scanner Expert"
+	quest.5000000000000142.quest_desc: [
+		"You're becoming a scanning master!"
+		""
+		"Scan 100 Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000142.title: "Scan Master"
+	quest.5000000000000153.quest_desc: [
+		"Keep throwing those balls!"
+		""
+		"Throw 100 Poké Balls."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000153.title: "Ball Ace"
+	quest.5000000000000156.quest_desc: [
+		"You're an expert thrower!"
+		""
+		"Throw 250 Poké Balls."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000156.title: "Ball Expert"
+	quest.5000000000000160.quest_desc: [
+		"Your aim is legendary!"
+		""
+		"Throw 500 Poké Balls."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000160.title: "Ball Champion"
+	quest.5000000000000164.quest_desc: [
+		"You've thrown more balls than anyone!"
+		""
+		"Throw 1000 Poké Balls."
+		""
+		"&cLong Playtime Quest&r - Ultimate achievement!"
+	]
+	quest.5000000000000164.title: "Ball Deity"
+	quest.5000000000000168.quest_desc: [
+		"Start building your collection!"
+		""
+		"Store 30 Pokémon in your PC."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000168.title: "PC Starter"
+	quest.5000000000000171.quest_desc: [
+		"Your collection is growing!"
+		""
+		"Store 60 Pokémon in your PC."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000171.title: "PC Collector"
+	quest.5000000000000175.quest_desc: [
+		"An impressive collection!"
+		""
+		"Store 100 Pokémon in your PC."
+		""
+		"&cLong Playtime Quest&r - Major achievement!"
+	]
+	quest.5000000000000175.title: "PC Master"
+	quest.5000000000000179.quest_desc: [
+		"Power up your Pokémon instantly!"
+		""
+		"Use a Rare Candy on a Pokémon."
+		""
+		"&eShort Playtime Quest&r"
+	]
+	quest.5000000000000179.title: "Sweet Power"
+	quest.5000000000000182.quest_desc: [
+		"Evolution stones change your Pokémon!"
+		""
+		"Use any Evolution Stone on a Pokémon."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000182.title: "Evolution Master"
+	quest.5000000000000185.quest_desc: [
+		"Keep your Pokémon healthy!"
+		""
+		"Heal at a Pokémon Center 25 times."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000185.title: "Healing Routine"
+	quest.5000000000000189.quest_desc: [
+		"Experience the Pokémon journey!"
+		""
+		"Battle wild Pokémon 50 times."
+		""
+		"&6Mid Playtime Quest&r"
+	]
+	quest.5000000000000189.title: "Battle Veteran"
+	quest.5000000000000193.quest_desc: [
+		"Breed Pokémon to get new ones!"
+		""
+		"Breed 5 Pokémon eggs."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000193.title: "Pokemon Breeder"
+	quest.5000000000000197.quest_desc: [
+		"An incredible milestone!"
+		""
+		"Scan 150 Pokémon."
+		""
+		"&cLong Playtime Quest&r"
+	]
+	quest.5000000000000197.title: "Scan Legend"
+	quest.5000000000000201.quest_desc: [
+		"You've scanned so many Pokémon!"
+		""
+		"Scan 200 Pokémon."
+		""
+		"&cLong Playtime Quest&r - Elite achievement!"
+	]
+	quest.5000000000000201.title: "Scan Champion"
+	reward.1000000000000035.title: "Unknown type: dimension"
+	task.1000000000000004.title: "Visit Plains"
+	task.1000000000000007.title: "Visit Forest"
+	task.1000000000000010.title: "Visit Ocean"
+	task.1000000000000013.title: "Visit Mountain"
+	task.1000000000000016.title: "Visit Desert"
+	task.1000000000000019.title: "Visit Taiga"
+	task.1000000000000022.title: "Visit Jungle"
+	task.1000000000000025.title: "Visit River"
+	task.1000000000000029.title: "Biome Master"
+	task.1000000000000032.title: "Enter the Nether"
+	task.1000000000000035.title: "Enter the End"
+	task.1000000000000038.title: "Visit Savanna"
+	task.1000000000000041.title: "Visit Swamp"
+	task.1000000000000044.title: "Visit Deep Ocean"
+	task.1000000000000047.title: "Visit Snowy Tundra"
+	task.1000000000000050.title: "Visit Badlands"
+	task.1000000000000053.title: "Reach High Altitude"
+	task.1000000000000057.title: "Ultimate Explorer"
+	task.1000000000000060.title: "Visit Nether Wastes"
+	task.1000000000000063.title: "Find Bastion"
+	task.1000000000000066.title: "Find Nether Fortress"
+	task.1000000000000070.title: "Reach Outer End"
+	task.1000000000000074.title: "Visit Mushroom Island"
+	task.1000000000000077.title: "Visit Bamboo Jungle"
+	task.2000000000000033.title: "Starter Types"
+	task.4000000000000069.title: "Master Crafter"
+	task.5000000000000107.title: "Stone Master"
+}

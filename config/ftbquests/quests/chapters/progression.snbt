@@ -1,0 +1,1877 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	id: "4000000000000001"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4000000000000002"
+			rewards: [{
+				count: 3
+				id: "4000000000000003"
+				item: {
+					count: 1
+					id: "cobblemon:poke_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000004"
+				item: { count: 1, id: "cobblemon:poke_ball" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000002"]
+			id: "4000000000000005"
+			rewards: [{
+				count: 3
+				id: "4000000000000006"
+				item: {
+					count: 1
+					id: "cobblemon:great_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000007"
+				item: { count: 1, id: "cobblemon:great_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			id: "4000000000000008"
+			rewards: [{
+				count: 3
+				id: "4000000000000009"
+				item: {
+					count: 1
+					id: "cobblemon:ultra_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000010"
+				item: { count: 1, id: "cobblemon:ultra_ball" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000002"]
+			id: "4000000000000011"
+			rewards: [{
+				count: 5
+				id: "4000000000000012"
+				item: {
+					count: 1
+					id: "cobblemon:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000013"
+				item: { count: 1, id: "cobblemon:potion" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			id: "4000000000000014"
+			rewards: [{
+				count: 5
+				id: "4000000000000015"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000016"
+				item: { count: 1, id: "cobblemon:super_potion" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000014"]
+			id: "4000000000000017"
+			rewards: [{
+				count: 5
+				id: "4000000000000018"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000019"
+				item: { count: 1, id: "cobblemon:hyper_potion" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000017"]
+			id: "4000000000000020"
+			rewards: [
+				{
+					count: 3
+					id: "4000000000000021"
+					item: {
+						count: 1
+						id: "cobblemon:full_restore"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4000000000000022"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4000000000000023"
+				item: { count: 1, id: "cobblemon:full_restore" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000002"]
+			id: "4000000000000024"
+			rewards: [{
+				count: 3
+				id: "4000000000000025"
+				item: {
+					count: 1
+					id: "cobblemon:revive"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000026"
+				item: { count: 1, id: "cobblemon:revive" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000024"]
+			id: "4000000000000027"
+			rewards: [
+				{
+					count: 2
+					id: "4000000000000028"
+					item: {
+						count: 1
+						id: "cobblemon:max_revive"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4000000000000029"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "4000000000000030"
+				item: { count: 1, id: "cobblemon:max_revive" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "4000000000000031"
+			rewards: [{
+				count: 5
+				id: "4000000000000032"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000033"
+				item: { count: 1, id: "cobblemon:pc" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000031"]
+			id: "4000000000000034"
+			rewards: [
+				{
+					count: 10
+					id: "4000000000000035"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4000000000000036"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4000000000000037"
+				item: { count: 1, id: "cobblemon:healing_machine" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "4000000000000038"
+			rewards: [{
+				count: 3
+				id: "4000000000000039"
+				item: {
+					count: 1
+					id: "cobblemon:medicinal_leek"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000040"
+				item: { count: 1, id: "cobblemon:medicinal_leek" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "4000000000000041"
+			rewards: [{
+				count: 5
+				id: "4000000000000042"
+				item: {
+					count: 1
+					id: "cobblemon:red_apricorn"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000043"
+				item: { count: 1, id: "cobblemon:red_apricorn" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000041"]
+			id: "4000000000000044"
+			rewards: [
+				{
+					count: 10
+					id: "4000000000000045"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4000000000000046"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "4000000000000047"
+					item: { count: 1, id: "cobblemon:red_apricorn" }
+					type: "item"
+				}
+				{
+					id: "4000000000000048"
+					item: { count: 1, id: "cobblemon:blue_apricorn" }
+					type: "item"
+				}
+				{
+					id: "4000000000000049"
+					item: { count: 1, id: "cobblemon:yellow_apricorn" }
+					type: "item"
+				}
+				{
+					id: "4000000000000050"
+					item: { count: 1, id: "cobblemon:green_apricorn" }
+					type: "item"
+				}
+				{
+					id: "4000000000000051"
+					item: { count: 1, id: "cobblemon:pink_apricorn" }
+					type: "item"
+				}
+				{
+					id: "4000000000000052"
+					item: { count: 1, id: "cobblemon:white_apricorn" }
+					type: "item"
+				}
+				{
+					id: "4000000000000053"
+					item: { count: 1, id: "cobblemon:black_apricorn" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			id: "4000000000000054"
+			rewards: [{
+				count: 2
+				id: "4000000000000055"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				action: "level_up"
+				amount: 10L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4000000000000056"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000054"]
+			id: "4000000000000057"
+			rewards: [
+				{
+					count: 5
+					id: "4000000000000058"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4000000000000059"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				action: "level_up_to"
+				amount: 50L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4000000000000060"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000057"]
+			id: "4000000000000061"
+			rewards: [
+				{
+					count: 3
+					id: "4000000000000063"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4000000000000064"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				action: "level_up_to"
+				amount: 100L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4000000000000065"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4000000000000008"
+				"4000000000000020"
+				"4000000000000027"
+				"4000000000000034"
+			]
+			id: "4000000000000066"
+			rewards: [{
+				count: 2
+				id: "4000000000000068"
+				item: {
+					count: 1
+					id: "minecraft:emerald_block"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4000000000000069"
+				type: "checkmark"
+			}]
+			x: 27.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000002"]
+			id: "4000000000000070"
+			rewards: [{
+				count: 3
+				id: "4000000000000071"
+				item: {
+					count: 1
+					id: "cobblemon:poke_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 5L
+				id: "4000000000000072"
+				item: { count: 1, id: "cobblemon:poke_ball" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			id: "4000000000000073"
+			rewards: [{
+				count: 5
+				id: "4000000000000074"
+				item: {
+					count: 1
+					id: "cobblemon:great_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 10L
+				id: "4000000000000075"
+				item: { count: 1, id: "cobblemon:great_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			id: "4000000000000076"
+			rewards: [
+				{
+					count: 8
+					id: "4000000000000077"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4000000000000078"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 15L
+				id: "4000000000000079"
+				item: { count: 1, id: "cobblemon:ultra_ball" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			id: "4000000000000080"
+			rewards: [{
+				count: 5
+				id: "4000000000000081"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 10L
+				id: "4000000000000082"
+				item: { count: 1, id: "cobblemon:potion" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4000000000000014"]
+			id: "4000000000000083"
+			rewards: [{
+				count: 5
+				id: "4000000000000084"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "4000000000000085"
+				item: { count: 1, id: "cobblemon:super_potion" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4000000000000017"]
+			id: "4000000000000086"
+			rewards: [{
+				count: 3
+				id: "4000000000000087"
+				item: {
+					count: 1
+					id: "cobblemon:full_restore"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 5L
+				id: "4000000000000088"
+				item: { count: 1, id: "cobblemon:hyper_potion" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4000000000000054"]
+			id: "4000000000000089"
+			rewards: [{
+				count: 3
+				id: "4000000000000090"
+				item: {
+					count: 1
+					id: "cobblemon:rare_candy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				action: "level_up"
+				amount: 15L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4000000000000091"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000057"]
+			id: "4000000000000092"
+			rewards: [
+				{
+					count: 8
+					id: "4000000000000093"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4000000000000094"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				action: "level_up_to"
+				amount: 75L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4000000000000095"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000054"]
+			id: "4000000000000096"
+			rewards: [
+				{
+					count: 10
+					id: "4000000000000097"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4000000000000098"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				action: "level_up"
+				amount: 50L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4000000000000099"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000096"]
+			id: "4000000000000100"
+			rewards: [
+				{
+					count: 20
+					id: "4000000000000101"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4000000000000102"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				action: "level_up"
+				amount: 100L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4000000000000103"
+				max_level: 100
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000041"]
+			id: "4000000000000104"
+			rewards: [{
+				count: 8
+				id: "4000000000000105"
+				item: {
+					count: 1
+					id: "cobblemon:poke_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000106"
+				item: { count: 1, id: "cobblemon:red_apricorn" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000104"]
+			id: "4000000000000107"
+			rewards: [
+				{
+					count: 10
+					id: "4000000000000108"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4000000000000109"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				count: 50L
+				id: "4000000000000110"
+				item: { count: 1, id: "cobblemon:red_apricorn" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000038"]
+			id: "4000000000000111"
+			rewards: [{
+				count: 8
+				id: "4000000000000112"
+				item: {
+					count: 1
+					id: "cobblemon:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 10L
+				id: "4000000000000113"
+				item: { count: 1, id: "cobblemon:medicinal_leek" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "4000000000000114"
+			rewards: [{
+				count: 2
+				id: "4000000000000115"
+				item: {
+					count: 1
+					id: "cobblemon:quick_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000116"
+				item: { count: 1, id: "cobblemon:quick_ball" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			id: "4000000000000117"
+			rewards: [{
+				count: 2
+				id: "4000000000000118"
+				item: {
+					count: 1
+					id: "cobblemon:dive_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000119"
+				item: { count: 1, id: "cobblemon:dive_ball" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			id: "4000000000000120"
+			rewards: [{
+				count: 2
+				id: "4000000000000121"
+				item: {
+					count: 1
+					id: "cobblemon:dusk_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000122"
+				item: { count: 1, id: "cobblemon:dusk_ball" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4000000000000070"]
+			id: "4000000000000123"
+			rewards: [{
+				count: 5
+				id: "4000000000000124"
+				item: {
+					count: 1
+					id: "cobblemon:poke_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000125"
+				item: { count: 1, id: "cobblemon:poke_ball" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000123"]
+			id: "4000000000000126"
+			rewards: [{
+				count: 5
+				id: "4000000000000127"
+				item: {
+					count: 1
+					id: "cobblemon:great_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 50L
+				id: "4000000000000128"
+				item: { count: 1, id: "cobblemon:poke_ball" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000126"]
+			id: "4000000000000129"
+			rewards: [
+				{
+					count: 5
+					id: "4000000000000130"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4000000000000131"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 100L
+				id: "4000000000000132"
+				item: { count: 1, id: "cobblemon:poke_ball" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000073"]
+			id: "4000000000000133"
+			rewards: [{
+				count: 5
+				id: "4000000000000134"
+				item: {
+					count: 1
+					id: "cobblemon:great_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000135"
+				item: { count: 1, id: "cobblemon:great_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000076"]
+			id: "4000000000000136"
+			rewards: [{
+				count: 5
+				id: "4000000000000137"
+				item: {
+					count: 1
+					id: "cobblemon:ultra_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000138"
+				item: { count: 1, id: "cobblemon:ultra_ball" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000080"]
+			id: "4000000000000139"
+			rewards: [{
+				count: 8
+				id: "4000000000000140"
+				item: {
+					count: 1
+					id: "cobblemon:super_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 50L
+				id: "4000000000000141"
+				item: { count: 1, id: "cobblemon:potion" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000083"]
+			id: "4000000000000142"
+			rewards: [{
+				count: 5
+				id: "4000000000000143"
+				item: {
+					count: 1
+					id: "cobblemon:hyper_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000144"
+				item: { count: 1, id: "cobblemon:super_potion" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000024"]
+			id: "4000000000000145"
+			rewards: [{
+				count: 5
+				id: "4000000000000146"
+				item: {
+					count: 1
+					id: "cobblemon:revive"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 25L
+				id: "4000000000000147"
+				item: { count: 1, id: "cobblemon:revive" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			id: "4000000000000148"
+			rewards: [{
+				count: 2
+				id: "4000000000000149"
+				item: {
+					count: 1
+					id: "cobblemon:nest_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000150"
+				item: { count: 1, id: "cobblemon:nest_ball" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			id: "4000000000000151"
+			rewards: [{
+				count: 2
+				id: "4000000000000152"
+				item: {
+					count: 1
+					id: "cobblemon:net_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000153"
+				item: { count: 1, id: "cobblemon:net_ball" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000117"]
+			id: "4000000000000154"
+			rewards: [{
+				count: 2
+				id: "4000000000000155"
+				item: {
+					count: 1
+					id: "cobblemon:timer_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000156"
+				item: { count: 1, id: "cobblemon:timer_ball" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000005"]
+			id: "4000000000000157"
+			rewards: [{
+				count: 2
+				id: "4000000000000158"
+				item: {
+					count: 1
+					id: "cobblemon:repeat_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000159"
+				item: { count: 1, id: "cobblemon:repeat_ball" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			id: "4000000000000160"
+			rewards: [{
+				count: 2
+				id: "4000000000000161"
+				item: {
+					count: 1
+					id: "cobblemon:luxury_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000162"
+				item: { count: 1, id: "cobblemon:luxury_ball" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			id: "4000000000000163"
+			rewards: [{
+				count: 2
+				id: "4000000000000164"
+				item: {
+					count: 1
+					id: "cobblemon:heavy_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000165"
+				item: { count: 1, id: "cobblemon:heavy_ball" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			id: "4000000000000166"
+			rewards: [{
+				count: 2
+				id: "4000000000000167"
+				item: {
+					count: 1
+					id: "cobblemon:level_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000168"
+				item: { count: 1, id: "cobblemon:level_ball" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			id: "4000000000000169"
+			rewards: [{
+				count: 2
+				id: "4000000000000170"
+				item: {
+					count: 1
+					id: "cobblemon:love_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000171"
+				item: { count: 1, id: "cobblemon:love_ball" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			id: "4000000000000172"
+			rewards: [{
+				count: 2
+				id: "4000000000000173"
+				item: {
+					count: 1
+					id: "cobblemon:moon_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000174"
+				item: { count: 1, id: "cobblemon:moon_ball" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			id: "4000000000000175"
+			rewards: [{
+				count: 2
+				id: "4000000000000176"
+				item: {
+					count: 1
+					id: "cobblemon:friend_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000177"
+				item: { count: 1, id: "cobblemon:friend_ball" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			id: "4000000000000178"
+			rewards: [{
+				count: 2
+				id: "4000000000000179"
+				item: {
+					count: 1
+					id: "cobblemon:lure_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000180"
+				item: { count: 1, id: "cobblemon:lure_ball" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			id: "4000000000000181"
+			rewards: [{
+				count: 2
+				id: "4000000000000182"
+				item: {
+					count: 1
+					id: "cobblemon:fast_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000183"
+				item: { count: 1, id: "cobblemon:fast_ball" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			id: "4000000000000184"
+			rewards: [{
+				count: 2
+				id: "4000000000000185"
+				item: {
+					count: 1
+					id: "cobblemon:sport_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000186"
+				item: { count: 1, id: "cobblemon:sport_ball" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4000000000000044"]
+			id: "4000000000000187"
+			rewards: [{
+				count: 3
+				id: "4000000000000188"
+				item: {
+					count: 1
+					id: "cobblemon:safari_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000189"
+				item: { count: 1, id: "cobblemon:safari_ball" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			id: "4000000000000190"
+			rewards: [{
+				count: 3
+				id: "4000000000000191"
+				item: {
+					count: 1
+					id: "cobblemon:full_heal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000192"
+				item: { count: 1, id: "cobblemon:full_heal" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			id: "4000000000000193"
+			rewards: [{
+				count: 3
+				id: "4000000000000194"
+				item: {
+					count: 1
+					id: "cobblemon:antidote"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000195"
+				item: { count: 1, id: "cobblemon:antidote" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			id: "4000000000000196"
+			rewards: [{
+				count: 3
+				id: "4000000000000197"
+				item: {
+					count: 1
+					id: "cobblemon:burn_heal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000198"
+				item: { count: 1, id: "cobblemon:burn_heal" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			id: "4000000000000199"
+			rewards: [{
+				count: 3
+				id: "4000000000000200"
+				item: {
+					count: 1
+					id: "cobblemon:ice_heal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000201"
+				item: { count: 1, id: "cobblemon:ice_heal" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			id: "4000000000000202"
+			rewards: [{
+				count: 3
+				id: "4000000000000203"
+				item: {
+					count: 1
+					id: "cobblemon:awakening"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000204"
+				item: { count: 1, id: "cobblemon:awakening" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000011"]
+			id: "4000000000000205"
+			rewards: [{
+				count: 3
+				id: "4000000000000206"
+				item: {
+					count: 1
+					id: "cobblemon:paralyze_heal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000207"
+				item: { count: 1, id: "cobblemon:paralyze_heal" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			id: "4000000000000208"
+			rewards: [{
+				id: "4000000000000209"
+				item: {
+					count: 1
+					id: "cobblemon:leftovers"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000210"
+				item: { count: 1, id: "cobblemon:leftovers" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			id: "4000000000000211"
+			rewards: [{
+				id: "4000000000000212"
+				item: {
+					count: 1
+					id: "cobblemon:choice_band"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000213"
+				item: { count: 1, id: "cobblemon:choice_band" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			id: "4000000000000214"
+			rewards: [{
+				id: "4000000000000215"
+				item: {
+					count: 1
+					id: "cobblemon:choice_scarf"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000216"
+				item: { count: 1, id: "cobblemon:choice_scarf" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			id: "4000000000000217"
+			rewards: [{
+				id: "4000000000000218"
+				item: {
+					count: 1
+					id: "cobblemon:focus_sash"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000219"
+				item: { count: 1, id: "cobblemon:focus_sash" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4000000000000008"]
+			id: "4000000000000220"
+			rewards: [{
+				id: "4000000000000221"
+				item: {
+					count: 1
+					id: "cobblemon:life_orb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000222"
+				item: { count: 1, id: "cobblemon:life_orb" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: 9.0d
+		}
+		{
+			id: "4000000000000223"
+			rewards: [{
+				id: "4000000000000224"
+				item: {
+					count: 1
+					id: "cobblemon:thunder_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000225"
+				item: { count: 1, id: "cobblemon:thunder_stone" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			id: "4000000000000226"
+			rewards: [{
+				id: "4000000000000227"
+				item: {
+					count: 1
+					id: "cobblemon:fire_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000228"
+				item: { count: 1, id: "cobblemon:fire_stone" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			id: "4000000000000229"
+			rewards: [{
+				id: "4000000000000230"
+				item: {
+					count: 1
+					id: "cobblemon:water_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000231"
+				item: { count: 1, id: "cobblemon:water_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "4000000000000232"
+			rewards: [{
+				id: "4000000000000233"
+				item: {
+					count: 1
+					id: "cobblemon:leaf_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000234"
+				item: { count: 1, id: "cobblemon:leaf_stone" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			id: "4000000000000235"
+			rewards: [{
+				id: "4000000000000236"
+				item: {
+					count: 1
+					id: "cobblemon:moon_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000237"
+				item: { count: 1, id: "cobblemon:moon_stone" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			id: "4000000000000238"
+			rewards: [{
+				id: "4000000000000239"
+				item: {
+					count: 1
+					id: "cobblemon:sun_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000240"
+				item: { count: 1, id: "cobblemon:sun_stone" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			id: "4000000000000241"
+			rewards: [{
+				id: "4000000000000242"
+				item: {
+					count: 1
+					id: "cobblemon:shiny_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000243"
+				item: { count: 1, id: "cobblemon:shiny_stone" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			id: "4000000000000244"
+			rewards: [{
+				id: "4000000000000245"
+				item: {
+					count: 1
+					id: "cobblemon:dusk_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000246"
+				item: { count: 1, id: "cobblemon:dusk_stone" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "4000000000000247"
+			rewards: [{
+				id: "4000000000000248"
+				item: {
+					count: 1
+					id: "cobblemon:dawn_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4000000000000249"
+				item: { count: 1, id: "cobblemon:dawn_stone" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+	]
+}
